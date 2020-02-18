@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="1b1c86e8903e4ff3b7a2b407b0bd75c3" Name="Diagram1" ZoomLevel="98" >
+        <EntityTypeShape EntityType="DBModels.Agreement" Width="1.5" PointX="5.25" PointY="2.375" />
+        <EntityTypeShape EntityType="DBModels.User" Width="1.5" PointX="0.625" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBModels.Supplier" Width="1.5" PointX="0.625" PointY="2.25" />
+        <EntityTypeShape EntityType="DBModels.CSVFile" Width="1.5" PointX="3.125" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBModels.ZoneRecords" Width="1.5" PointX="7.25" PointY="1.75" />
+        <EntityTypeShape EntityType="DBModels.InvoiceRecords" Width="1.5" PointX="9.25" PointY="0.5" />
+        <AssociationConnector Association="DBModels.CSVFileSupplier" />
+        <AssociationConnector Association="DBModels.CSVFileUser" />
+        <AssociationConnector Association="DBModels.AgreementUser" />
+        <EntityTypeShape EntityType="DBModels.Type" Width="1.5" PointX="0.625" PointY="0.5" />
+        <AssociationConnector Association="DBModels.CSVFileType" />
+        <AssociationConnector Association="DBModels.AgreementCSVFile" ManuallyRouted="false" >
+        </AssociationConnector>
+        <AssociationConnector Association="DBModels.CSVFileInvoiceRecords" />
+        <AssociationConnector Association="DBModels.CSVFileZoneRecords" />
+        <AssociationConnector Association="DBModels.AgreementZoneRecords" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

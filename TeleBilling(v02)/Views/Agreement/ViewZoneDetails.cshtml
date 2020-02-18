@@ -1,0 +1,121 @@
+﻿@model IEnumerable<TeleBilling_v02_.Models.DisplayModels.AgreementZoneRecords>
+
+@{
+    string sBulkValue = "";
+    try
+    {
+        if (System.Web.HttpContext.Current.Session["sesBulkCallRPValue"] != null)
+        {
+            sBulkValue = System.Web.HttpContext.Current.Session["sesBulkCallRPValue"].ToString();
+        }
+    }
+    catch (Exception ex)
+    {
+        sBulkValue = ex.ToString();
+    }
+
+    int agreementId = -1;
+    if (System.Web.HttpContext.Current.Session["sesAgreementId"] != null)
+    {
+        agreementId = Convert.ToInt32(System.Web.HttpContext.Current.Session["sesAgreementId"]);
+    }
+
+}
+
+    <table class="table">
+
+        <tr>
+            <td>
+                &nbsp;
+            </td>
+            <td>
+                &nbsp;
+            </td>
+            <td>
+                &nbsp;
+            </td>
+            <td>
+                &nbsp;
+            </td>
+            <td>
+                @using (Html.BeginForm("ViewZoneDetails", "Agreement", FormMethod.Post))
+                {
+                    @Html.Label("Set new bulk value:")
+                    <br />
+                    @Html.TextBox("NewBulkCallPriceRP", sBulkValue, new { htmlAttributes = new { @class = "form-control" } })
+                    <br />
+                    <input type="submit" style="margin-top:3px; padding-top:3px;" class="btn btn-info btn-sm" value="New Call_price_RP" />
+                }
+            </td>
+            <td>
+                &nbsp;
+            </td>
+            <td>
+                &nbsp;
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <b>
+                    @Html.DisplayNameFor(model => model.Country_code)
+                </b>
+            </td>
+            <td>
+                <b>
+                    @Html.DisplayNameFor(model => model.Name)
+                </b>
+            </td>
+            <td>
+                <b>
+                    @Html.DisplayNameFor(model => model.Call_price_Supplier)
+                </b>
+            </td>
+            <td>
+                <b>
+                    @Html.DisplayNameFor(model => model.Minute_price_Supplier)
+                </b>
+            </td>
+            <td>
+                <b>
+                    @Html.DisplayNameFor(model => model.Call_price_RP)
+                </b>
+            </td>
+            <td>
+                <b>
+                    @Html.DisplayNameFor(model => model.Minute_price_RP)
+                </b>
+            </td>
+            <td>
+                &nbsp;
+            </td>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Country_code)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Call_price_Supplier)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Minute_price_Supplier)
+                </td>
+                <td>
+                    @Html.EditorFor(modelItem => item.Call_price_RP, new { htmlAttributes = new { @class = "form-control" } })
+                </td>
+                <td>
+                    @Html.EditorFor(modelItem => item.Minute_price_RP, new { htmlAttributes = new { @class = "form-control" } })
+                </td>
+                <td>
+                    <a href="@Url.Action("ViewDetails", "Agreement", new { itemid = item.Id, agreementId = agreementId })" class="btn btn-info btn-sm">Update <i class="glyphicon glyphicon-edit "></i></a>
+                </td>
+            </tr>
+        }
+
+    </table>

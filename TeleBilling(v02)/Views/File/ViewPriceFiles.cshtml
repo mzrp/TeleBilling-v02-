@@ -1,0 +1,84 @@
+﻿@model IEnumerable<TeleBilling_v02_.Models.CSVFile>
+
+@{
+    ViewBag.Title = "PriceFiles";
+}
+
+<h4>
+    Price Files  @ViewBag.fileType
+</h4>
+
+@*@if (Model != null)
+{*@
+    <table class="table">
+        <tr width="5%">
+            <th>
+                <a href="@Url.Action("UploadCsvFile", "File", new { fileType= "PriceFile" } )" class="btn btn-danger btn-block"><i class="glyphicon glyphicon-plus"></i> Upload Zone File</a>
+            </th>
+        </tr>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Date)
+            </th>
+            <th>
+                @Html.DisplayName("User")
+            </th>
+            <th>
+                @Html.DisplayName("Supplier")
+            </th>
+            <th>
+                @Html.DisplayName("Type")
+            </th>
+            <th></th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Date)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.User.Name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Supplier.Name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Type.Name)
+                </td>
+                <td>
+                    @if (item.InvoiceRecords.Where(x => x.RPBilled == "No").ToList().Count > 0)
+                    {
+                        <a href="@Url.Action("BillCsvFile", "File", new { fileId = item.Id })" class="btn btn-warning btn-sm"><i class="glyphicon glyphicon-export "></i> Fakturere</a>
+                    }
+                    <a href="@Url.Action("ViewFilesDetails", "File", new { fileId = item.Id, fileName = item.Name, fileDate = item.Date, fileSupplierName = item.Supplier.Name, fileType = "PriceFile" })" class="btn btn-info btn-sm">Details <i class="glyphicon glyphicon-eye-close "></i></a>
+                    <a href="@Url.Action("DeleteCsvFile","File", new { fileId = item.Id, fileType = "PriceFile"})" class="btn btn-danger btn-sm">Delete <i class="glyphicon glyphicon-trash"></i></a>
+                </td>
+            </tr>
+        }
+
+    </table>
+
+
+@*}
+else
+{
+    <h4>No file found in DB!!!</h4>
+}*@
+
+@if (ViewBag.Message != null)
+{
+
+    <script type="text/javascript">
+        window.onload = function () {
+            alert("@ViewBag.Message");
+        };
+    </script>
+}

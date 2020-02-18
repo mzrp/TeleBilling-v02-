@@ -1,0 +1,18 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="TeleBilling_v02_.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="TeleBilling_v02__NavCustomerInfo_CustomerInfo2_Service" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">https://navsrv02.gowingu.net:7047/DynamicsNAV90/WS/Rackpeople%20Consulting%20ApS/Page/CustomerInfo2?tenant=rackpeople</Value>
+    </Setting>
+    <Setting Name="TeleBilling_v02__TestNavCustomerInfo_CustomerInfo2_Service" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">https://navsrv02.gowingu.net:7047/DynamicsNAV90/WS/Rackpeople%20Test%20System/Page/CustomerInfo2?tenant=rackpeople</Value>
+    </Setting>
+    <Setting Name="TeleBilling_v02__NAVSalesInvoice_SalesInvoice_Service_Service" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">https://navsrv02.gowingu.net:7047/DynamicsNAV90/WS/Rackpeople%20Consulting%20ApS/Page/SalesInvoice_Service?tenant=rackpeople</Value>
+    </Setting>
+    <Setting Name="TeleBilling_v02__TestNAVSalesInvoice_SalesInvoice_Service_Service" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">https://navsrv02.gowingu.net:7047/DynamicsNAV90/WS/Rackpeople%20Test%20System/Page/SalesInvoice_Service?tenant=rackpeople</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

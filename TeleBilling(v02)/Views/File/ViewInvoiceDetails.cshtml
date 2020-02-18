@@ -1,0 +1,159 @@
+﻿@model IEnumerable<TeleBilling_v02_.Models.InvoiceRecords>
+
+@{
+    ViewBag.Title = "InvoiceDetails";
+    //Layout = null;
+}
+
+<h4>Records</h4>
+
+@*@if (Model.Where(x => x.RPBilled == "No").ToList().Count > 0)
+    {
+        <tr>
+            <th>
+                <a href="@Url.Action("BillCsvFile","File", new { list = Model.Where(x => x.RPBilled == "No").ToList() } )" class="btn btn-danger btn-sm">Fakturerer</a>
+            </th>
+        </tr>
+    }*@
+
+@if (Model.Count() > 0)
+{
+    <table class="table">
+        @*<tr>
+               <th>
+               <a href="@Url.Action("BillCsvFile","File", new { list = Model.ToList() } )" class="btn btn-danger btn-sm">Fakturerer</a>
+               </th>
+            </tr>*@
+
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Id_call)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Time)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Subscriber)
+            </th>
+            @*<th>
+                    @Html.DisplayNameFor(model => model.Aprefix)
+                </th>*@
+            <th>
+                @Html.DisplayNameFor(model => model.Destination)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Invoice_group)
+            </th>
+            @*<th>
+                    @Html.DisplayNameFor(model => model.Prefix)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Pbx)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Direction)
+                </th>*@
+            <th>
+                @Html.DisplayNameFor(model => model.Volume_time_secs)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Price)
+            </th>
+            @*<th>
+                    @Html.DisplayNameFor(model => model.Free)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Forward)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Servingnetwork)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Reason)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Billed)
+                </th>*@
+            <th>
+                @Html.DisplayNameFor(model => model.RPBilled)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ZoneName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CSVFileId)
+            </th>
+            <th></th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Id_call)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Time)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Subscriber)
+                </td>
+                @*<td>
+                        @Html.DisplayFor(modelItem => item.Aprefix)
+                    </td>*@
+                <td>
+                    @Html.DisplayFor(modelItem => item.Destination)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Invoice_group)
+                </td>
+                @*<td>
+                        @Html.DisplayFor(modelItem => item.Prefix)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Pbx)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Direction)
+                    </td>*@
+                <td>
+                    @Html.DisplayFor(modelItem => item.Volume_time_secs)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Price)
+                </td>
+                @*<td>
+                        @Html.DisplayFor(modelItem => item.Free)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Forward)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Servingnetwork)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Reason)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Billed)
+                    </td>*@
+                <td>
+                    @Html.DisplayFor(modelItem => item.RPBilled)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ZoneName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.CSVFileId)
+                </td>
+            </tr>
+        }
+
+    </table>
+}
+else
+{
+    <h4>No Record found!!!</h4>
+}
+

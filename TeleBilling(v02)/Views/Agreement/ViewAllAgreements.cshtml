@@ -1,0 +1,137 @@
+﻿@model IEnumerable<TeleBilling_v02_.Models.Agreement>
+
+@{
+    ViewBag.Title = "Agreements";
+}
+
+<h4>Agreements</h4>
+
+<link href="https://gitcdn.github.io/bootstrap-toggle/2.2.2/css/bootstrap-toggle.min.css" rel="stylesheet">
+
+@*<table class="table-condensed">
+    <tr>
+        <th>
+            <a href="@Url.Action("CreateAgreement", "Agreement")" class="btn btn-danger btn-block"><i class="glyphicon glyphicon-plus"></i> Create New Agreement</a>
+        </th>
+    </tr>
+</table>*@
+
+@*@if (Model.Count() > 0)
+{*@
+    <table class="table" id="tblAgreements"> 
+        <tr>
+            <th>
+                <a href="@Url.Action("CreateAgreement", "Agreement")" class="btn btn-danger btn-block"><i class="glyphicon glyphicon-plus"></i> Create New Agreement</a>
+            </th>
+        </tr>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Customer_cvr)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Customer_name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Subscriber_range_start)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Subscriber_range_end)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Description)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Status)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Date)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CSVFile.Supplier.Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.UserId)
+            </th>
+            <th></th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Customer_cvr)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Customer_name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Subscriber_range_start)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Subscriber_range_end)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Description)
+                </td>
+                <td>
+                    @*@Html.DisplayFor(modelItem => item.Status)*@
+                    @Html.CheckBoxFor(modelItem => item.Status, new { htmlAttributes = new { @class = "toggle-checkbox", data_id = item.Id } })
+                    @*<input type="checkbox" checked data-toggle="toggle" data-onstyle="danger">*@
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Date)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.CSVFile.Supplier.Name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.UserId)
+                </td>
+                <td>
+                    <a href="@Url.Action("ViewDetails", "Agreement", new { itemid = -1, agreementId = item.Id })" class="btn btn-info btn-sm">Details <i class="glyphicon glyphicon-eye-close "></i></a>
+
+                    @*<a href="@Url.Action("DeActivateAgreement","Agreement", new {  agreementId = item.Id })" class="btn btn-danger btn-sm">Deactive <i class="glyphicon glyphicon-trash"></i></a>
+                    @Html.ActionLink("Edit", "Edit", new { agreementId = item.Id }) |
+                    @Html.ActionLink("Details", "ViewAgreementDetails", new { agreementId = item.Id }) |
+                    @Html.ActionLink("Deactive", "DeActivateAgreement", new { agreementId = item.Id })*@
+                </td>
+            </tr>
+        }
+
+    </table>
+@*}
+else
+{
+    <h3>There is no Agreement found!!!!</h3>
+}*@
+
+<script type="text/javascript">
+    var url = '@Url.Action("UpdateStatus")';
+    $('.toggle-checkbox').click(function () {
+
+        var isChecked = $(this).is(':checked'); //CheckBox checked - True or false
+        var id = $(this).data('id'); //Get the id of that specific checked row
+
+        $.post(url, { id: id, status: isChecked }, function (response) {
+            if (response) {
+                alert("Status changed");
+            }
+        })
+    });
+    </script>
+
+    <script>
+        $(document).ready(function () {
+            $('.toggle-checkbox').btnSwitch({ //This is the script for toggling
+                Theme: 'Light',
+
+                OnText: "On",
+                OffText: "Off",
+
+                OnValue: true,
+                OffValue: false
+            });
+        });
+    </script>
+
+

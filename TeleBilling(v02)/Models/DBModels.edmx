@@ -1,0 +1,593 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="DBModels.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2012" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="DBModelsStoreContainer">
+    <EntitySet Name="AgreementSet" EntityType="DBModels.Store.AgreementSet" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="UserSet" EntityType="DBModels.Store.UserSet" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="SupplierSet" EntityType="DBModels.Store.SupplierSet" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="CSVFileSet" EntityType="DBModels.Store.CSVFileSet" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="ZoneRecordsSet" EntityType="DBModels.Store.ZoneRecordsSet" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="InvoiceRecordsSet" EntityType="DBModels.Store.InvoiceRecordsSet" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="TypeSet" EntityType="DBModels.Store.TypeSet" store:Type="Tables" Schema="dbo" />
+    <AssociationSet Name="CSVFileSupplier" Association="DBModels.Store.CSVFileSupplier">
+      <End Role="CSVFile" EntitySet="CSVFileSet" />
+      <End Role="Supplier" EntitySet="SupplierSet" />
+    </AssociationSet>
+    <AssociationSet Name="CSVFileUser" Association="DBModels.Store.CSVFileUser">
+      <End Role="CSVFile" EntitySet="CSVFileSet" />
+      <End Role="User" EntitySet="UserSet" />
+    </AssociationSet>
+    <AssociationSet Name="AgreementUser" Association="DBModels.Store.AgreementUser">
+      <End Role="Agreement" EntitySet="AgreementSet" />
+      <End Role="User" EntitySet="UserSet" />
+    </AssociationSet>
+    <AssociationSet Name="CSVFileType" Association="DBModels.Store.CSVFileType">
+      <End Role="CSVFile" EntitySet="CSVFileSet" />
+      <End Role="Type" EntitySet="TypeSet" />
+    </AssociationSet>
+    <AssociationSet Name="AgreementCSVFile" Association="DBModels.Store.AgreementCSVFile">
+      <End Role="Agreement" EntitySet="AgreementSet" />
+      <End Role="CSVFile" EntitySet="CSVFileSet" />
+    </AssociationSet>
+    <AssociationSet Name="CSVFileInvoiceRecords" Association="DBModels.Store.CSVFileInvoiceRecords">
+      <End Role="CSVFile" EntitySet="CSVFileSet" />
+      <End Role="InvoiceRecords" EntitySet="InvoiceRecordsSet" />
+    </AssociationSet>
+    <AssociationSet Name="CSVFileZoneRecords" Association="DBModels.Store.CSVFileZoneRecords">
+      <End Role="CSVFile" EntitySet="CSVFileSet" />
+      <End Role="ZoneRecords" EntitySet="ZoneRecordsSet" />
+    </AssociationSet>
+    <AssociationSet Name="AgreementZoneRecords" Association="DBModels.Store.AgreementZoneRecords">
+      <End Role="Agreement" EntitySet="AgreementSet" />
+      <End Role="ZoneRecords" EntitySet="ZoneRecordsSet" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="AgreementSet">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Customer_cvr" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Customer_name" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Subscriber_range_start" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Subscriber_range_end" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Description" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Status" Type="bit" Nullable="false" />
+    <Property Name="Date" Type="datetime" Nullable="false" />
+    <Property Name="UserId" Type="int" Nullable="false" />
+    <Property Name="CSVFileId" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="UserSet">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Role" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="SupplierSet">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="CSVFileSet">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Date" Type="datetime" Nullable="false" />
+    <Property Name="SupplierId" Type="int" Nullable="false" />
+    <Property Name="UserId" Type="int" Nullable="false" />
+    <Property Name="TypeId" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="ZoneRecordsSet">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Call_price" Type="decimal" Nullable="false" Precision="10" Scale="4" />
+    <Property Name="Minute_price" Type="decimal" Nullable="false" Precision="10" Scale="4" />
+    <Property Name="Country_code" Type="nvarchar(max)" Nullable="true" />
+    <Property Name="CSVFileId" Type="int" Nullable="true" />
+    <Property Name="AgreementId" Type="int" Nullable="true" />
+  </EntityType>
+  <EntityType Name="InvoiceRecordsSet">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Id_call" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Time" Type="datetime" Nullable="false" />
+    <Property Name="Subscriber" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Aprefix" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Destination" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Invoice_group" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Prefix" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Pbx" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Direction" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Volume_time_secs" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Price" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Free" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Forward" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Servingnetwork" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Reason" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Billed" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="ZoneName" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="RPBilled" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="CSVFileId" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="TypeSet">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+  <Association Name="CSVFileSupplier">
+    <End Role="CSVFile" Type="DBModels.Store.CSVFileSet" Multiplicity="*" />
+    <End Role="Supplier" Type="DBModels.Store.SupplierSet" Multiplicity="1" />
+    <ReferentialConstraint>
+      <Principal Role="Supplier">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="CSVFile">
+        <PropertyRef Name="SupplierId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="CSVFileUser">
+    <End Role="CSVFile" Type="DBModels.Store.CSVFileSet" Multiplicity="*" />
+    <End Role="User" Type="DBModels.Store.UserSet" Multiplicity="1" />
+    <ReferentialConstraint>
+      <Principal Role="User">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="CSVFile">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="AgreementUser">
+    <End Role="Agreement" Type="DBModels.Store.AgreementSet" Multiplicity="*" />
+    <End Role="User" Type="DBModels.Store.UserSet" Multiplicity="1" />
+    <ReferentialConstraint>
+      <Principal Role="User">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Agreement">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="CSVFileType">
+    <End Role="CSVFile" Type="DBModels.Store.CSVFileSet" Multiplicity="*" />
+    <End Role="Type" Type="DBModels.Store.TypeSet" Multiplicity="1" />
+    <ReferentialConstraint>
+      <Principal Role="Type">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="CSVFile">
+        <PropertyRef Name="TypeId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="AgreementCSVFile">
+    <End Role="Agreement" Type="DBModels.Store.AgreementSet" Multiplicity="*" />
+    <End Role="CSVFile" Type="DBModels.Store.CSVFileSet" Multiplicity="1" />
+    <ReferentialConstraint>
+      <Principal Role="CSVFile">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Agreement">
+        <PropertyRef Name="CSVFileId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="CSVFileInvoiceRecords">
+    <End Role="CSVFile" Type="DBModels.Store.CSVFileSet" Multiplicity="1" />
+    <End Role="InvoiceRecords" Type="DBModels.Store.InvoiceRecordsSet" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CSVFile">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="InvoiceRecords">
+        <PropertyRef Name="CSVFileId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="CSVFileZoneRecords">
+    <End Role="CSVFile" Type="DBModels.Store.CSVFileSet" Multiplicity="0..1" />
+    <End Role="ZoneRecords" Type="DBModels.Store.ZoneRecordsSet" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CSVFile">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="ZoneRecords">
+        <PropertyRef Name="CSVFileId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="AgreementZoneRecords">
+    <End Role="Agreement" Type="DBModels.Store.AgreementSet" Multiplicity="0..1" />
+    <End Role="ZoneRecords" Type="DBModels.Store.ZoneRecordsSet" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Agreement">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="ZoneRecords">
+        <PropertyRef Name="AgreementId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema xmlns="http://schemas.microsoft.com/ado/2009/11/edm" xmlns:cg="http://schemas.microsoft.com/ado/2006/04/codegeneration" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" Namespace="DBModels" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" annotation:UseStrongSpatialTypes="false">
+        <EntityContainer Name="DBModelsContainer" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="AgreementSet" EntityType="DBModels.Agreement" />
+          <EntitySet Name="UserSet" EntityType="DBModels.User" />
+          <EntitySet Name="SupplierSet" EntityType="DBModels.Supplier" />
+          <EntitySet Name="CSVFileSet" EntityType="DBModels.CSVFile" />
+          <EntitySet Name="ZoneRecordsSet" EntityType="DBModels.ZoneRecords" />
+          <EntitySet Name="InvoiceRecordsSet" EntityType="DBModels.InvoiceRecords" />
+          <AssociationSet Name="CSVFileSupplier" Association="DBModels.CSVFileSupplier">
+            <End Role="CSVFile" EntitySet="CSVFileSet" />
+            <End Role="Supplier" EntitySet="SupplierSet" />
+          </AssociationSet>
+          <AssociationSet Name="CSVFileUser" Association="DBModels.CSVFileUser">
+            <End Role="CSVFile" EntitySet="CSVFileSet" />
+            <End Role="User" EntitySet="UserSet" />
+          </AssociationSet>
+          <AssociationSet Name="AgreementUser" Association="DBModels.AgreementUser">
+            <End Role="Agreement" EntitySet="AgreementSet" />
+            <End Role="User" EntitySet="UserSet" />
+          </AssociationSet>
+          <EntitySet Name="TypeSet" EntityType="DBModels.Type" />
+          <AssociationSet Name="CSVFileType" Association="DBModels.CSVFileType">
+            <End Role="CSVFile" EntitySet="CSVFileSet" />
+            <End Role="Type" EntitySet="TypeSet" />
+          </AssociationSet>
+          <AssociationSet Name="AgreementCSVFile" Association="DBModels.AgreementCSVFile">
+            <End Role="Agreement" EntitySet="AgreementSet" />
+            <End Role="CSVFile" EntitySet="CSVFileSet" />
+          </AssociationSet>
+          <AssociationSet Name="CSVFileInvoiceRecords" Association="DBModels.CSVFileInvoiceRecords">
+            <End Role="CSVFile" EntitySet="CSVFileSet" />
+            <End Role="InvoiceRecords" EntitySet="InvoiceRecordsSet" />
+          </AssociationSet>
+          <AssociationSet Name="CSVFileZoneRecords" Association="DBModels.CSVFileZoneRecords">
+            <End Role="CSVFile" EntitySet="CSVFileSet" />
+            <End Role="ZoneRecords" EntitySet="ZoneRecordsSet" />
+          </AssociationSet>
+          <AssociationSet Name="AgreementZoneRecords" Association="DBModels.AgreementZoneRecords">
+            <End Role="Agreement" EntitySet="AgreementSet" />
+            <End Role="ZoneRecords" EntitySet="ZoneRecordsSet" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="Agreement">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Customer_cvr" Type="String" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
+          <Property Name="Customer_name" Type="String" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
+          <Property Name="Subscriber_range_start" Type="String" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
+          <Property Name="Subscriber_range_end" Type="String" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
+          <Property Name="Description" Type="String" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
+          <Property Name="Status" Type="Boolean" Nullable="false" />
+          <Property Name="Date" Type="DateTime" Nullable="false" Precision="3" />
+          <NavigationProperty Name="User" Relationship="DBModels.AgreementUser" FromRole="Agreement" ToRole="User" />
+          <Property Name="UserId" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="CSVFile" Relationship="DBModels.AgreementCSVFile" FromRole="Agreement" ToRole="CSVFile" />
+          <Property Name="CSVFileId" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="ZoneRecords" Relationship="DBModels.AgreementZoneRecords" FromRole="Agreement" ToRole="ZoneRecords" />
+        </EntityType>
+        <EntityType Name="User">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="String" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
+          <Property Name="Role" Type="String" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
+          <NavigationProperty Name="CSVFile" Relationship="DBModels.CSVFileUser" FromRole="User" ToRole="CSVFile" />
+          <NavigationProperty Name="Agreement" Relationship="DBModels.AgreementUser" FromRole="User" ToRole="Agreement" />
+        </EntityType>
+        <EntityType Name="Supplier">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="String" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
+          <NavigationProperty Name="CSVFile" Relationship="DBModels.CSVFileSupplier" FromRole="Supplier" ToRole="CSVFile" />
+        </EntityType>
+        <EntityType Name="CSVFile">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="String" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
+          <Property Name="Date" Type="DateTime" Nullable="false" Precision="3" />
+          <NavigationProperty Name="Supplier" Relationship="DBModels.CSVFileSupplier" FromRole="CSVFile" ToRole="Supplier" />
+          <Property Name="SupplierId" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="User" Relationship="DBModels.CSVFileUser" FromRole="CSVFile" ToRole="User" />
+          <Property Name="UserId" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="Type" Relationship="DBModels.CSVFileType" FromRole="CSVFile" ToRole="Type" />
+          <Property Name="TypeId" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="Agreement" Relationship="DBModels.AgreementCSVFile" FromRole="CSVFile" ToRole="Agreement" />
+          <NavigationProperty Name="InvoiceRecords" Relationship="DBModels.CSVFileInvoiceRecords" FromRole="CSVFile" ToRole="InvoiceRecords" />
+          <NavigationProperty Name="ZoneRecords" Relationship="DBModels.CSVFileZoneRecords" FromRole="CSVFile" ToRole="ZoneRecords" />
+        </EntityType>
+        <EntityType Name="ZoneRecords">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="String" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
+          <Property Name="Call_price" Type="Decimal" Nullable="false" Precision="10" Scale="4" />
+          <Property Name="Minute_price" Type="Decimal" Nullable="false" Precision="10" Scale="4" />
+          <Property Name="Country_code" Type="String" Nullable="true" MaxLength="Max" Unicode="true" FixedLength="false" />
+          <NavigationProperty Name="CSVFile" Relationship="DBModels.CSVFileZoneRecords" FromRole="ZoneRecords" ToRole="CSVFile" />
+          <Property Name="CSVFileId" Type="Int32" Nullable="true" />
+          <NavigationProperty Name="Agreement" Relationship="DBModels.AgreementZoneRecords" FromRole="ZoneRecords" ToRole="Agreement" />
+          <Property Name="AgreementId" Type="Int32" Nullable="true" />
+        </EntityType>
+        <EntityType Name="InvoiceRecords">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Id_call" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Time" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="Subscriber" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Aprefix" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Destination" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Invoice_group" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Prefix" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Pbx" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Direction" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Volume_time_secs" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Price" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Free" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Forward" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Servingnetwork" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Reason" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Billed" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="ZoneName" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="RPBilled" Type="String" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
+          <NavigationProperty Name="CSVFile" Relationship="DBModels.CSVFileInvoiceRecords" FromRole="InvoiceRecords" ToRole="CSVFile" />
+          <Property Name="CSVFileId" Type="Int32" Nullable="false" />
+        </EntityType>
+        <Association Name="CSVFileSupplier">
+          <End Type="DBModels.CSVFile" Role="CSVFile" Multiplicity="*" />
+          <End Type="DBModels.Supplier" Role="Supplier" Multiplicity="1" />
+          <ReferentialConstraint>
+            <Principal Role="Supplier">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="CSVFile">
+              <PropertyRef Name="SupplierId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="CSVFileUser">
+          <End Type="DBModels.CSVFile" Role="CSVFile" Multiplicity="*" />
+          <End Type="DBModels.User" Role="User" Multiplicity="1" />
+          <ReferentialConstraint>
+            <Principal Role="User">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="CSVFile">
+              <PropertyRef Name="UserId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="AgreementUser">
+          <End Type="DBModels.Agreement" Role="Agreement" Multiplicity="*" />
+          <End Type="DBModels.User" Role="User" Multiplicity="1" />
+          <ReferentialConstraint>
+            <Principal Role="User">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Agreement">
+              <PropertyRef Name="UserId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityType Name="Type">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="String" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
+          <NavigationProperty Name="CSVFile" Relationship="DBModels.CSVFileType" FromRole="Type" ToRole="CSVFile" />
+        </EntityType>
+        <Association Name="CSVFileType">
+          <End Type="DBModels.CSVFile" Role="CSVFile" Multiplicity="*" />
+          <End Type="DBModels.Type" Role="Type" Multiplicity="1" />
+          <ReferentialConstraint>
+            <Principal Role="Type">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="CSVFile">
+              <PropertyRef Name="TypeId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="AgreementCSVFile">
+          <End Type="DBModels.Agreement" Role="Agreement" Multiplicity="*" />
+          <End Type="DBModels.CSVFile" Role="CSVFile" Multiplicity="1" />
+          <ReferentialConstraint>
+            <Principal Role="CSVFile">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Agreement">
+              <PropertyRef Name="CSVFileId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="CSVFileInvoiceRecords">
+          <End Type="DBModels.CSVFile" Role="CSVFile" Multiplicity="1" />
+          <End Type="DBModels.InvoiceRecords" Role="InvoiceRecords" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="CSVFile">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="InvoiceRecords">
+              <PropertyRef Name="CSVFileId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="CSVFileZoneRecords">
+          <End Type="DBModels.CSVFile" Role="CSVFile" Multiplicity="0..1" />
+          <End Type="DBModels.ZoneRecords" Role="ZoneRecords" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="CSVFile">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="ZoneRecords">
+              <PropertyRef Name="CSVFileId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="AgreementZoneRecords">
+          <End Type="DBModels.Agreement" Role="Agreement" Multiplicity="0..1" />
+          <End Type="DBModels.ZoneRecords" Role="ZoneRecords" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Agreement">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="ZoneRecords">
+              <PropertyRef Name="AgreementId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+    <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="DBModelsStoreContainer" CdmEntityContainer="DBModelsContainer">
+    <EntitySetMapping Name="AgreementSet">
+      <EntityTypeMapping TypeName="IsTypeOf(DBModels.Agreement)">
+        <MappingFragment StoreEntitySet="AgreementSet">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Customer_cvr" ColumnName="Customer_cvr" />
+          <ScalarProperty Name="Customer_name" ColumnName="Customer_name" />
+          <ScalarProperty Name="Subscriber_range_start" ColumnName="Subscriber_range_start" />
+          <ScalarProperty Name="Subscriber_range_end" ColumnName="Subscriber_range_end" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="Date" ColumnName="Date" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="CSVFileId" ColumnName="CSVFileId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="UserSet">
+      <EntityTypeMapping TypeName="IsTypeOf(DBModels.User)">
+        <MappingFragment StoreEntitySet="UserSet">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Role" ColumnName="Role" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SupplierSet">
+      <EntityTypeMapping TypeName="IsTypeOf(DBModels.Supplier)">
+        <MappingFragment StoreEntitySet="SupplierSet">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CSVFileSet">
+      <EntityTypeMapping TypeName="IsTypeOf(DBModels.CSVFile)">
+        <MappingFragment StoreEntitySet="CSVFileSet">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Date" ColumnName="Date" />
+          <ScalarProperty Name="SupplierId" ColumnName="SupplierId" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="TypeId" ColumnName="TypeId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ZoneRecordsSet">
+      <EntityTypeMapping TypeName="IsTypeOf(DBModels.ZoneRecords)">
+        <MappingFragment StoreEntitySet="ZoneRecordsSet">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Call_price" ColumnName="Call_price" />
+          <ScalarProperty Name="Minute_price" ColumnName="Minute_price" />
+          <ScalarProperty Name="Country_code" ColumnName="Country_code" />
+          <ScalarProperty Name="CSVFileId" ColumnName="CSVFileId" />
+          <ScalarProperty Name="AgreementId" ColumnName="AgreementId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="InvoiceRecordsSet">
+      <EntityTypeMapping TypeName="IsTypeOf(DBModels.InvoiceRecords)">
+        <MappingFragment StoreEntitySet="InvoiceRecordsSet">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Id_call" ColumnName="Id_call" />
+          <ScalarProperty Name="Time" ColumnName="Time" />
+          <ScalarProperty Name="Subscriber" ColumnName="Subscriber" />
+          <ScalarProperty Name="Aprefix" ColumnName="Aprefix" />
+          <ScalarProperty Name="Destination" ColumnName="Destination" />
+          <ScalarProperty Name="Invoice_group" ColumnName="Invoice_group" />
+          <ScalarProperty Name="Prefix" ColumnName="Prefix" />
+          <ScalarProperty Name="Pbx" ColumnName="Pbx" />
+          <ScalarProperty Name="Direction" ColumnName="Direction" />
+          <ScalarProperty Name="Volume_time_secs" ColumnName="Volume_time_secs" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+          <ScalarProperty Name="Free" ColumnName="Free" />
+          <ScalarProperty Name="Forward" ColumnName="Forward" />
+          <ScalarProperty Name="Servingnetwork" ColumnName="Servingnetwork" />
+          <ScalarProperty Name="Reason" ColumnName="Reason" />
+          <ScalarProperty Name="Billed" ColumnName="Billed" />
+          <ScalarProperty Name="ZoneName" ColumnName="ZoneName" />
+          <ScalarProperty Name="RPBilled" ColumnName="RPBilled" />
+          <ScalarProperty Name="CSVFileId" ColumnName="CSVFileId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TypeSet">
+      <EntityTypeMapping TypeName="IsTypeOf(DBModels.Type)">
+        <MappingFragment StoreEntitySet="TypeSet">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping></edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <edmx:Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </edmx:Connection>
+    <edmx:Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="False" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+        <DesignerProperty Name="UseLegacyProvider" Value="False" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="True" />
+      </DesignerInfoPropertySet>
+    </edmx:Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

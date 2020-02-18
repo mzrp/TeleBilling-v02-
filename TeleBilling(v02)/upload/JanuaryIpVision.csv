@@ -1,0 +1,10 @@
+id;time;subscriber;aprefix;destination;invoicegroup;prefix;pbx;direction;volumetimesecs;price;free;forward;servingnetwork;reason;billed;zone
+913658985;02-01-2019 07:15;4533456546;Danmark Fastnet;45707090XX;Danmark 70 nummer;Danmark 70 nummer;rackpeoplehq-;ip-pstn;60;0,1;no;0;;0;yes;Afghanistan
+913662453;02-01-2019 08:00;4533456547;Danmark Fastnet;45707090XX;Danmark 70 nummer;Danmark 70 nummer;rackpeoplehq-;ip-pstn;540;0,5;no;0;;0;yes;Albanien
+913667579;02-01-2019 08:30;4533456548;Danmark Fastnet;45422623XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;0;0,05;no;0;;0;yes;Algeriet
+913658985;02-01-2019 07:15;4533456546;Danmark Fastnet;45707090XX;Danmark 70 nummer;Danmark 70 nummer;rackpeoplehq-;ip-pstn;60;0,1;no;0;;0;yes;Afghanistan
+913662453;02-01-2019 08:00;4533456547;Danmark Fastnet;45707090XX;Danmark 70 nummer;Danmark 70 nummer;rackpeoplehq-;ip-pstn;540;0,5;no;0;;0;yes;Albanien
+913658985;02-01-2019 07:15;4533456556;Danmark Fastnet;45707090XX;Danmark 70 nummer;Danmark 70 nummer;rackpeoplehq-;ip-pstn;60;0,1;no;0;;0;yes;Afghanistan
+913662453;02-01-2019 08:00;4533456556;Danmark Fastnet;45707090XX;Danmark 70 nummer;Danmark 70 nummer;rackpeoplehq-;ip-pstn;540;0,5;no;0;;0;yes;Albanien
+913658985;02-01-2019 07:15;4533456566;Danmark Fastnet;45707090XX;Danmark 70 nummer;Danmark 70 nummer;rackpeoplehq-;ip-pstn;60;0,1;no;0;;0;yes;Afghanistan
+913662453;02-01-2019 08:00;4533456566;Danmark Fastnet;45707090XX;Danmark 70 nummer;Danmark 70 nummer;rackpeoplehq-;ip-pstn;540;0,5;no;0;;0;yes;Albanien

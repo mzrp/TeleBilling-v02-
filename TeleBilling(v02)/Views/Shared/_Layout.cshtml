@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html>
+@using TeleBilling_v02_.Utilities
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - TeleBilling</title>
+    @Styles.Render("~/Content/css")
+    @Styles.Render("~/Content/Site.css")
+    @Scripts.Render("~/bundles/modernizr")
+    <link href="https://gitcdn.github.io/bootstrap-toggle/2.2.2/css/bootstrap-toggle.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <div class="navbar-left">
+                    @Html.ActionLink("RackPeople", "Login", "User", new { area = "" }, new { @class = "navbar-brand" })
+                </div>
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li class='@Html.IsActive("Agreement", "ViewAllAgreements")'>@Html.ActionLink("Aftaler", "ViewAllAgreements", "Agreement")</li>
+                    <li class='@Html.IsActive("File", "ViewInvoiceFiles")'>@Html.ActionLink("Fakturer", "ViewInvoiceFiles", "File"@*, new { typeName = "InvoiceRecords" }, null*@)</li>
+                    <li class='@Html.IsActive("File", "ViewPriceFiles")'>@Html.ActionLink("Priser", "ViewPriceFiles", "File")</li>
+                </ul>
+                <div class="navbar-right">
+                    @Html.ActionLink("Logud", "Logout", "User", new { area = "" }, new { @class = "navbar-brand" })
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container body-content">
+        @RenderBody()
+        <hr />
+        <footer>
+            <p>&copy; @DateTime.Now.Year - RackPeople Aps</p>
+        </footer>
+    </div>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+    <script src="https://gitcdn.github.io/bootstrap-toggle/2.2.2/js/bootstrap-toggle.min.js"></script>
+</body>
+</html>

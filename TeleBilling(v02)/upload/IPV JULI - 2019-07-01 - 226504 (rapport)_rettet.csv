@@ -1,0 +1,1160 @@
+﻿id;time;subscriber;aprefix;destination;invoice group;prefix;pbx;direction;volume/time(secs);price;free;forward;servingnetwork;reason;billed;zone
+976146278;01-07-2019 08:04;4578774477;Danmark Fastnet;45309104XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;60;0,45;no;0;;0;yes;Norden Mobil (DK)
+976146591;01-07-2019 08:06;4569669638;Danmark Fastnet;45553711XX;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;660;0,6;no;0;;0;yes;Norden (DK)
+976150727;01-07-2019 08:28;46840836388;Sweden;467052709XX;Udland Mobil;Sweden-Mobile;firebrand-;ip-pstn;60;0,65;no;0;;0;yes;Norden Mobil
+976155439;01-07-2019 08:51;4570200645;Danmark 70 nummer;45505560XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;180;1,25;no;0;;0;yes;Norden Mobil (DK)
+976156349;01-07-2019 08:56;4570200645;Danmark 70 nummer;45505560XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;600;4,05;no;0;;0;yes;Norden Mobil (DK)
+976156789;01-07-2019 08:57;4569669638;Danmark Fastnet;45553614XX;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;180;0,2;no;0;;0;yes;Norden (DK)
+976156857;01-07-2019 08:58;4578774477;Danmark Fastnet;45309104XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;0;0,05;no;0;;0;yes;Norden Mobil (DK)
+976157019;01-07-2019 08:58;4578774477;Danmark Fastnet;45309104XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;0;0,05;no;0;;0;yes;Norden Mobil (DK)
+976157313;01-07-2019 09:00;4578772913;Danmark Fastnet;45538832XX;Danmark Mobil;Danmark Mobil;firebrand-;ip-pstn;60;0,45;no;0;;0;yes;Norden Mobil (DK)
+976157526;01-07-2019 09:01;4569669638;Danmark Fastnet;45401531XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;180;1,25;no;0;;0;yes;Norden Mobil (DK)
+976162844;01-07-2019 09:22;4569669633;Danmark Fastnet;45299916XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;180;1,25;no;0;;0;yes;Norden Mobil (DK)
+976168532;01-07-2019 09:43;46840836388;Sweden;44216760XX;Udland;United Kingdom;firebrand-;ip-pstn;0;0,2;no;0;;0;yes;Europa 1
+976168805;01-07-2019 09:44;46840836388;Sweden;44216760XX;Udland;United Kingdom;firebrand-;ip-pstn;0;0,2;no;0;;0;yes;Europa 1
+976168806;01-07-2019 09:44;46840836384;Sweden;467302282XX;Udland Mobil;Sweden-Mobile;firebrand-;ip-pstn;60;0,65;no;0;;0;yes;Norden Mobil
+976168943;01-07-2019 09:44;46840836388;Sweden;46474279XX;Udland;Sweden;firebrand-;ip-pstn;0;0,2;no;0;;0;yes;Norden
+976168989;01-07-2019 09:44;46840836388;Sweden;46474279XX;Udland;Sweden;firebrand-;ip-pstn;0;0,2;no;0;;0;yes;Norden
+976169128;01-07-2019 09:45;46840836388;Sweden;47900000XX;Udland Mobil;Norway-Mobile;firebrand-;ip-pstn;0;0,2;no;0;;0;yes;Norden Mobil
+976169193;01-07-2019 09:45;46840836384;Sweden;467024008XX;Udland Mobil;Sweden-Mobile;firebrand-;ip-pstn;0;0,2;no;0;;0;yes;Norden Mobil
+976169306;01-07-2019 09:46;46840836388;Sweden;467021997XX;Udland Mobil;Sweden-Mobile;firebrand-;ip-pstn;60;0,65;no;0;;0;yes;Norden Mobil
+976169391;01-07-2019 09:46;46840836384;Sweden;467641669XX;Udland Mobil;Sweden-Mobile;firebrand-;ip-pstn;120;1,1;no;0;;0;yes;Norden Mobil
+976169851;01-07-2019 09:47;46840836388;Sweden;47900000XX;Udland Mobil;Norway-Mobile;firebrand-;ip-pstn;0;0,2;no;0;;0;yes;Norden Mobil
+976170459;01-07-2019 09:50;46840836384;Sweden;468553540XX;Udland;Sweden;firebrand-;ip-pstn;180;0,41;no;0;;0;yes;Norden
+976170682;01-07-2019 09:50;4578772913;Danmark Fastnet;45304658XX;Danmark Mobil;Danmark Mobil;firebrand-;ip-pstn;720;4,85;no;0;;0;yes;Norden Mobil (DK)
+976171090;01-07-2019 09:52;46840836389;Sweden;468519810XX;Udland;Sweden;firebrand-;ip-pstn;240;0,48;no;0;;0;yes;Norden
+976171594;01-07-2019 09:53;4569669638;Danmark Fastnet;45471209XX;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;120;0,15;no;0;;0;yes;Norden (DK)
+976172262;01-07-2019 09:56;46840836384;Sweden;467031622XX;Udland Mobil;Sweden-Mobile;firebrand-;ip-pstn;0;0,2;no;0;;0;yes;Norden Mobil
+976172608;01-07-2019 09:57;46840836384;Sweden;467372707XX;Udland Mobil;Sweden-Mobile;firebrand-;ip-pstn;540;4,25;no;0;;0;yes;Norden Mobil
+976173723;01-07-2019 10:01;4569669638;Danmark Fastnet;45701072XX;Danmark 70 nummer;Danmark 70 nummer;rackpeoplehq-;ip-pstn;60;0,1;no;0;;0;yes;Norden (DK)
+976173867;01-07-2019 10:02;4569669638;Danmark Fastnet;45701072XX;Danmark 70 nummer;Danmark 70 nummer;rackpeoplehq-;ip-pstn;360;0,35;no;0;;0;yes;Norden (DK)
+976174232;01-07-2019 10:03;4578772913;Danmark Fastnet;45278370XX;Danmark Mobil;Danmark Mobil;firebrand-;ip-pstn;60;0,45;no;0;;0;yes;Norden Mobil (DK)
+976174467;01-07-2019 10:03;4578772913;Danmark Fastnet;45278370XX;Danmark Mobil;Danmark Mobil;firebrand-;ip-pstn;60;0,45;no;0;;0;yes;Norden Mobil (DK)
+976174535;01-07-2019 10:04;46840836389;Sweden;461012368XX;Udland;Sweden;firebrand-;ip-pstn;60;0,27;no;0;;0;yes;Norden
+976174741;01-07-2019 10:04;46840836389;Sweden;4677123523XX;Udland;Sweden;firebrand-;ip-pstn;300;0,55;no;0;;0;yes;Norden
+976175937;01-07-2019 10:08;4578772913;Danmark Fastnet;45278370XX;Danmark Mobil;Danmark Mobil;firebrand-;ip-pstn;60;0,45;no;0;;0;yes;Norden Mobil (DK)
+976178617;01-07-2019 10:17;4578772913;Danmark Fastnet;45304658XX;Danmark Mobil;Danmark Mobil;firebrand-;ip-pstn;120;0,85;no;0;;0;yes;Norden Mobil (DK)
+976181717;01-07-2019 10:28;46840836389;Sweden;467077274XX;Udland Mobil;Sweden-Mobile;firebrand-;ip-pstn;60;0,65;no;0;;0;yes;Norden Mobil
+976181944;01-07-2019 10:29;46840836388;Sweden;4683478XX;Udland;Sweden;firebrand-;ip-pstn;60;0,27;no;0;;0;yes;Norden
+976181951;01-07-2019 10:29;4578772922;Danmark Fastnet;45723116XX;Danmark;Danmark Fastnet;firebrand-;ip-pstn;60;0,1;no;0;;0;yes;Norden (DK)
+976182021;01-07-2019 10:29;4569669638;Danmark Fastnet;45309104XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;0;0,05;no;0;;0;yes;Norden Mobil (DK)
+976184530;01-07-2019 10:37;4578772922;Danmark Fastnet;2985515XX;Udland Mobil;Faroe Islands - Mobile;firebrand-;ip-pstn;0;0,2;no;0;;0;yes;Europa 3 Mobil
+976185016;01-07-2019 10:38;46840836389;Sweden;463174609XX;Udland;Sweden;firebrand-;ip-pstn;240;0,48;no;0;;0;yes;Norden
+976186912;01-07-2019 10:45;4578772922;Danmark Fastnet;2983030XX;Udland;Faroe Islands;firebrand-;ip-pstn;0;0,2;no;0;;0;yes;Europa 3
+976187438;01-07-2019 10:46;46840836388;Sweden;467098844XX;Udland Mobil;Sweden-Mobile;firebrand-;ip-pstn;240;2;no;0;;0;yes;Norden Mobil
+976188189;01-07-2019 10:49;46840836389;Sweden;461020334XX;Udland Mobil;Sweden-Mobile;firebrand-;ip-pstn;60;0,65;no;0;;0;yes;Norden Mobil
+976188981;01-07-2019 10:52;46840836389;Sweden;461020366XX;Udland Mobil;Sweden-Mobile;firebrand-;ip-pstn;60;0,65;no;0;;0;yes;Norden Mobil
+976189016;01-07-2019 10:52;4578772922;Danmark Fastnet;2985201XX;Udland Mobil;Faroe Islands - Mobile;firebrand-;ip-pstn;0;0,2;no;0;;0;yes;Europa 3 Mobil
+976189472;01-07-2019 10:53;46840836389;Sweden;46403416XX;Udland;Sweden;firebrand-;ip-pstn;60;0,27;no;0;;0;yes;Norden
+976189888;01-07-2019 10:55;46840836389;Sweden;461011152XX;Udland;Sweden;firebrand-;ip-pstn;60;0,27;no;0;;0;yes;Norden
+976190039;01-07-2019 10:55;4578772922;Danmark Fastnet;2982441XX;Udland Mobil;Faroe Islands - Mobile;firebrand-;ip-pstn;600;15;no;0;;0;yes;Europa 3 Mobil
+976190320;01-07-2019 10:56;46840836389;Sweden;461012577XX;Udland;Sweden;firebrand-;ip-pstn;60;0,27;no;0;;0;yes;Norden
+976192181;01-07-2019 11:02;46840836388;Sweden;467021997XX;Udland Mobil;Sweden-Mobile;firebrand-;ip-pstn;360;2,9;no;0;;0;yes;Norden Mobil
+976193167;01-07-2019 11:05;4569669638;Danmark Fastnet;45309104XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;60;0,45;no;0;;0;yes;Norden Mobil (DK)
+976193711;01-07-2019 11:07;46840836389;Sweden;46213952XX;Udland;Sweden;firebrand-;ip-pstn;240;0,48;no;0;;0;yes;Norden
+976196382;01-07-2019 11:16;4578772922;Danmark Fastnet;2985201XX;Udland Mobil;Faroe Islands - Mobile;firebrand-;ip-pstn;300;7,6;no;0;;0;yes;Europa 3 Mobil
+976198622;01-07-2019 11:23;46840836388;Sweden;467024215XX;Udland Mobil;Sweden-Mobile;firebrand-;ip-pstn;0;0,2;no;0;;0;yes;Norden Mobil
+976198642;01-07-2019 11:24;4578772913;Danmark Fastnet;45233046XX;Danmark Mobil;Danmark Mobil;firebrand-;ip-pstn;60;0,45;no;0;;0;yes;Norden Mobil (DK)
+976199207;01-07-2019 11:25;4570200645;Danmark 70 nummer;3584076875XX;Udland Mobil;Finland-Mobile;rackpeoplehq-;ip-pstn;660;5,15;no;0;;0;yes;Norden Mobil
+976199590;01-07-2019 11:27;46840836388;Sweden;467024215XX;Udland Mobil;Sweden-Mobile;firebrand-;ip-pstn;0;0,2;no;0;;0;yes;Norden Mobil
+976199630;01-07-2019 11:27;46840836388;Sweden;46213914XX;Udland;Sweden;firebrand-;ip-pstn;60;0,27;no;0;;0;yes;Norden
+976202927;01-07-2019 11:38;4533456546;Danmark Fastnet;45203078XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;60;0,45;no;0;;0;yes;Norden Mobil (DK)
+976206750;01-07-2019 11:52;4578772922;Danmark Fastnet;45226928XX;Danmark Mobil;Danmark Mobil;firebrand-;ip-pstn;60;0,45;no;0;;0;yes;Norden Mobil (DK)
+976207277;01-07-2019 11:53;4578772922;Danmark Fastnet;45296043XX;Danmark Mobil;Danmark Mobil;firebrand-;ip-pstn;360;2,45;no;0;;0;yes;Norden Mobil (DK)
+976208970;01-07-2019 12:00;4570200645;Danmark 70 nummer;45232861XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;180;1,25;no;0;;0;yes;Norden Mobil (DK)
+976213553;01-07-2019 12:19;4533456540;Danmark Fastnet;45203078XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;0;0,05;no;0;;0;yes;Norden Mobil (DK)
+976220771;01-07-2019 12:49;4570200645;Danmark 70 nummer;45608709XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;60;0,45;no;0;;0;yes;Norden Mobil (DK)
+976221295;01-07-2019 12:51;4569669638;Danmark Fastnet;45553614XX;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;0;0,05;no;0;;0;yes;Norden (DK)
+976223648;01-07-2019 13:00;4569804978;Danmark Fastnet;45707011XX;Danmark 70 nummer;Danmark 70 nummer;rackpeoplehq-;ip-pstn;360;0,35;no;0;;0;yes;Norden (DK)
+976223921;01-07-2019 13:01;4578772922;Danmark Fastnet;45226928XX;Danmark Mobil;Danmark Mobil;firebrand-;ip-pstn;120;0,85;no;0;;0;yes;Norden Mobil (DK)
+976225218;01-07-2019 13:06;4570200645;Danmark 70 nummer;45219506XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;60;0,45;no;0;;0;yes;Norden Mobil (DK)
+976226035;01-07-2019 13:09;4570200645;Danmark 70 nummer;45219506XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;240;1,65;no;0;;0;yes;Norden Mobil (DK)
+976229679;01-07-2019 13:22;46840836384;Sweden;467296480XX;Udland Mobil;Sweden-Mobile;firebrand-;ip-pstn;60;0,65;no;0;;0;yes;Norden Mobil
+976229708;01-07-2019 13:22;4569804978;Danmark Fastnet;45271240XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;120;0,85;no;0;;0;yes;Norden Mobil (DK)
+976230572;01-07-2019 13:25;4578772922;Danmark Fastnet;45226928XX;Danmark Mobil;Danmark Mobil;firebrand-;ip-pstn;0;0,05;no;0;;0;yes;Norden Mobil (DK)
+976231576;01-07-2019 13:29;4578772913;Danmark Fastnet;45307300XX;Danmark Mobil;Danmark Mobil;firebrand-;ip-pstn;0;0,05;no;0;;0;yes;Norden Mobil (DK)
+976231788;01-07-2019 13:30;4533456544;Danmark Fastnet;45792111XX;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;180;0,2;no;0;;0;yes;Norden (DK)
+976231828;01-07-2019 13:30;4570200645;Danmark 70 nummer;45424616XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;60;0,45;no;0;;0;yes;Norden Mobil (DK)
+976232037;01-07-2019 13:30;4578772913;Danmark Fastnet;45403490XX;Danmark Mobil;Danmark Mobil;firebrand-;ip-pstn;60;0,45;no;0;;0;yes;Norden Mobil (DK)
+976232535;01-07-2019 13:32;4569804969;Danmark Fastnet;45233451XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;120;0,85;no;0;;0;yes;Norden Mobil (DK)
+976232609;01-07-2019 13:32;46840836384;Sweden;467056080XX;Udland Mobil;Sweden-Mobile;firebrand-;ip-pstn;0;0,2;no;0;;0;yes;Norden Mobil
+976233031;01-07-2019 13:34;46840836384;Sweden;467028628XX;Udland Mobil;Sweden-Mobile;firebrand-;ip-pstn;60;0,65;no;0;;0;yes;Norden Mobil
+976233528;01-07-2019 13:36;46840836384;Sweden;467029553XX;Udland Mobil;Sweden-Mobile;firebrand-;ip-pstn;60;0,65;no;0;;0;yes;Norden Mobil
+976235841;01-07-2019 13:45;4570200645;Danmark 70 nummer;45537471XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;300;2,05;no;0;;0;yes;Norden Mobil (DK)
+976236193;01-07-2019 13:46;4578774477;Danmark Fastnet;45309104XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;0;0,05;no;0;;0;yes;Norden Mobil (DK)
+976236427;01-07-2019 13:47;4578772916;Danmark Fastnet;45935111XX;Danmark Mobil;Danmark Mobil;firebrand-;ip-pstn;60;0,45;no;0;;0;yes;Norden Mobil (DK)
+976238959;01-07-2019 13:57;4570200645;Danmark 70 nummer;45515951XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;60;0,45;no;0;;0;yes;Norden Mobil (DK)
+976239438;01-07-2019 13:59;46840836388;Sweden;4467970218XX;Udland;United Kingdom;firebrand-;ip-pstn;0;0,2;no;0;;0;yes;Europa 1
+976239737;01-07-2019 14:00;46840836384;Sweden;46150794XX;Udland;Sweden;firebrand-;ip-pstn;120;0,34;no;0;;0;yes;Norden
+976240274;01-07-2019 14:02;4578772916;Danmark Fastnet;45412776XX;Danmark Mobil;Danmark Mobil;firebrand-;ip-pstn;60;0,45;no;0;;0;yes;Norden Mobil (DK)
+976240846;01-07-2019 14:05;4578772913;Danmark Fastnet;45232914XX;Danmark Mobil;Danmark Mobil;firebrand-;ip-pstn;60;0,45;no;0;;0;yes;Norden Mobil (DK)
+976242196;01-07-2019 14:10;4569804969;Danmark Fastnet;45222215XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;60;0,45;no;0;;0;yes;Norden Mobil (DK)
+976243046;01-07-2019 14:14;46840836384;Sweden;467273980XX;Udland Mobil;Sweden-Mobile;firebrand-;ip-pstn;60;0,65;no;0;;0;yes;Norden Mobil
+976244581;01-07-2019 14:20;46840836388;Sweden;47930670XX;Udland Mobil;Norway-Mobile;firebrand-;ip-pstn;60;0,65;no;0;;0;yes;Norden Mobil
+976245004;01-07-2019 14:22;46840836388;Sweden;47926189XX;Udland Mobil;Norway-Mobile;firebrand-;ip-pstn;0;0,2;no;0;;0;yes;Norden Mobil
+976246861;01-07-2019 14:30;4578772913;Danmark Fastnet;45307811XX;Danmark Mobil;Danmark Mobil;firebrand-;ip-pstn;60;0,45;no;0;;0;yes;Norden Mobil (DK)
+976247365;01-07-2019 14:32;4570200645;Danmark 70 nummer;45722082XX;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;60;0,1;no;0;;0;yes;Norden (DK)
+976247606;01-07-2019 14:33;46840836389;Sweden;461012573XX;Udland;Sweden;firebrand-;ip-pstn;60;0,27;no;0;;0;yes;Norden
+976247640;01-07-2019 14:33;4578772913;Danmark Fastnet;45221967XX;Danmark Mobil;Danmark Mobil;firebrand-;ip-pstn;60;0,45;no;0;;0;yes;Norden Mobil (DK)
+976247725;01-07-2019 14:34;4578772913;Danmark Fastnet;45227021XX;Danmark Mobil;Danmark Mobil;firebrand-;ip-pstn;60;0,45;no;0;;0;yes;Norden Mobil (DK)
+976247856;01-07-2019 14:34;46840836389;Sweden;467272601XX;Udland Mobil;Sweden-Mobile;firebrand-;ip-pstn;60;0,65;no;0;;0;yes;Norden Mobil
+976248639;01-07-2019 14:38;46840836388;Sweden;46213914XX;Udland;Sweden;firebrand-;ip-pstn;60;0,27;no;0;;0;yes;Norden
+976250124;01-07-2019 14:45;46840836389;Sweden;461020334XX;Udland Mobil;Sweden-Mobile;firebrand-;ip-pstn;60;0,65;no;0;;0;yes;Norden Mobil
+976250338;01-07-2019 14:46;46840836389;Sweden;461020366XX;Udland Mobil;Sweden-Mobile;firebrand-;ip-pstn;60;0,65;no;0;;0;yes;Norden Mobil
+976250838;01-07-2019 14:49;4578772914;Danmark Fastnet;45701214XX;Danmark 70 nummer;Danmark 70 nummer;firebrand-;ip-pstn;120;0,15;no;0;;0;yes;Norden (DK)
+976251427;01-07-2019 14:52;4578772913;Danmark Fastnet;45538832XX;Danmark Mobil;Danmark Mobil;firebrand-;ip-pstn;60;0,45;no;0;;0;yes;Norden Mobil (DK)
+976253336;01-07-2019 15:01;4578772913;Danmark Fastnet;45613776XX;Danmark Mobil;Danmark Mobil;firebrand-;ip-pstn;0;0,05;no;0;;0;yes;Norden Mobil (DK)
+976254576;01-07-2019 15:07;46840836388;Sweden;445521211423XX;Udland;United Kingdom;firebrand-;ip-pstn;0;0,2;no;0;;0;yes;Europa 1
+976255056;01-07-2019 15:10;4578772913;Danmark Fastnet;45307300XX;Danmark Mobil;Danmark Mobil;firebrand-;ip-pstn;60;0,45;no;0;;0;yes;Norden Mobil (DK)
+976255237;01-07-2019 15:11;46840836388;Sweden;467355489XX;Udland Mobil;Sweden-Mobile;firebrand-;ip-pstn;60;0,65;no;0;;0;yes;Norden Mobil
+976255510;01-07-2019 15:13;46840836389;Sweden;468519810XX;Udland;Sweden;firebrand-;ip-pstn;60;0,27;no;0;;0;yes;Norden
+976256012;01-07-2019 15:16;46840836389;Sweden;467048078XX;Udland Mobil;Sweden-Mobile;firebrand-;ip-pstn;60;0,65;no;0;;0;yes;Norden Mobil
+976256706;01-07-2019 15:20;4578772922;Danmark Fastnet;45226928XX;Danmark Mobil;Danmark Mobil;firebrand-;ip-pstn;60;0,45;no;0;;0;yes;Norden Mobil (DK)
+976256862;01-07-2019 15:21;4578772922;Danmark Fastnet;45277917XX;Danmark Mobil;Danmark Mobil;firebrand-;ip-pstn;0;0,05;no;0;;0;yes;Norden Mobil (DK)
+976258584;01-07-2019 15:32;46840836384;Sweden;467332728XX;Udland Mobil;Sweden-Mobile;firebrand-;ip-pstn;60;0,65;no;0;;0;yes;Norden Mobil
+976258889;01-07-2019 15:34;46840836384;Sweden;467032816XX;Udland Mobil;Sweden-Mobile;firebrand-;ip-pstn;120;1,1;no;0;;0;yes;Norden Mobil
+976261642;01-07-2019 15:49;4578772922;Danmark Fastnet;2993491XX;Udland;Greenland;firebrand-;ip-pstn;180;6,95;no;0;;0;yes;Øvrige Verden 3
+976263663;01-07-2019 15:59;46840836388;Sweden;445521211423XX;Udland;United Kingdom;firebrand-;ip-pstn;0;0,2;no;0;;0;yes;Europa 1
+976264427;01-07-2019 16:04;46840836388;Sweden;467355489XX;Udland Mobil;Sweden-Mobile;firebrand-;ip-pstn;0;0,2;no;0;;0;yes;Norden Mobil
+976266260;01-07-2019 16:16;4533456544;Danmark Fastnet;45407524XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;60;0,45;no;0;;0;yes;Norden Mobil (DK)
+976266456;01-07-2019 16:17;4578772913;Danmark Fastnet;45719904XX;Danmark Mobil;Danmark Mobil;firebrand-;ip-pstn;60;0,45;no;0;;0;yes;Norden Mobil (DK)
+976266925;01-07-2019 16:20;46840836384;Sweden;467032816XX;Udland Mobil;Sweden-Mobile;firebrand-;ip-pstn;0;0,2;no;0;;0;yes;Norden Mobil
+976267023;01-07-2019 16:21;46840836384;Sweden;467032816XX;Udland Mobil;Sweden-Mobile;firebrand-;ip-pstn;60;0,65;no;0;;0;yes;Norden Mobil
+976275971;01-07-2019 17:46;46840836387;Sweden;467367712XX;Udland Mobil;Sweden-Mobile;firebrand-;ip-pstn;300;2,45;no;0;;0;yes;Norden Mobil
+976573743;02-07-2019 08:24;4570200645;Danmark 70 nummer;45303024XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;360;2,45;no;0;;0;yes;Norden Mobil (DK)
+976574571;02-07-2019 08:28;4533456544;Danmark Fastnet;45702236XX;Danmark 70 nummer;Danmark 70 nummer;rackpeoplehq-;ip-pstn;120;0,15;no;0;;0;yes;Norden (DK)
+976575059;02-07-2019 08:31;4569669638;Danmark Fastnet;45292901XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;240;1,65;no;0;;0;yes;Norden Mobil (DK)
+976575898;02-07-2019 08:35;4570200645;Danmark 70 nummer;45303024XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;840;5,65;no;0;;0;yes;Norden Mobil (DK)
+976577399;02-07-2019 08:42;4533456543;Danmark Fastnet;45214981XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;0;0,05;no;0;;0;yes;Norden Mobil (DK)
+976577484;02-07-2019 08:42;4533456543;Danmark Fastnet;45214981XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;0;0,05;no;0;;0;yes;Norden Mobil (DK)
+976578132;02-07-2019 08:45;4533456544;Danmark Fastnet;45702236XX;Danmark 70 nummer;Danmark 70 nummer;rackpeoplehq-;ip-pstn;180;0,2;no;0;;0;yes;Norden (DK)
+976581680;02-07-2019 09:02;4578772922;Danmark Fastnet;45214122XX;Danmark Mobil;Danmark Mobil;firebrand-;ip-pstn;420;2,85;no;0;;0;yes;Norden Mobil (DK)
+976586441;02-07-2019 09:22;46840836388;Sweden;4484564287XX;Udland Mobil;United Kingdom-Mobile;firebrand-;ip-pstn;0;0,2;no;0;;0;yes;Europa 1 Mobil
+976586504;02-07-2019 09:22;46840836388;Sweden;46644840544540XX;Udland;Sweden;firebrand-;ip-pstn;0;0,2;no;0;;0;yes;Norden
+976586557;02-07-2019 09:22;46840836388;Sweden;4455500XX;Udland;United Kingdom;firebrand-;ip-pstn;0;0,2;no;0;;0;yes;Europa 1
+976586583;02-07-2019 09:22;46840836388;Sweden;4455500XX;Udland;United Kingdom;firebrand-;ip-pstn;0;0,2;no;0;;0;yes;Europa 1
+976586734;02-07-2019 09:23;46840836388;Sweden;467392308XX;Udland Mobil;Sweden-Mobile;firebrand-;ip-pstn;0;0,2;no;0;;0;yes;Norden Mobil
+976586848;02-07-2019 09:23;46840836388;Sweden;4491287187XX;Udland;United Kingdom;firebrand-;ip-pstn;0;0,2;no;0;;0;yes;Europa 1
+976586931;02-07-2019 09:24;46840836388;Sweden;4484564287XX;Udland Mobil;United Kingdom-Mobile;firebrand-;ip-pstn;0;0,2;no;0;;0;yes;Europa 1 Mobil
+976587881;02-07-2019 09:27;4578772916;Danmark Fastnet;45233046XX;Danmark Mobil;Danmark Mobil;firebrand-;ip-pstn;60;0,45;no;0;;0;yes;Norden Mobil (DK)
+976594119;02-07-2019 09:51;4533456542;Danmark Fastnet;45396368XX;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;0;0,05;no;0;;0;yes;Norden (DK)
+976594412;02-07-2019 09:52;4533456542;Danmark Fastnet;45399019XX;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;120;0,15;no;0;;0;yes;Norden (DK)
+976594526;02-07-2019 09:53;46840836388;Sweden;467392308XX;Udland Mobil;Sweden-Mobile;firebrand-;ip-pstn;60;0,65;no;0;;0;yes;Norden Mobil
+976594595;02-07-2019 09:53;46840836389;Sweden;4677192192XX;Udland;Sweden;firebrand-;ip-pstn;60;0,27;no;0;;0;yes;Norden
+976594988;02-07-2019 09:54;46840836389;Sweden;461020334XX;Udland Mobil;Sweden-Mobile;firebrand-;ip-pstn;60;0,65;no;0;;0;yes;Norden Mobil
+976595366;02-07-2019 09:56;46840836389;Sweden;461012405XX;Udland;Sweden;firebrand-;ip-pstn;60;0,27;no;0;;0;yes;Norden
+976595703;02-07-2019 09:57;46840836389;Sweden;461012311XX;Udland;Sweden;firebrand-;ip-pstn;60;0,27;no;0;;0;yes;Norden
+976596248;02-07-2019 09:59;46840836389;Sweden;4677192192XX;Udland;Sweden;firebrand-;ip-pstn;240;0,48;no;0;;0;yes;Norden
+976596356;02-07-2019 09:59;4533456542;Danmark Fastnet;45477840XX;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;420;0,4;no;0;;0;yes;Norden (DK)
+976597359;02-07-2019 10:03;4533456546;Danmark Fastnet;45317891XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;180;1,25;no;0;;0;yes;Norden Mobil (DK)
+976597991;02-07-2019 10:05;4578772922;Danmark Fastnet;45226928XX;Danmark Mobil;Danmark Mobil;firebrand-;ip-pstn;2520;16,85;no;0;;0;yes;Norden Mobil (DK)
+976598292;02-07-2019 10:06;4533456542;Danmark Fastnet;45725431XX;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;180;0,2;no;0;;0;yes;Norden (DK)
+976598490;02-07-2019 10:07;4570200645;Danmark 70 nummer;45268499XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;1800;12,05;no;0;;0;yes;Norden Mobil (DK)
+976600747;02-07-2019 10:15;46840836389;Sweden;4677192192XX;Udland;Sweden;firebrand-;ip-pstn;120;0,34;no;0;;0;yes;Norden
+976600786;02-07-2019 10:15;4533456542;Danmark Fastnet;45232153XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;60;0,45;no;0;;0;yes;Norden Mobil (DK)
+976601239;02-07-2019 10:17;46840836389;Sweden;4677192192XX;Udland;Sweden;firebrand-;ip-pstn;120;0,34;no;0;;0;yes;Norden
+976602770;02-07-2019 10:22;4533456546;Danmark Fastnet;45317891XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;60;0,45;no;0;;0;yes;Norden Mobil (DK)
+976603320;02-07-2019 10:24;4569669633;Danmark Fastnet;45725313XX;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;0;0,05;no;0;;0;yes;Norden (DK)
+976609325;02-07-2019 10:45;46840836389;Sweden;461017602XX;Udland;Sweden;firebrand-;ip-pstn;60;0,27;no;0;;0;yes;Norden
+976609773;02-07-2019 10:47;46840836388;Sweden;2637725529XX;Udland;Zimbabwe;firebrand-;ip-pstn;0;0,2;no;0;;0;yes;Øvrige Verden 2
+976611623;02-07-2019 10:53;4569669633;Danmark Fastnet;45202452XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;60;0,45;no;0;;0;yes;Norden Mobil (DK)
+976612144;02-07-2019 10:55;4570200645;Danmark 70 nummer;45262803XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;60;0,45;no;0;;0;yes;Norden Mobil (DK)
+976612311;02-07-2019 10:56;4569669633;Danmark Fastnet;45299916XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;720;4,85;no;0;;0;yes;Norden Mobil (DK)
+976613431;02-07-2019 11:00;46840836389;Sweden;461020366XX;Udland Mobil;Sweden-Mobile;firebrand-;ip-pstn;60;0,65;no;0;;0;yes;Norden Mobil
+976617099;02-07-2019 11:12;46840836384;Sweden;467032816XX;Udland Mobil;Sweden-Mobile;firebrand-;ip-pstn;0;0,2;no;0;;0;yes;Norden Mobil
+976618878;02-07-2019 11:18;4569669633;Danmark Fastnet;45275704XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;180;1,25;no;0;;0;yes;Norden Mobil (DK)
+976619418;02-07-2019 11:20;4533456540;Danmark Fastnet;45203078XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;240;1,65;no;0;;0;yes;Norden Mobil (DK)
+976620736;02-07-2019 11:24;4569669633;Danmark Fastnet;45204772XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;120;0,85;no;0;;0;yes;Norden Mobil (DK)
+976621773;02-07-2019 11:28;46840836388;Sweden;46403412XX;Udland;Sweden;firebrand-;ip-pstn;0;0,2;no;0;;0;yes;Norden
+976622883;02-07-2019 11:32;46840836388;Sweden;46213914XX;Udland;Sweden;firebrand-;ip-pstn;60;0,27;no;0;;0;yes;Norden
+976623072;02-07-2019 11:33;46840836384;Sweden;47971991XX;Udland Mobil;Norway-Mobile;firebrand-;ip-pstn;0;0,2;no;0;;0;yes;Norden Mobil
+976623259;02-07-2019 11:33;46840836384;Sweden;467008777XX;Udland Mobil;Sweden-Mobile;firebrand-;ip-pstn;60;0,65;no;0;;0;yes;Norden Mobil
+976623514;02-07-2019 11:34;46840836384;Sweden;467014908XX;Udland Mobil;Sweden-Mobile;firebrand-;ip-pstn;0;0,2;no;0;;0;yes;Norden Mobil
+976623956;02-07-2019 11:36;46840836384;Sweden;467037849XX;Udland Mobil;Sweden-Mobile;firebrand-;ip-pstn;60;0,65;no;0;;0;yes;Norden Mobil
+976633035;02-07-2019 12:13;4569669633;Danmark Fastnet;45315772XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;240;1,65;no;0;;0;yes;Norden Mobil (DK)
+976637429;02-07-2019 12:33;4569669633;Danmark Fastnet;45515781XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;60;0,45;no;0;;0;yes;Norden Mobil (DK)
+976640700;02-07-2019 12:46;4533456546;Danmark Fastnet;45317891XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;300;2,05;no;0;;0;yes;Norden Mobil (DK)
+976643365;02-07-2019 12:56;4569804969;Danmark Fastnet;45401137XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;0;0,05;no;0;;0;yes;Norden Mobil (DK)
+976643692;02-07-2019 12:58;4570200645;Danmark 70 nummer;464184760XX;Udland;Sweden;rackpeoplehq-;ip-pstn;0;0,2;no;0;;0;yes;Norden
+976644350;02-07-2019 13:00;4570200645;Danmark 70 nummer;467271473XX;Udland Mobil;Sweden-Mobile;rackpeoplehq-;ip-pstn;1080;8,3;no;0;;0;yes;Norden Mobil
+976650155;02-07-2019 13:22;46840836389;Sweden;461017602XX;Udland;Sweden;firebrand-;ip-pstn;60;0,27;no;0;;0;yes;Norden
+976650702;02-07-2019 13:25;46840836388;Sweden;4494898180XX;Udland;United Kingdom;firebrand-;ip-pstn;0;0,2;no;0;;0;yes;Europa 1
+976652060;02-07-2019 13:30;46840836388;Sweden;467298195XX;Udland Mobil;Sweden-Mobile;firebrand-;ip-pstn;0;0,2;no;0;;0;yes;Norden Mobil
+976652521;02-07-2019 13:32;4578772922;Danmark Fastnet;45256051XX;Danmark Mobil;Danmark Mobil;firebrand-;ip-pstn;60;0,45;no;0;;0;yes;Norden Mobil (DK)
+976653525;02-07-2019 13:36;46840836389;Sweden;4677192192XX;Udland;Sweden;firebrand-;ip-pstn;120;0,34;no;0;;0;yes;Norden
+976653939;02-07-2019 13:37;46840836388;Sweden;47462528XX;Udland Mobil;Norway-Mobile;firebrand-;ip-pstn;0;0,2;no;0;;0;yes;Norden Mobil
+976654641;02-07-2019 13:40;46840836388;Sweden;467711111XX;Udland;Sweden;firebrand-;ip-pstn;120;0,34;no;0;;0;yes;Norden
+976655241;02-07-2019 13:42;4570200645;Danmark 70 nummer;45537471XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;180;1,25;no;0;;0;yes;Norden Mobil (DK)
+976655820;02-07-2019 13:44;4569669638;Danmark Fastnet;45691022XX;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;60;0,1;no;0;;0;yes;Norden (DK)
+976656037;02-07-2019 13:45;4569669638;Danmark Fastnet;45691022XX;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;180;0,2;no;0;;0;yes;Norden (DK)
+976656050;02-07-2019 13:45;4570200645;Danmark 70 nummer;45537471XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;480;3,25;no;0;;0;yes;Norden Mobil (DK)
+976656277;02-07-2019 13:46;4578772922;Danmark Fastnet;45222412XX;Danmark Mobil;Danmark Mobil;firebrand-;ip-pstn;60;0,45;no;0;;0;yes;Norden Mobil (DK)
+976658995;02-07-2019 13:57;4569669638;Danmark Fastnet;45309104XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;0;0,05;no;0;;0;yes;Norden Mobil (DK)
+976662439;02-07-2019 14:10;4569669633;Danmark Fastnet;45299916XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;720;4,85;no;0;;0;yes;Norden Mobil (DK)
+976662630;02-07-2019 14:11;4578772922;Danmark Fastnet;45214599XX;Danmark Mobil;Danmark Mobil;firebrand-;ip-pstn;120;0,85;no;0;;0;yes;Norden Mobil (DK)
+976665984;02-07-2019 14:24;4578772916;Danmark Fastnet;45307970XX;Danmark Mobil;Danmark Mobil;firebrand-;ip-pstn;60;0,45;no;0;;0;yes;Norden Mobil (DK)
+976667232;02-07-2019 14:29;4578772922;Danmark Fastnet;45214599XX;Danmark Mobil;Danmark Mobil;firebrand-;ip-pstn;120;0,85;no;0;;0;yes;Norden Mobil (DK)
+976668047;02-07-2019 14:32;4578772916;Danmark Fastnet;45536565XX;Danmark Mobil;Danmark Mobil;firebrand-;ip-pstn;180;1,25;no;0;;0;yes;Norden Mobil (DK)
+976668681;02-07-2019 14:34;46840836389;Sweden;461012311XX;Udland;Sweden;firebrand-;ip-pstn;0;0,2;no;0;;0;yes;Norden
+976670261;02-07-2019 14:40;4578772922;Danmark Fastnet;467340022XX;Udland Mobil;Sweden-Mobile;firebrand-;ip-pstn;0;0,2;no;0;;0;yes;Norden Mobil
+976670387;02-07-2019 14:41;4570200645;Danmark 70 nummer;45317840XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;420;2,85;no;0;;0;yes;Norden Mobil (DK)
+976672458;02-07-2019 14:49;46840836389;Sweden;461048597XX;Udland;Sweden;firebrand-;ip-pstn;120;0,34;no;0;;0;yes;Norden
+976673215;02-07-2019 14:52;46840836389;Sweden;461012317XX;Udland;Sweden;firebrand-;ip-pstn;420;0,69;no;0;;0;yes;Norden
+976674861;02-07-2019 14:59;4578772916;Danmark Fastnet;467340022XX;Udland Mobil;Sweden-Mobile;firebrand-;ip-pstn;480;3,8;no;0;;0;yes;Norden Mobil
+976675133;02-07-2019 15:00;46840836388;Sweden;467392308XX;Udland Mobil;Sweden-Mobile;firebrand-;ip-pstn;60;0,65;no;0;;0;yes;Norden Mobil
+976676608;02-07-2019 15:06;46840836389;Sweden;461012573XX;Udland;Sweden;firebrand-;ip-pstn;0;0,2;no;0;;0;yes;Norden
+976676796;02-07-2019 15:07;46840836389;Sweden;461020366XX;Udland Mobil;Sweden-Mobile;firebrand-;ip-pstn;60;0,65;no;0;;0;yes;Norden Mobil
+976677523;02-07-2019 15:10;46840836389;Sweden;461011152XX;Udland;Sweden;firebrand-;ip-pstn;60;0,27;no;0;;0;yes;Norden
+976678690;02-07-2019 15:15;4533456542;Danmark Fastnet;45396368XX;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;120;0,15;no;0;;0;yes;Norden (DK)
+976678725;02-07-2019 15:15;46840836389;Sweden;461012311XX;Udland;Sweden;firebrand-;ip-pstn;0;0,2;no;0;;0;yes;Norden
+976678808;02-07-2019 15:15;4578772922;Danmark Fastnet;467340022XX;Udland Mobil;Sweden-Mobile;firebrand-;ip-pstn;540;4,25;no;0;;0;yes;Norden Mobil
+976679250;02-07-2019 15:17;4533456542;Danmark Fastnet;45396335XX;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;360;0,35;no;0;;0;yes;Norden (DK)
+976682320;02-07-2019 15:30;46840836388;Sweden;467744474XX;Udland;Sweden;firebrand-;ip-pstn;60;0,27;no;0;;0;yes;Norden
+976686190;02-07-2019 15:48;46840836388;Sweden;467372464XX;Udland Mobil;Sweden-Mobile;firebrand-;ip-pstn;60;0,65;no;0;;0;yes;Norden Mobil
+976686281;02-07-2019 15:48;46840836388;Sweden;267718033XX;Udland Mobil;Botswana - Mobile;firebrand-;ip-pstn;0;0,2;no;0;;0;yes;Øvrige Verden 1
+976687447;02-07-2019 15:54;46840836389;Sweden;47909897XX;Udland Mobil;Norway-Mobile;firebrand-;ip-pstn;360;2,9;no;0;;0;yes;Norden Mobil
+976688543;02-07-2019 15:59;46840836388;Sweden;467372464XX;Udland Mobil;Sweden-Mobile;firebrand-;ip-pstn;60;0,65;no;0;;0;yes;Norden Mobil
+976688654;02-07-2019 16:00;4569804969;Danmark Fastnet;45206087XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;240;1,65;no;0;;0;yes;Norden Mobil (DK)
+976690044;02-07-2019 16:09;46840836389;Sweden;461047580XX;Udland;Sweden;firebrand-;ip-pstn;60;0,27;no;0;;0;yes;Norden
+976690444;02-07-2019 16:11;46840836388;Sweden;47913172XX;Udland Mobil;Norway-Mobile;firebrand-;ip-pstn;60;0,65;no;0;;0;yes;Norden Mobil
+976693056;02-07-2019 16:30;46840836387;Sweden;467367712XX;Udland Mobil;Sweden-Mobile;firebrand-;ip-pstn;60;0,65;no;0;;0;yes;Norden Mobil
+976997525;03-07-2019 08:17;4578772913;Danmark Fastnet;45787941XX;Danmark;Danmark Fastnet;firebrand-;ip-pstn;120;0,15;no;0;;0;yes;Norden (DK)
+976997971;03-07-2019 08:19;4533456546;Danmark Fastnet;45203078XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;1500;10,05;no;0;;0;yes;Norden Mobil (DK)
+977001181;03-07-2019 08:37;4569804969;Danmark Fastnet;45299916XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;60;0,45;no;0;;0;yes;Norden Mobil (DK)
+977001904;03-07-2019 08:41;4569804969;Danmark Fastnet;45401137XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;60;0,45;no;0;;0;yes;Norden Mobil (DK)
+977003432;03-07-2019 08:49;4578772913;Danmark Fastnet;45787941XX;Danmark;Danmark Fastnet;firebrand-;ip-pstn;0;0,05;no;0;;0;yes;Norden (DK)
+977003560;03-07-2019 08:50;4578772913;Danmark Fastnet;45787941XX;Danmark;Danmark Fastnet;firebrand-;ip-pstn;60;0,1;no;0;;0;yes;Norden (DK)
+977010809;03-07-2019 09:22;4570200645;Danmark 70 nummer;45608709XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;60;0,45;no;0;;0;yes;Norden Mobil (DK)
+977018572;03-07-2019 09:54;46840836389;Sweden;4677192192XX;Udland;Sweden;firebrand-;ip-pstn;420;0,69;no;0;;0;yes;Norden
+977019292;03-07-2019 09:56;46840836384;Sweden;467314720XX;Udland Mobil;Sweden-Mobile;firebrand-;ip-pstn;420;3,35;no;0;;0;yes;Norden Mobil
+977019939;03-07-2019 09:59;46840836388;Sweden;444477931XX;Udland;United Kingdom;firebrand-;ip-pstn;0;0,2;no;0;;0;yes;Europa 1
+977020132;03-07-2019 10:00;46840836388;Sweden;467376456XX;Udland Mobil;Sweden-Mobile;firebrand-;ip-pstn;0;0,2;no;0;;0;yes;Norden Mobil
+977020581;03-07-2019 10:02;4570200645;Danmark 70 nummer;45303024XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;300;2,05;no;0;;0;yes;Norden Mobil (DK)
+977021124;03-07-2019 10:04;46840836388;Sweden;467376456XX;Udland Mobil;Sweden-Mobile;firebrand-;ip-pstn;60;0,65;no;0;;0;yes;Norden Mobil
+977021511;03-07-2019 10:05;46840836388;Sweden;467006293XX;Udland Mobil;Sweden-Mobile;firebrand-;ip-pstn;120;1,1;no;0;;0;yes;Norden Mobil
+977021633;03-07-2019 10:05;46840836384;Sweden;463644054XX;Udland;Sweden;firebrand-;ip-pstn;60;0,27;no;0;;0;yes;Norden
+977022607;03-07-2019 10:09;46840836384;Sweden;467302282XX;Udland Mobil;Sweden-Mobile;firebrand-;ip-pstn;60;0,65;no;0;;0;yes;Norden Mobil
+977023242;03-07-2019 10:11;4570200645;Danmark 70 nummer;45759225XX;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;480;0,45;no;0;;0;yes;Norden (DK)
+977023493;03-07-2019 10:12;46840836384;Sweden;467273980XX;Udland Mobil;Sweden-Mobile;firebrand-;ip-pstn;0;0,2;no;0;;0;yes;Norden Mobil
+977024070;03-07-2019 10:14;4533456546;Danmark Fastnet;45402600XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;60;0,45;no;0;;0;yes;Norden Mobil (DK)
+977024280;03-07-2019 10:15;46840836388;Sweden;467042287XX;Udland Mobil;Sweden-Mobile;firebrand-;ip-pstn;180;1,55;no;0;;0;yes;Norden Mobil
+977027363;03-07-2019 10:26;4570200645;Danmark 70 nummer;45702202XX;Danmark 70 nummer;Danmark 70 nummer;rackpeoplehq-;ip-pstn;180;0,2;no;0;;0;yes;Norden (DK)
+977027377;03-07-2019 10:26;46840836388;Sweden;4683478XX;Udland;Sweden;firebrand-;ip-pstn;60;0,27;no;0;;0;yes;Norden
+977027912;03-07-2019 10:28;4578772913;Danmark Fastnet;45963465XX;Danmark;Denmark Fastnet;firebrand-;ip-pstn;660;0,6;no;0;;0;yes;Norden (DK)
+977028157;03-07-2019 10:29;46840836389;Sweden;467397342XX;Udland Mobil;Sweden-Mobile;firebrand-;ip-pstn;240;2;no;0;;0;yes;Norden Mobil
+977028314;03-07-2019 10:30;4578772922;Danmark Fastnet;45202307XX;Danmark Mobil;Danmark Mobil;firebrand-;ip-pstn;60;0,45;no;0;;0;yes;Norden Mobil (DK)
+977029376;03-07-2019 10:34;46840836388;Sweden;467032734XX;Udland Mobil;Sweden-Mobile;firebrand-;ip-pstn;240;2;no;0;;0;yes;Norden Mobil
+977029646;03-07-2019 10:35;46840836384;Sweden;467053685XX;Udland Mobil;Sweden-Mobile;firebrand-;ip-pstn;60;0,65;no;0;;0;yes;Norden Mobil
+977029883;03-07-2019 10:36;4533456546;Danmark Fastnet;45317891XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;0;0,05;no;0;;0;yes;Norden Mobil (DK)
+977030012;03-07-2019 10:36;4578772911;Danmark Fastnet;467078100XX;Udland Mobil;Sweden-Mobile;firebrand-;ip-pstn;1440;11;no;0;;0;yes;Norden Mobil
+977030120;03-07-2019 10:37;46840836389;Sweden;461048597XX;Udland;Sweden;firebrand-;ip-pstn;60;0,27;no;0;;0;yes;Norden
+977030329;03-07-2019 10:37;46840836381;Sweden;45416004XX;Danmark Mobil;Danmark Mobil;firebrand-;ip-pstn;480;3,25;no;0;;0;yes;Norden Mobil (DK)
+977031189;03-07-2019 10:40;4578772922;Danmark Fastnet;45294848XX;Danmark Mobil;Danmark Mobil;firebrand-;ip-pstn;60;0,45;no;0;;0;yes;Norden Mobil (DK)
+977031806;03-07-2019 10:42;46840836380;Sweden;464067833XX;Udland;Sweden;firebrand-;ip-pstn;120;0,34;no;0;;0;yes;Norden
+977031921;03-07-2019 10:43;4578772913;Danmark Fastnet;45246301XX;Danmark Mobil;Danmark Mobil;firebrand-;ip-pstn;720;4,85;no;0;;0;yes;Norden Mobil (DK)
+977033546;03-07-2019 10:48;46840836388;Sweden;467097303XX;Udland Mobil;Sweden-Mobile;firebrand-;ip-pstn;120;1,1;no;0;;0;yes;Norden Mobil
+977033599;03-07-2019 10:49;46840836389;Sweden;461020334XX;Udland Mobil;Sweden-Mobile;firebrand-;ip-pstn;360;2,9;no;0;;0;yes;Norden Mobil
+977035810;03-07-2019 10:56;4578772913;Danmark Fastnet;45787941XX;Danmark;Danmark Fastnet;firebrand-;ip-pstn;60;0,1;no;0;;0;yes;Norden (DK)
+977036005;03-07-2019 10:57;4578772913;Danmark Fastnet;45604041XX;Danmark Mobil;Danmark Mobil;firebrand-;ip-pstn;0;0,05;no;0;;0;yes;Norden Mobil (DK)
+977036110;03-07-2019 10:58;4578772916;Danmark Fastnet;45206944XX;Danmark Mobil;Danmark Mobil;firebrand-;ip-pstn;360;2,45;no;0;;0;yes;Norden Mobil (DK)
+977036511;03-07-2019 10:59;4570200645;Danmark 70 nummer;45303024XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;240;1,65;no;0;;0;yes;Norden Mobil (DK)
+977038318;03-07-2019 11:06;4578774477;Danmark Fastnet;45309104XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;0;0,05;no;0;;0;yes;Norden Mobil (DK)
+977038409;03-07-2019 11:06;4578772911;Danmark Fastnet;45402964XX;Danmark Mobil;Danmark Mobil;firebrand-;ip-pstn;600;4,05;no;0;;0;yes;Norden Mobil (DK)
+977038497;03-07-2019 11:06;4578774477;Danmark Fastnet;45309104XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;0;0,05;no;0;;0;yes;Norden Mobil (DK)
+977040207;03-07-2019 11:12;4578774477;Danmark Fastnet;45309104XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;0;0,05;no;0;;0;yes;Norden Mobil (DK)
+977045859;03-07-2019 11:32;4578772922;Danmark Fastnet;45526363XX;Danmark Mobil;Danmark Mobil;firebrand-;ip-pstn;60;0,45;no;0;;0;yes;Norden Mobil (DK)
+977046396;03-07-2019 11:34;4578772922;Danmark Fastnet;45302146XX;Danmark Mobil;Danmark Mobil;firebrand-;ip-pstn;60;0,45;no;0;;0;yes;Norden Mobil (DK)
+977047045;03-07-2019 11:36;4578772922;Danmark Fastnet;45306220XX;Danmark Mobil;Danmark Mobil;firebrand-;ip-pstn;0;0,05;no;0;;0;yes;Norden Mobil (DK)
+977047143;03-07-2019 11:37;4578772922;Danmark Fastnet;45871529XX;Danmark;Danmark Fastnet;firebrand-;ip-pstn;0;0,05;no;0;;0;yes;Norden (DK)
+977047178;03-07-2019 11:37;4578772922;Danmark Fastnet;45306220XX;Danmark Mobil;Danmark Mobil;firebrand-;ip-pstn;60;0,45;no;0;;0;yes;Norden Mobil (DK)
+977048542;03-07-2019 11:41;46840836389;Sweden;467048078XX;Udland Mobil;Sweden-Mobile;firebrand-;ip-pstn;60;0,65;no;0;;0;yes;Norden Mobil
+977054676;03-07-2019 12:06;4570200645;Danmark 70 nummer;45252945XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;240;1,65;no;0;;0;yes;Norden Mobil (DK)
+977055481;03-07-2019 12:10;4569669638;Danmark Fastnet;45887004XX;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;1320;1,15;no;0;;0;yes;Norden (DK)
+977055934;03-07-2019 12:13;4570200645;Danmark 70 nummer;45289203XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;780;5,25;no;0;;0;yes;Norden Mobil (DK)
+977056376;03-07-2019 12:15;4570200645;Danmark 70 nummer;45404393XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;0;0,05;no;0;;0;yes;Norden Mobil (DK)
+977056843;03-07-2019 12:17;4570200645;Danmark 70 nummer;45209062XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;120;0,85;no;0;;0;yes;Norden Mobil (DK)
+977056888;03-07-2019 12:17;4570200645;Danmark 70 nummer;45303024XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;1080;7,25;no;0;;0;yes;Norden Mobil (DK)
+977057675;03-07-2019 12:21;4570200645;Danmark 70 nummer;45262803XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;1020;6,85;no;0;;0;yes;Norden Mobil (DK)
+977065162;03-07-2019 12:54;4578772916;Danmark Fastnet;45509466XX;Danmark Mobil;Danmark Mobil;firebrand-;ip-pstn;60;0,45;no;0;;0;yes;Norden Mobil (DK)
+977066992;03-07-2019 13:01;4578772916;Danmark Fastnet;45316695XX;Danmark Mobil;Danmark Mobil;firebrand-;ip-pstn;0;0,05;no;0;;0;yes;Norden Mobil (DK)
+977067783;03-07-2019 13:04;46840836389;Sweden;468519810XX;Udland;Sweden;firebrand-;ip-pstn;120;0,34;no;0;;0;yes;Norden
+977068623;03-07-2019 13:08;4569669638;Danmark Fastnet;45396910XX;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;240;0,25;no;0;;0;yes;Norden (DK)
+977070935;03-07-2019 13:17;4570200645;Danmark 70 nummer;45202306XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;240;1,65;no;0;;0;yes;Norden Mobil (DK)
+977071655;03-07-2019 13:20;4570200645;Danmark 70 nummer;45537345XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;180;1,25;no;0;;0;yes;Norden Mobil (DK)
+977072551;03-07-2019 13:24;4570200645;Danmark 70 nummer;45537471XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;60;0,45;no;0;;0;yes;Norden Mobil (DK)
+977072884;03-07-2019 13:25;4570200645;Danmark 70 nummer;45537471XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;180;1,25;no;0;;0;yes;Norden Mobil (DK)
+977073200;03-07-2019 13:26;46840836388;Sweden;4479174170XX;Udland Mobil;United Kingdom-Mobile;firebrand-;ip-pstn;60;0,7;no;0;;0;yes;Europa 1 Mobil
+977076170;03-07-2019 13:38;4578774477;Danmark Fastnet;45309104XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;300;2,05;no;0;;0;yes;Norden Mobil (DK)
+977078289;03-07-2019 13:46;4533456546;Danmark Fastnet;45317891XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;0;0,05;no;0;;0;yes;Norden Mobil (DK)
+977078422;03-07-2019 13:47;4578774477;Danmark Fastnet;45309104XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;60;0,45;no;0;;0;yes;Norden Mobil (DK)
+977080327;03-07-2019 13:54;4578772916;Danmark Fastnet;45307970XX;Danmark Mobil;Danmark Mobil;firebrand-;ip-pstn;60;0,45;no;0;;0;yes;Norden Mobil (DK)
+977081390;03-07-2019 13:58;4570200645;Danmark 70 nummer;45404393XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;900;6,05;no;0;;0;yes;Norden Mobil (DK)
+977082153;03-07-2019 14:01;46840836385;Sweden;467388021XX;Udland Mobil;Sweden-Mobile;firebrand-;ip-pstn;0;0,2;no;0;;0;yes;Norden Mobil
+977083023;03-07-2019 14:04;4569669638;Danmark Fastnet;45396910XX;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;180;0,2;no;0;;0;yes;Norden (DK)
+977083796;03-07-2019 14:07;4569669638;Danmark Fastnet;45396910XX;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;240;0,25;no;0;;0;yes;Norden (DK)
+977084253;03-07-2019 14:09;46840836388;Sweden;467376456XX;Udland Mobil;Sweden-Mobile;firebrand-;ip-pstn;60;0,65;no;0;;0;yes;Norden Mobil
+977084677;03-07-2019 14:11;46840836389;Sweden;45468519810XX;Danmark;Danmark Fastnet;firebrand-;ip-pstn;0;0,05;no;0;;0;yes;Norden (DK)
+977084932;03-07-2019 14:12;46840836389;Sweden;468519810XX;Udland;Sweden;firebrand-;ip-pstn;240;0,48;no;0;;0;yes;Norden
+977084990;03-07-2019 14:12;46840836388;Sweden;46403412XX;Udland;Sweden;firebrand-;ip-pstn;0;0,2;no;0;;0;yes;Norden
+977085451;03-07-2019 14:14;4533456549;Danmark Fastnet;45204492XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;120;0,85;no;0;;0;yes;Norden Mobil (DK)
+977086203;03-07-2019 14:17;4533456549;Danmark Fastnet;45204492XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;60;0,45;no;0;;0;yes;Norden Mobil (DK)
+977086813;03-07-2019 14:19;46840836388;Sweden;468410911XX;Udland;Sweden;firebrand-;ip-pstn;60;0,27;no;0;;0;yes;Norden
+977086978;03-07-2019 14:20;4578772916;Danmark Fastnet;45307569XX;Danmark Mobil;Danmark Mobil;firebrand-;ip-pstn;60;0,45;no;0;;0;yes;Norden Mobil (DK)
+977087022;03-07-2019 14:20;46840836389;Sweden;467272601XX;Udland Mobil;Sweden-Mobile;firebrand-;ip-pstn;720;5,6;no;0;;0;yes;Norden Mobil
+977093908;03-07-2019 14:47;4578772916;Danmark Fastnet;45416004XX;Danmark Mobil;Danmark Mobil;firebrand-;ip-pstn;0;0,05;no;0;;0;yes;Norden Mobil (DK)
+977096819;03-07-2019 14:59;4569669633;Danmark Fastnet;45299916XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;300;2,05;no;0;;0;yes;Norden Mobil (DK)
+977098793;03-07-2019 15:07;46840836389;Sweden;467610148XX;Udland Mobil;Sweden-Mobile;firebrand-;ip-pstn;0;0,2;no;0;;0;yes;Norden Mobil
+977098929;03-07-2019 15:07;4569669638;Danmark Fastnet;45303124XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;180;1,25;no;0;;0;yes;Norden Mobil (DK)
+977099379;03-07-2019 15:09;4570200645;Danmark 70 nummer;46515128XX;Udland;Sweden;rackpeoplehq-;ip-pstn;480;0,76;no;0;;0;yes;Norden
+977104304;03-07-2019 15:30;4570200645;Danmark 70 nummer;467052328XX;Udland Mobil;Sweden-Mobile;rackpeoplehq-;ip-pstn;840;6,5;no;0;;0;yes;Norden Mobil
+977104324;03-07-2019 15:30;4570200645;Danmark 70 nummer;45281028XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;240;1,65;no;0;;0;yes;Norden Mobil (DK)
+977104763;03-07-2019 15:32;4578772916;Danmark Fastnet;45509466XX;Danmark Mobil;Danmark Mobil;firebrand-;ip-pstn;60;0,45;no;0;;0;yes;Norden Mobil (DK)
+977105148;03-07-2019 15:34;4578772916;Danmark Fastnet;45316695XX;Danmark Mobil;Danmark Mobil;firebrand-;ip-pstn;0;0,05;no;0;;0;yes;Norden Mobil (DK)
+977106741;03-07-2019 15:42;46840836389;Sweden;461012573XX;Udland;Sweden;firebrand-;ip-pstn;60;0,27;no;0;;0;yes;Norden
+977107335;03-07-2019 15:45;46840836389;Sweden;461012311XX;Udland;Sweden;firebrand-;ip-pstn;60;0,27;no;0;;0;yes;Norden
+977109595;03-07-2019 15:56;46840836389;Sweden;461012368XX;Udland;Sweden;firebrand-;ip-pstn;360;0,62;no;0;;0;yes;Norden
+977113732;03-07-2019 16:22;4578772922;Danmark Fastnet;45526363XX;Danmark Mobil;Danmark Mobil;firebrand-;ip-pstn;60;0,45;no;0;;0;yes;Norden Mobil (DK)
+977413585;04-07-2019 08:21;4578774477;Danmark Fastnet;45309104XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;480;3,25;no;0;;0;yes;Norden Mobil (DK)
+977413884;04-07-2019 08:23;4578774477;Danmark Fastnet;45309104XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;0;0,05;no;0;;0;yes;Norden Mobil (DK)
+977413984;04-07-2019 08:24;4578774477;Danmark Fastnet;45309104XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;0;0,05;no;0;;0;yes;Norden Mobil (DK)
+977414932;04-07-2019 08:29;4569669638;Danmark Fastnet;45881354XX;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;60;0,1;no;0;;0;yes;Norden (DK)
+977418081;04-07-2019 08:47;4569804969;Danmark Fastnet;45702320XX;Danmark 70 nummer;Danmark 70 nummer;rackpeoplehq-;ip-pstn;120;0,15;no;0;;0;yes;Norden (DK)
+977422169;04-07-2019 09:07;46840836388;Sweden;444355786XX;Udland;United Kingdom;firebrand-;ip-pstn;0;0,2;no;0;;0;yes;Europa 1
+977422276;04-07-2019 09:07;46840836388;Sweden;444355786XX;Udland;United Kingdom;firebrand-;ip-pstn;0;0,2;no;0;;0;yes;Europa 1
+977422519;04-07-2019 09:08;46840836388;Sweden;4442342XX;Udland;United Kingdom;firebrand-;ip-pstn;0;0,2;no;0;;0;yes;Europa 1
+977423028;04-07-2019 09:11;4533456546;Danmark Fastnet;45317891XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;420;2,85;no;0;;0;yes;Norden Mobil (DK)
+977423506;04-07-2019 09:13;46840836388;Sweden;467298195XX;Udland Mobil;Sweden-Mobile;firebrand-;ip-pstn;0;0,2;no;0;;0;yes;Norden Mobil
+977430236;04-07-2019 09:41;4578772916;Danmark Fastnet;45307782XX;Danmark Mobil;Danmark Mobil;firebrand-;ip-pstn;0;0,05;no;0;;0;yes;Norden Mobil (DK)
+977431336;04-07-2019 09:46;4578772916;Danmark Fastnet;45307569XX;Danmark Mobil;Danmark Mobil;firebrand-;ip-pstn;60;0,45;no;0;;0;yes;Norden Mobil (DK)
+977433580;04-07-2019 09:55;4569804969;Danmark Fastnet;45404388XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;0;0,05;no;0;;0;yes;Norden Mobil (DK)
+977433674;04-07-2019 09:55;46840836389;Sweden;461017602XX;Udland;Sweden;firebrand-;ip-pstn;60;0,27;no;0;;0;yes;Norden
+977434390;04-07-2019 09:58;46840836389;Sweden;461012311XX;Udland;Sweden;firebrand-;ip-pstn;0;0,2;no;0;;0;yes;Norden
+977434770;04-07-2019 10:00;46840836388;Sweden;4479174170XX;Udland Mobil;United Kingdom-Mobile;firebrand-;ip-pstn;720;6,2;no;0;;0;yes;Europa 1 Mobil
+977434911;04-07-2019 10:00;46840836389;Sweden;461012573XX;Udland;Sweden;firebrand-;ip-pstn;720;1,04;no;0;;0;yes;Norden
+977436886;04-07-2019 10:07;4578772916;Danmark Fastnet;45416004XX;Danmark Mobil;Danmark Mobil;firebrand-;ip-pstn;0;0,05;no;0;;0;yes;Norden Mobil (DK)
+977438161;04-07-2019 10:12;4570200645;Danmark 70 nummer;467032748XX;Udland Mobil;Sweden-Mobile;rackpeoplehq-;ip-pstn;840;6,5;no;0;;0;yes;Norden Mobil
+977439115;04-07-2019 10:16;46840836388;Sweden;467089901XX;Udland Mobil;Sweden-Mobile;firebrand-;ip-pstn;1260;9,65;no;0;;0;yes;Norden Mobil
+977442650;04-07-2019 10:29;46840836384;Sweden;467613770XX;Udland Mobil;Sweden-Mobile;firebrand-;ip-pstn;60;0,65;no;0;;0;yes;Norden Mobil
+977445325;04-07-2019 10:39;46840836389;Sweden;4677192192XX;Udland;Sweden;firebrand-;ip-pstn;120;0,34;no;0;;0;yes;Norden
+977445716;04-07-2019 10:41;46840836389;Sweden;4677192192XX;Udland;Sweden;firebrand-;ip-pstn;900;1,25;no;0;;0;yes;Norden
+977446221;04-07-2019 10:42;4570200645;Danmark 70 nummer;45302928XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;180;1,25;no;0;;0;yes;Norden Mobil (DK)
+977449142;04-07-2019 10:53;4570200645;Danmark 70 nummer;45208554XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;240;1,65;no;0;;0;yes;Norden Mobil (DK)
+977449833;04-07-2019 10:56;4570200645;Danmark 70 nummer;45209062XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;2220;14,85;no;0;;0;yes;Norden Mobil (DK)
+977451706;04-07-2019 11:03;4533456544;Danmark Fastnet;45271495XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;300;2,05;no;0;;0;yes;Norden Mobil (DK)
+977451996;04-07-2019 11:04;4569669638;Danmark Fastnet;45332763XX;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;0;0,05;no;0;;0;yes;Norden (DK)
+977452061;04-07-2019 11:04;4578772913;Danmark Fastnet;45787941XX;Danmark;Danmark Fastnet;firebrand-;ip-pstn;300;0,3;no;0;;0;yes;Norden (DK)
+977453374;04-07-2019 11:09;46840836389;Sweden;461012430XX;Udland;Sweden;firebrand-;ip-pstn;0;0,2;no;0;;0;yes;Norden
+977453468;04-07-2019 11:09;46840836389;Sweden;461012430XX;Udland;Sweden;firebrand-;ip-pstn;0;0,2;no;0;;0;yes;Norden
+977453676;04-07-2019 11:10;46840836389;Sweden;461012430XX;Udland;Sweden;firebrand-;ip-pstn;0;0,2;no;0;;0;yes;Norden
+977453981;04-07-2019 11:11;46840836389;Sweden;461012430XX;Udland;Sweden;firebrand-;ip-pstn;60;0,27;no;0;;0;yes;Norden
+977455499;04-07-2019 11:17;46840836389;Sweden;461012430XX;Udland;Sweden;firebrand-;ip-pstn;420;0,69;no;0;;0;yes;Norden
+977456939;04-07-2019 11:22;4569669638;Danmark Fastnet;45248506XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;960;6,45;no;0;;0;yes;Norden Mobil (DK)
+977461110;04-07-2019 11:38;4533456544;Danmark Fastnet;45402600XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;120;0,85;no;0;;0;yes;Norden Mobil (DK)
+977461375;04-07-2019 11:39;46840836389;Sweden;461012317XX;Udland;Sweden;firebrand-;ip-pstn;360;0,62;no;0;;0;yes;Norden
+977464527;04-07-2019 11:52;4569669638;Danmark Fastnet;45208112XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;180;1,25;no;0;;0;yes;Norden Mobil (DK)
+977470501;04-07-2019 12:19;4569669638;Danmark Fastnet;45396910XX;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;60;0,1;no;0;;0;yes;Norden (DK)
+977475497;04-07-2019 12:42;46840836384;Sweden;467014908XX;Udland Mobil;Sweden-Mobile;firebrand-;ip-pstn;0;0,2;no;0;;0;yes;Norden Mobil
+977476134;04-07-2019 12:45;46840836384;Sweden;47454643XX;Udland Mobil;Norway-Mobile;firebrand-;ip-pstn;60;0,65;no;0;;0;yes;Norden Mobil
+977476415;04-07-2019 12:46;46840836384;Sweden;47920749XX;Udland Mobil;Norway-Mobile;firebrand-;ip-pstn;60;0,65;no;0;;0;yes;Norden Mobil
+977478526;04-07-2019 12:55;46840836388;Sweden;4478673843XX;Udland Mobil;United Kingdom-Mobile;firebrand-;ip-pstn;0;0,2;no;0;;0;yes;Europa 1 Mobil
+977480945;04-07-2019 13:05;4570200645;Danmark 70 nummer;4601976050XX;Udland;Sweden;rackpeoplehq-;ip-pstn;0;0,2;no;0;;0;yes;Norden
+977481003;04-07-2019 13:05;4570200645;Danmark 70 nummer;461976050XX;Udland;Sweden;rackpeoplehq-;ip-pstn;540;0,83;no;0;;0;yes;Norden
+977482555;04-07-2019 13:12;46840836384;Sweden;467008777XX;Udland Mobil;Sweden-Mobile;firebrand-;ip-pstn;60;0,65;no;0;;0;yes;Norden Mobil
+977482740;04-07-2019 13:13;46840836384;Sweden;467053685XX;Udland Mobil;Sweden-Mobile;firebrand-;ip-pstn;120;1,1;no;0;;0;yes;Norden Mobil
+977483254;04-07-2019 13:15;4570200645;Danmark 70 nummer;45631070XX;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;720;0,65;no;0;;0;yes;Norden (DK)
+977483267;04-07-2019 13:15;4570200645;Danmark 70 nummer;45303024XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;600;4,05;no;0;;0;yes;Norden Mobil (DK)
+977483688;04-07-2019 13:17;46840836384;Sweden;467023838XX;Udland Mobil;Sweden-Mobile;firebrand-;ip-pstn;60;0,65;no;0;;0;yes;Norden Mobil
+977483797;04-07-2019 13:17;46840836384;Sweden;47971991XX;Udland Mobil;Norway-Mobile;firebrand-;ip-pstn;0;0,2;no;0;;0;yes;Norden Mobil
+977485277;04-07-2019 13:23;4569804969;Danmark Fastnet;45702320XX;Danmark 70 nummer;Danmark 70 nummer;rackpeoplehq-;ip-pstn;360;0,35;no;0;;0;yes;Norden (DK)
+977488965;04-07-2019 13:38;4533456546;Danmark Fastnet;45317891XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;0;0,05;no;0;;0;yes;Norden Mobil (DK)
+977490541;04-07-2019 13:45;4578772911;Danmark Fastnet;45602006XX;Danmark Mobil;Danmark Mobil;firebrand-;ip-pstn;180;1,25;no;0;;0;yes;Norden Mobil (DK)
+977491420;04-07-2019 13:48;4533456546;Danmark Fastnet;45317891XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;0;0,05;no;0;;0;yes;Norden Mobil (DK)
+977491595;04-07-2019 13:49;46840836388;Sweden;447899009XX;Udland Mobil;United Kingdom-Mobile;firebrand-;ip-pstn;0;0,2;no;0;;0;yes;Europa 1 Mobil
+977491634;04-07-2019 13:49;46840836388;Sweden;447899009XX;Udland Mobil;United Kingdom-Mobile;firebrand-;ip-pstn;0;0,2;no;0;;0;yes;Europa 1 Mobil
+977491831;04-07-2019 13:50;46840836388;Sweden;47995554XX;Udland Mobil;Norway-Mobile;firebrand-;ip-pstn;0;0,2;no;0;;0;yes;Norden Mobil
+977493577;04-07-2019 13:57;4533456546;Danmark Fastnet;45217580XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;480;3,25;no;0;;0;yes;Norden Mobil (DK)
+977493613;04-07-2019 13:57;4578772922;Danmark Fastnet;45221491XX;Danmark Mobil;Danmark Mobil;firebrand-;ip-pstn;0;0,05;no;0;;0;yes;Norden Mobil (DK)
+977493655;04-07-2019 13:57;4578772916;Danmark Fastnet;45224312XX;Danmark Mobil;Danmark Mobil;firebrand-;ip-pstn;60;0,45;no;0;;0;yes;Norden Mobil (DK)
+977494429;04-07-2019 14:01;4578772916;Danmark Fastnet;45307791XX;Danmark Mobil;Danmark Mobil;firebrand-;ip-pstn;780;5,25;no;0;;0;yes;Norden Mobil (DK)
+977496102;04-07-2019 14:07;46840836384;Sweden;467220099XX;Udland Mobil;Sweden-Mobile;firebrand-;ip-pstn;60;0,65;no;0;;0;yes;Norden Mobil
+977497615;04-07-2019 14:13;4569669638;Danmark Fastnet;467298195XX;Udland Mobil;Sweden-Mobile;rackpeoplehq-;ip-pstn;60;0,65;no;0;;0;yes;Norden Mobil
+977499919;04-07-2019 14:22;4578772913;Danmark Fastnet;45204507XX;Danmark Mobil;Danmark Mobil;firebrand-;ip-pstn;180;1,25;no;0;;0;yes;Norden Mobil (DK)
+977500826;04-07-2019 14:26;4578772922;Danmark Fastnet;45303621XX;Danmark Mobil;Danmark Mobil;firebrand-;ip-pstn;720;4,85;no;0;;0;yes;Norden Mobil (DK)
+977501092;04-07-2019 14:27;46840836389;Sweden;469069517XX;Udland;Sweden;firebrand-;ip-pstn;0;0,2;no;0;;0;yes;Norden
+977501338;04-07-2019 14:28;4570200645;Danmark 70 nummer;45305480XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;540;3,65;no;0;;0;yes;Norden Mobil (DK)
+977502349;04-07-2019 14:32;46840836389;Sweden;467218880XX;Udland Mobil;Sweden-Mobile;firebrand-;ip-pstn;480;3,8;no;0;;0;yes;Norden Mobil
+977503878;04-07-2019 14:38;46840836388;Sweden;3584004193XX;Udland Mobil;Finland-Mobile;firebrand-;ip-pstn;0;0,2;no;0;;0;yes;Norden Mobil
+977505364;04-07-2019 14:44;46840836389;Sweden;468524865XX;Udland;Sweden;firebrand-;ip-pstn;60;0,27;no;0;;0;yes;Norden
+977505403;04-07-2019 14:45;4570200645;Danmark 70 nummer;464184760XX;Udland;Sweden;rackpeoplehq-;ip-pstn;480;0,76;no;0;;0;yes;Norden
+977506090;04-07-2019 14:47;46840836380;Sweden;4475728046XX;Udland;United Kingdom;firebrand-;ip-pstn;120;0,44;no;0;;0;yes;Europa 1
+977506151;04-07-2019 14:47;4578772922;Danmark Fastnet;45924356XX;Danmark Mobil;Danmark Mobil;firebrand-;ip-pstn;60;0,45;no;0;;0;yes;Norden Mobil (DK)
+977506639;04-07-2019 14:50;46840836389;Sweden;468519810XX;Udland;Sweden;firebrand-;ip-pstn;120;0,34;no;0;;0;yes;Norden
+977506649;04-07-2019 14:50;4570200645;Danmark 70 nummer;45257925XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;60;0,45;no;0;;0;yes;Norden Mobil (DK)
+977507706;04-07-2019 14:54;46840836389;Sweden;467672361XX;Udland Mobil;Sweden-Mobile;firebrand-;ip-pstn;420;3,35;no;0;;0;yes;Norden Mobil
+977508120;04-07-2019 14:56;4569669638;Danmark Fastnet;45208112XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;60;0,45;no;0;;0;yes;Norden Mobil (DK)
+977512526;04-07-2019 15:15;4578772913;Danmark Fastnet;45233800XX;Danmark Mobil;Danmark Mobil;firebrand-;ip-pstn;540;3,65;no;0;;0;yes;Norden Mobil (DK)
+977512574;04-07-2019 15:15;4533456549;Danmark Fastnet;45204492XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;60;0,45;no;0;;0;yes;Norden Mobil (DK)
+977512781;04-07-2019 15:16;4533456546;Danmark Fastnet;45702332XX;Danmark 70 nummer;Danmark 70 nummer;rackpeoplehq-;ip-pstn;240;0,25;no;0;;0;yes;Norden (DK)
+977514156;04-07-2019 15:22;4578772916;Danmark Fastnet;45304658XX;Danmark Mobil;Danmark Mobil;firebrand-;ip-pstn;60;0,45;no;0;;0;yes;Norden Mobil (DK)
+977514430;04-07-2019 15:23;4578772916;Danmark Fastnet;45416004XX;Danmark Mobil;Danmark Mobil;firebrand-;ip-pstn;0;0,05;no;0;;0;yes;Norden Mobil (DK)
+977514627;04-07-2019 15:24;4570200645;Danmark 70 nummer;45537471XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;60;0,45;no;0;;0;yes;Norden Mobil (DK)
+977514657;04-07-2019 15:24;4578772916;Danmark Fastnet;45304658XX;Danmark Mobil;Danmark Mobil;firebrand-;ip-pstn;0;0,05;no;0;;0;yes;Norden Mobil (DK)
+977515299;04-07-2019 15:27;4578772916;Danmark Fastnet;45416004XX;Danmark Mobil;Danmark Mobil;firebrand-;ip-pstn;0;0,05;no;0;;0;yes;Norden Mobil (DK)
+977518439;04-07-2019 15:42;4578772911;Danmark Fastnet;45602006XX;Danmark Mobil;Danmark Mobil;firebrand-;ip-pstn;60;0,45;no;0;;0;yes;Norden Mobil (DK)
+977521196;04-07-2019 15:55;4578772911;Danmark Fastnet;45292294XX;Danmark Mobil;Danmark Mobil;firebrand-;ip-pstn;60;0,45;no;0;;0;yes;Norden Mobil (DK)
+977525672;04-07-2019 16:25;46840836389;Sweden;4677192192XX;Udland;Sweden;firebrand-;ip-pstn;60;0,27;no;0;;0;yes;Norden
+977525960;04-07-2019 16:27;46840836389;Sweden;4677192192XX;Udland;Sweden;firebrand-;ip-pstn;60;0,27;no;0;;0;yes;Norden
+977527754;04-07-2019 16:43;4578772922;Danmark Fastnet;45226928XX;Danmark Mobil;Danmark Mobil;firebrand-;ip-pstn;360;2,45;no;0;;0;yes;Norden Mobil (DK)
+977531723;04-07-2019 17:23;46840836387;Sweden;467367712XX;Udland Mobil;Sweden-Mobile;firebrand-;ip-pstn;240;2;no;0;;0;yes;Norden Mobil
+977816964;05-07-2019 07:59;4569804969;Danmark Fastnet;45401137XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;60;0,45;no;0;;0;yes;Norden Mobil (DK)
+977822229;05-07-2019 08:33;4578774477;Danmark Fastnet;45309104XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;120;0,85;no;0;;0;yes;Norden Mobil (DK)
+977822442;05-07-2019 08:35;4578774477;Danmark Fastnet;45309104XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;0;0,05;no;0;;0;yes;Norden Mobil (DK)
+977822942;05-07-2019 08:38;4569669638;Danmark Fastnet;45249172XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;60;0,45;no;0;;0;yes;Norden Mobil (DK)
+977823017;05-07-2019 08:38;4578774477;Danmark Fastnet;45309104XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;360;2,45;no;0;;0;yes;Norden Mobil (DK)
+977823477;05-07-2019 08:41;4569669638;Danmark Fastnet;45249172XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;420;2,85;no;0;;0;yes;Norden Mobil (DK)
+977826788;05-07-2019 09:00;4570200645;Danmark 70 nummer;45701515XX;Danmark 70 nummer;Danmark 70 nummer;rackpeoplehq-;ip-pstn;360;0,35;no;0;;0;yes;Norden (DK)
+977827807;05-07-2019 09:04;4578774477;Danmark Fastnet;45309104XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;0;0,05;no;0;;0;yes;Norden Mobil (DK)
+977827930;05-07-2019 09:05;4578774477;Danmark Fastnet;45309104XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;0;0,05;no;0;;0;yes;Norden Mobil (DK)
+977831496;05-07-2019 09:21;46840836388;Sweden;9665009781XX;Udland Mobil;Saudi Arabia-Mobile;firebrand-;ip-pstn;0;0,2;no;0;;0;yes;Asien Mobil
+977831545;05-07-2019 09:21;4533456546;Danmark Fastnet;45317891XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;0;0,05;no;0;;0;yes;Norden Mobil (DK)
+977831708;05-07-2019 09:22;46840836388;Sweden;9665009781XX;Udland Mobil;Saudi Arabia-Mobile;firebrand-;ip-pstn;0;0,2;no;0;;0;yes;Asien Mobil
+977833800;05-07-2019 09:31;46840836389;Sweden;3582046XX;Udland;Finland;firebrand-;ip-pstn;180;0,41;no;0;;0;yes;Norden
+977833988;05-07-2019 09:32;4578772916;Danmark Fastnet;45315159XX;Danmark Mobil;Danmark Mobil;firebrand-;ip-pstn;1680;11,25;no;0;;0;yes;Norden Mobil (DK)
+977834182;05-07-2019 09:33;46840836388;Sweden;9665009781XX;Udland Mobil;Saudi Arabia-Mobile;firebrand-;ip-pstn;0;0,2;no;0;;0;yes;Asien Mobil
+977836532;05-07-2019 09:42;46840836388;Sweden;46213914XX;Udland;Sweden;firebrand-;ip-pstn;120;0,34;no;0;;0;yes;Norden
+977837023;05-07-2019 09:45;4578774477;Danmark Fastnet;45309104XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;120;0,85;no;0;;0;yes;Norden Mobil (DK)
+977839380;05-07-2019 09:54;46840836388;Sweden;467298195XX;Udland Mobil;Sweden-Mobile;firebrand-;ip-pstn;0;0,2;no;0;;0;yes;Norden Mobil
+977839993;05-07-2019 09:57;46840836388;Sweden;4682277XX;Udland;Sweden;firebrand-;ip-pstn;60;0,27;no;0;;0;yes;Norden
+977841104;05-07-2019 10:01;4570200645;Danmark 70 nummer;45537471XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;840;5,65;no;0;;0;yes;Norden Mobil (DK)
+977842439;05-07-2019 10:05;46840838262;Sweden;467616880XX;Udland Mobil;Sweden-Mobile;firebrand-;ip-pstn;120;1,1;no;0;;0;yes;Norden Mobil
+977843011;05-07-2019 10:07;4533456546;Danmark Fastnet;45317891XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;1080;7,25;no;0;;0;yes;Norden Mobil (DK)
+977847671;05-07-2019 10:25;46840838262;Sweden;46467076001XX;Udland;Sweden;firebrand-;ip-pstn;0;0,2;no;0;;0;yes;Norden
+977847845;05-07-2019 10:25;46840838262;Sweden;467076001XX;Udland Mobil;Sweden-Mobile;firebrand-;ip-pstn;0;0,2;no;0;;0;yes;Norden Mobil
+977850660;05-07-2019 10:35;46840836389;Sweden;3582046XX;Udland;Finland;firebrand-;ip-pstn;300;0,55;no;0;;0;yes;Norden
+977852640;05-07-2019 10:43;4578772916;Danmark Fastnet;45611420XX;Danmark Mobil;Danmark Mobil;firebrand-;ip-pstn;0;0,05;no;0;;0;yes;Norden Mobil (DK)
+977852780;05-07-2019 10:43;46840838262;Sweden;467083590XX;Udland Mobil;Sweden-Mobile;firebrand-;ip-pstn;0;0,2;no;0;;0;yes;Norden Mobil
+977853495;05-07-2019 10:46;46840836388;Sweden;467355489XX;Udland Mobil;Sweden-Mobile;firebrand-;ip-pstn;0;0,2;no;0;;0;yes;Norden Mobil
+977853788;05-07-2019 10:47;46840836388;Sweden;467889999XX;Udland;Sweden;firebrand-;ip-pstn;0;0,2;no;0;;0;yes;Norden
+977858321;05-07-2019 11:03;4578774477;Danmark Fastnet;45309104XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;240;1,65;no;0;;0;yes;Norden Mobil (DK)
+977859816;05-07-2019 11:09;46840838262;Sweden;467020781XX;Udland Mobil;Sweden-Mobile;firebrand-;ip-pstn;0;0,2;no;0;;0;yes;Norden Mobil
+977860246;05-07-2019 11:11;4578774477;Danmark Fastnet;45309104XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;420;2,85;no;0;;0;yes;Norden Mobil (DK)
+977860810;05-07-2019 11:13;4578772916;Danmark Fastnet;45261220XX;Danmark Mobil;Danmark Mobil;firebrand-;ip-pstn;240;1,65;no;0;;0;yes;Norden Mobil (DK)
+977861038;05-07-2019 11:14;46840838262;Sweden;467028766XX;Udland Mobil;Sweden-Mobile;firebrand-;ip-pstn;0;0,2;no;0;;0;yes;Norden Mobil
+977861593;05-07-2019 11:16;46840838262;Sweden;467351988XX;Udland Mobil;Sweden-Mobile;firebrand-;ip-pstn;120;1,1;no;0;;0;yes;Norden Mobil
+977862973;05-07-2019 11:21;4578772916;Danmark Fastnet;45416004XX;Danmark Mobil;Danmark Mobil;firebrand-;ip-pstn;0;0,05;no;0;;0;yes;Norden Mobil (DK)
+977864142;05-07-2019 11:25;46840838262;Sweden;467021360XX;Udland Mobil;Sweden-Mobile;firebrand-;ip-pstn;0;0,2;no;0;;0;yes;Norden Mobil
+977865340;05-07-2019 11:30;46840838262;Sweden;467274355XX;Udland Mobil;Sweden-Mobile;firebrand-;ip-pstn;120;1,1;no;0;;0;yes;Norden Mobil
+977866959;05-07-2019 11:37;4570200645;Danmark 70 nummer;45519656XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;180;1,25;no;0;;0;yes;Norden Mobil (DK)
+977872585;05-07-2019 12:00;4578772916;Danmark Fastnet;45416004XX;Danmark Mobil;Danmark Mobil;firebrand-;ip-pstn;60;0,45;no;0;;0;yes;Norden Mobil (DK)
+977885236;05-07-2019 12:59;46840836388;Sweden;463172248XX;Udland;Sweden;firebrand-;ip-pstn;600;0,9;no;0;;0;yes;Norden
+977890414;05-07-2019 13:22;4569669633;Danmark Fastnet;45292291XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;60;0,45;no;0;;0;yes;Norden Mobil (DK)
+977890487;05-07-2019 13:22;4533456546;Danmark Fastnet;45317891XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;0;0,05;no;0;;0;yes;Norden Mobil (DK)
+977890663;05-07-2019 13:23;46840838262;Sweden;346196197XX;Udland Mobil;Spain-Mobile;firebrand-;ip-pstn;120;1,2;no;0;;0;yes;Europa 1 Mobil
+977890990;05-07-2019 13:25;4569669633;Danmark Fastnet;45898847XX;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;780;0,7;no;0;;0;yes;Norden (DK)
+977894872;05-07-2019 13:42;46840836389;Sweden;3582046XX;Udland;Finland;firebrand-;ip-pstn;120;0,34;no;0;;0;yes;Norden
+977895569;05-07-2019 13:45;4569669633;Danmark Fastnet;45283564XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;420;2,85;no;0;;0;yes;Norden Mobil (DK)
+977896817;05-07-2019 13:51;4578772911;Danmark Fastnet;45602006XX;Danmark Mobil;Danmark Mobil;firebrand-;ip-pstn;60;0,45;no;0;;0;yes;Norden Mobil (DK)
+977897210;05-07-2019 13:53;4569669633;Danmark Fastnet;45262808XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;1020;6,85;no;0;;0;yes;Norden Mobil (DK)
+977897611;05-07-2019 13:54;4578772911;Danmark Fastnet;45602006XX;Danmark Mobil;Danmark Mobil;firebrand-;ip-pstn;300;2,05;no;0;;0;yes;Norden Mobil (DK)
+977897698;05-07-2019 13:55;4578772916;Danmark Fastnet;45416004XX;Danmark Mobil;Danmark Mobil;firebrand-;ip-pstn;120;0,85;no;0;;0;yes;Norden Mobil (DK)
+977898969;05-07-2019 14:01;4533456546;Danmark Fastnet;45352529XX;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;0;0,05;no;0;;0;yes;Norden (DK)
+977899561;05-07-2019 14:04;4578772911;Danmark Fastnet;45206183XX;Danmark Mobil;Danmark Mobil;firebrand-;ip-pstn;60;0,45;no;0;;0;yes;Norden Mobil (DK)
+977899728;05-07-2019 14:05;4533456549;Danmark Fastnet;45204492XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;60;0,45;no;0;;0;yes;Norden Mobil (DK)
+977900121;05-07-2019 14:07;4578772916;Danmark Fastnet;45505018XX;Danmark Mobil;Danmark Mobil;firebrand-;ip-pstn;240;1,65;no;0;;0;yes;Norden Mobil (DK)
+977900706;05-07-2019 14:10;4533456546;Danmark Fastnet;45792037XX;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;600;0,55;no;0;;0;yes;Norden (DK)
+977901274;05-07-2019 14:13;4569669633;Danmark Fastnet;45204131XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;60;0,45;no;0;;0;yes;Norden Mobil (DK)
+977901456;05-07-2019 14:13;46840838262;Sweden;46467076001XX;Udland;Sweden;firebrand-;ip-pstn;0;0,2;no;0;;0;yes;Norden
+977901676;05-07-2019 14:14;46840838262;Sweden;46161400XX;Udland;Sweden;firebrand-;ip-pstn;120;0,34;no;0;;0;yes;Norden
+977901958;05-07-2019 14:16;4570200645;Danmark 70 nummer;45536933XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;600;4,05;no;0;;0;yes;Norden Mobil (DK)
+977902034;05-07-2019 14:16;46840838262;Sweden;467076001XX;Udland Mobil;Sweden-Mobile;firebrand-;ip-pstn;60;0,65;no;0;;0;yes;Norden Mobil
+977902811;05-07-2019 14:20;4533456546;Danmark Fastnet;45203078XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;420;2,85;no;0;;0;yes;Norden Mobil (DK)
+977905572;05-07-2019 14:33;4578774477;Danmark Fastnet;45309104XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;120;0,85;no;0;;0;yes;Norden Mobil (DK)
+977906164;05-07-2019 14:36;4578774477;Danmark Fastnet;45309104XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;840;5,65;no;0;;0;yes;Norden Mobil (DK)
+977907076;05-07-2019 14:41;46840838262;Sweden;46847747XX;Udland;Sweden;firebrand-;ip-pstn;120;0,34;no;0;;0;yes;Norden
+977907363;05-07-2019 14:43;4533456546;Danmark Fastnet;45317891XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;0;0,05;no;0;;0;yes;Norden Mobil (DK)
+977907659;05-07-2019 14:44;46840836389;Sweden;3582046XX;Udland;Finland;firebrand-;ip-pstn;480;0,76;no;0;;0;yes;Norden
+977908573;05-07-2019 14:49;4569669633;Danmark Fastnet;44073805222XX;Udland;United Kingdom;rackpeoplehq-;ip-pstn;0;0,2;no;0;;0;yes;Europa 1
+977908746;05-07-2019 14:50;4569669633;Danmark Fastnet;44073805222XX;Udland;United Kingdom;rackpeoplehq-;ip-pstn;0;0,2;no;0;;0;yes;Europa 1
+977909293;05-07-2019 14:53;46840838262;Sweden;468578646XX;Udland;Sweden;firebrand-;ip-pstn;480;0,76;no;0;;0;yes;Norden
+977912077;05-07-2019 15:11;4578772914;Danmark Fastnet;45707011XX;Danmark 70 nummer;Danmark 70 nummer;firebrand-;ip-pstn;120;0,15;no;0;;0;yes;Norden (DK)
+977912122;05-07-2019 15:11;4578774477;Danmark Fastnet;45309104XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;120;0,85;no;0;;0;yes;Norden Mobil (DK)
+977912787;05-07-2019 15:15;4569669638;Danmark Fastnet;45208112XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;180;1,25;no;0;;0;yes;Norden Mobil (DK)
+977918071;05-07-2019 15:53;4569804969;Danmark Fastnet;45401137XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;60;0,45;no;0;;0;yes;Norden Mobil (DK)
+977924889;05-07-2019 17:05;46840836387;Sweden;467367712XX;Udland Mobil;Sweden-Mobile;firebrand-;ip-pstn;180;1,55;no;0;;0;yes;Norden Mobil
+978574998;08-07-2019 08:14;4533456546;Danmark Fastnet;45203078XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;2580;17,25;no;0;;0;yes;Norden Mobil (DK)
+978576687;08-07-2019 08:24;4570200645;Danmark 70 nummer;45482937XX;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;120;0,15;no;0;;0;yes;Norden (DK)
+978583902;08-07-2019 09:05;4578772916;Danmark Fastnet;4570701XX;Danmark 70 nummer;Danmark 70 nummer;firebrand-;ip-pstn;0;0,05;no;0;;0;yes;Norden (DK)
+978583942;08-07-2019 09:06;4578772916;Danmark Fastnet;4570701XX;Danmark 70 nummer;Danmark 70 nummer;firebrand-;ip-pstn;0;0,05;no;0;;0;yes;Norden (DK)
+978584047;08-07-2019 09:06;4578772916;Danmark Fastnet;45707011XX;Danmark 70 nummer;Danmark 70 nummer;firebrand-;ip-pstn;120;0,15;no;0;;0;yes;Norden (DK)
+978585545;08-07-2019 09:13;4570200645;Danmark 70 nummer;45722790XX;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;300;0,3;no;0;;0;yes;Norden (DK)
+978586814;08-07-2019 09:19;46840836384;Sweden;467072100XX;Udland Mobil;Sweden-Mobile;firebrand-;ip-pstn;0;0,2;no;0;;0;yes;Norden Mobil
+978588162;08-07-2019 09:26;4570200645;Danmark 70 nummer;45702450XX;Danmark 70 nummer;Danmark 70 nummer;rackpeoplehq-;ip-pstn;540;0,5;no;0;;0;yes;Norden (DK)
+978589527;08-07-2019 09:32;46840836384;Sweden;467687834XX;Udland Mobil;Sweden-Mobile;firebrand-;ip-pstn;60;0,65;no;0;;0;yes;Norden Mobil
+978589885;08-07-2019 09:34;46840836384;Sweden;467031622XX;Udland Mobil;Sweden-Mobile;firebrand-;ip-pstn;0;0,2;no;0;;0;yes;Norden Mobil
+978590197;08-07-2019 09:35;46840836384;Sweden;467308733XX;Udland Mobil;Sweden-Mobile;firebrand-;ip-pstn;60;0,65;no;0;;0;yes;Norden Mobil
+978592450;08-07-2019 09:45;4533456546;Danmark Fastnet;45317891XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;0;0,05;no;0;;0;yes;Norden Mobil (DK)
+978594774;08-07-2019 09:55;4569669638;Danmark Fastnet;45884401XX;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;0;0,05;no;0;;0;yes;Norden (DK)
+978595048;08-07-2019 09:56;4569804965;Danmark Fastnet;45226319XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;0;0,05;no;0;;0;yes;Norden Mobil (DK)
+978599964;08-07-2019 10:15;46840836381;Sweden;46422629XX;Udland;Sweden;firebrand-;ip-pstn;60;0,27;no;0;;0;yes;Norden
+978601807;08-07-2019 10:22;46840836381;Sweden;46422629XX;Udland;Sweden;firebrand-;ip-pstn;60;0,27;no;0;;0;yes;Norden
+978612714;08-07-2019 11:04;4578772922;Danmark Fastnet;2987924XX;Udland;Faroe Islands;firebrand-;ip-pstn;0;0,2;no;0;;0;yes;Europa 3
+978613455;08-07-2019 11:07;4578772922;Danmark Fastnet;45526363XX;Danmark Mobil;Danmark Mobil;firebrand-;ip-pstn;60;0,45;no;0;;0;yes;Norden Mobil (DK)
+978626760;08-07-2019 12:03;4533456549;Danmark Fastnet;45204492XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;60;0,45;no;0;;0;yes;Norden Mobil (DK)
+978628101;08-07-2019 12:09;4533456549;Danmark Fastnet;45204492XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;60;0,45;no;0;;0;yes;Norden Mobil (DK)
+978629212;08-07-2019 12:15;4533456540;Danmark Fastnet;45464624XX;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;120;0,15;no;0;;0;yes;Norden (DK)
+978629974;08-07-2019 12:19;4570200645;Danmark 70 nummer;45963003XX;Danmark;Denmark Fastnet;rackpeoplehq-;ip-pstn;240;0,25;no;0;;0;yes;Norden (DK)
+978630075;08-07-2019 12:19;4569669638;Danmark Fastnet;45702236XX;Danmark 70 nummer;Danmark 70 nummer;rackpeoplehq-;ip-pstn;300;0,3;no;0;;0;yes;Norden (DK)
+978637491;08-07-2019 12:55;4569804965;Danmark Fastnet;45308036XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;0;0,05;no;0;;0;yes;Norden Mobil (DK)
+978638535;08-07-2019 13:00;46840836386;Sweden;4416185574XX;Udland;United Kingdom;firebrand-;ip-pstn;180;0,56;no;0;;0;yes;Europa 1
+978639248;08-07-2019 13:03;4578772913;Danmark Fastnet;45277917XX;Danmark Mobil;Danmark Mobil;firebrand-;ip-pstn;60;0,45;no;0;;0;yes;Norden Mobil (DK)
+978639459;08-07-2019 13:04;4578772913;Danmark Fastnet;45277917XX;Danmark Mobil;Danmark Mobil;firebrand-;ip-pstn;120;0,85;no;0;;0;yes;Norden Mobil (DK)
+978641007;08-07-2019 13:10;4569669638;Danmark Fastnet;45444527XX;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;60;0,1;no;0;;0;yes;Norden (DK)
+978641060;08-07-2019 13:11;4569669632;Danmark Fastnet;45444527XX;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;240;0,25;no;0;;0;yes;Norden (DK)
+978644863;08-07-2019 13:27;4578772913;Danmark Fastnet;45631059XX;Danmark;Danmark Fastnet;firebrand-;ip-pstn;60;0,1;no;0;;0;yes;Norden (DK)
+978647868;08-07-2019 13:40;4569669638;Danmark Fastnet;45444527XX;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;60;0,1;no;0;;0;yes;Norden (DK)
+978647967;08-07-2019 13:40;4569669638;Danmark Fastnet;45444527XX;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;120;0,15;no;0;;0;yes;Norden (DK)
+978648128;08-07-2019 13:41;4569669632;Danmark Fastnet;45444527XX;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;60;0,1;no;0;;0;yes;Norden (DK)
+978650618;08-07-2019 13:52;46840838262;Sweden;464060807XX;Udland;Sweden;firebrand-;ip-pstn;60;0,27;no;0;;0;yes;Norden
+978651824;08-07-2019 13:57;4569669633;Danmark Fastnet;45436860XX;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;120;0,15;no;0;;0;yes;Norden (DK)
+978653644;08-07-2019 14:05;4569669633;Danmark Fastnet;45436868XX;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;60;0,1;no;0;;0;yes;Norden (DK)
+978654690;08-07-2019 14:09;4533456540;Danmark Fastnet;45203078XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;60;0,45;no;0;;0;yes;Norden Mobil (DK)
+978656610;08-07-2019 14:18;4578772916;Danmark Fastnet;45201614XX;Danmark Mobil;Danmark Mobil;firebrand-;ip-pstn;60;0,45;no;0;;0;yes;Norden Mobil (DK)
+978657927;08-07-2019 14:24;4533456549;Danmark Fastnet;45204492XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;60;0,45;no;0;;0;yes;Norden Mobil (DK)
+978658926;08-07-2019 14:28;46840838262;Sweden;467389360XX;Udland Mobil;Sweden-Mobile;firebrand-;ip-pstn;120;1,1;no;0;;0;yes;Norden Mobil
+978662639;08-07-2019 14:45;4578772922;Danmark Fastnet;45277917XX;Danmark Mobil;Danmark Mobil;firebrand-;ip-pstn;0;0,05;no;0;;0;yes;Norden Mobil (DK)
+978662748;08-07-2019 14:45;4578772922;Danmark Fastnet;45723793XX;Danmark;Danmark Fastnet;firebrand-;ip-pstn;0;0,05;no;0;;0;yes;Norden (DK)
+978662779;08-07-2019 14:45;4578772922;Danmark Fastnet;45277917XX;Danmark Mobil;Danmark Mobil;firebrand-;ip-pstn;360;2,45;no;0;;0;yes;Norden Mobil (DK)
+978670014;08-07-2019 15:19;4533456544;Danmark Fastnet;45402600XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;360;2,45;no;0;;0;yes;Norden Mobil (DK)
+978670622;08-07-2019 15:22;46840836384;Sweden;467677721XX;Udland Mobil;Sweden-Mobile;firebrand-;ip-pstn;960;7,4;no;0;;0;yes;Norden Mobil
+978966748;09-07-2019 08:43;46840836388;Sweden;463172248XX;Udland;Sweden;firebrand-;ip-pstn;240;0,48;no;0;;0;yes;Norden
+978967017;09-07-2019 08:44;4533456546;Danmark Fastnet;45203078XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;60;0,45;no;0;;0;yes;Norden Mobil (DK)
+978968428;09-07-2019 08:53;46840838262;Sweden;467323216XX;Udland Mobil;Sweden-Mobile;firebrand-;ip-pstn;120;1,1;no;0;;0;yes;Norden Mobil
+978969380;09-07-2019 08:58;4533456546;Danmark Fastnet;45317891XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;0;0,05;no;0;;0;yes;Norden Mobil (DK)
+978972501;09-07-2019 09:14;4533456540;Danmark Fastnet;45402600XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;180;1,25;no;0;;0;yes;Norden Mobil (DK)
+978976418;09-07-2019 09:31;4569669638;Danmark Fastnet;45887004XX;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;540;0,5;no;0;;0;yes;Norden (DK)
+978976469;09-07-2019 09:31;4533456546;Danmark Fastnet;45317891XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;0;0,05;no;0;;0;yes;Norden Mobil (DK)
+978977113;09-07-2019 09:34;4533456540;Danmark Fastnet;45402600XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;120;0,85;no;0;;0;yes;Norden Mobil (DK)
+978977729;09-07-2019 09:37;46840836388;Sweden;467072100XX;Udland Mobil;Sweden-Mobile;firebrand-;ip-pstn;960;7,4;no;0;;0;yes;Norden Mobil
+978979819;09-07-2019 09:46;4578772913;Danmark Fastnet;45301613XX;Danmark Mobil;Danmark Mobil;firebrand-;ip-pstn;0;0,05;no;0;;0;yes;Norden Mobil (DK)
+978981443;09-07-2019 09:53;4578772916;Danmark Fastnet;45234202XX;Danmark Mobil;Danmark Mobil;firebrand-;ip-pstn;60;0,45;no;0;;0;yes;Norden Mobil (DK)
+978983436;09-07-2019 10:01;46840838262;Sweden;47930152XX;Udland Mobil;Norway-Mobile;firebrand-;ip-pstn;2040;15,5;no;0;;0;yes;Norden Mobil
+978984410;09-07-2019 10:05;46840836384;Sweden;467308733XX;Udland Mobil;Sweden-Mobile;firebrand-;ip-pstn;60;0,65;no;0;;0;yes;Norden Mobil
+978984540;09-07-2019 10:05;46840836384;Sweden;467018071XX;Udland Mobil;Sweden-Mobile;firebrand-;ip-pstn;0;0,2;no;0;;0;yes;Norden Mobil
+978984666;09-07-2019 10:06;46840836384;Sweden;467008777XX;Udland Mobil;Sweden-Mobile;firebrand-;ip-pstn;60;0,65;no;0;;0;yes;Norden Mobil
+978986714;09-07-2019 10:15;46840836384;Sweden;47971991XX;Udland Mobil;Norway-Mobile;firebrand-;ip-pstn;60;0,65;no;0;;0;yes;Norden Mobil
+978987148;09-07-2019 10:17;46840836384;Sweden;461044745XX;Udland;Sweden;firebrand-;ip-pstn;0;0,2;no;0;;0;yes;Norden
+978987442;09-07-2019 10:18;46840836384;Sweden;47906606XX;Udland Mobil;Norway-Mobile;firebrand-;ip-pstn;240;2;no;0;;0;yes;Norden Mobil
+978989202;09-07-2019 10:25;4578772922;Danmark Fastnet;45924356XX;Danmark Mobil;Danmark Mobil;firebrand-;ip-pstn;60;0,45;no;0;;0;yes;Norden Mobil (DK)
+978990612;09-07-2019 10:31;4569669633;Danmark Fastnet;45299916XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;180;1,25;no;0;;0;yes;Norden Mobil (DK)
+978991332;09-07-2019 10:34;4578772922;Danmark Fastnet;467060793XX;Udland Mobil;Sweden-Mobile;firebrand-;ip-pstn;60;0,65;no;0;;0;yes;Norden Mobil
+978991836;09-07-2019 10:36;4578772922;Danmark Fastnet;45703333XX;Danmark 70 nummer;Danmark 70 nummer;firebrand-;ip-pstn;120;0,15;no;0;;0;yes;Norden (DK)
+978992410;09-07-2019 10:38;46840836384;Sweden;468553854XX;Udland;Sweden;firebrand-;ip-pstn;60;0,27;no;0;;0;yes;Norden
+978992593;09-07-2019 10:39;46840836384;Sweden;467029151XX;Udland Mobil;Sweden-Mobile;firebrand-;ip-pstn;0;0,2;no;0;;0;yes;Norden Mobil
+978992861;09-07-2019 10:40;46840836380;Sweden;467072406XX;Udland Mobil;Sweden-Mobile;firebrand-;ip-pstn;420;3,35;no;0;;0;yes;Norden Mobil
+978993193;09-07-2019 10:41;4533456546;Danmark Fastnet;45317891XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;0;0,05;no;0;;0;yes;Norden Mobil (DK)
+978993380;09-07-2019 10:42;46840836384;Sweden;467250988XX;Udland Mobil;Sweden-Mobile;firebrand-;ip-pstn;60;0,65;no;0;;0;yes;Norden Mobil
+978994234;09-07-2019 10:45;46840836384;Sweden;467273980XX;Udland Mobil;Sweden-Mobile;firebrand-;ip-pstn;0;0,2;no;0;;0;yes;Norden Mobil
+978994558;09-07-2019 10:47;4578772922;Danmark Fastnet;3805035305XX;Udland Mobil;Ukraine-Mobile;firebrand-;ip-pstn;120;3,16;no;0;;0;yes;Europa 3 Mobil
+978995020;09-07-2019 10:49;4578772922;Danmark Fastnet;45723116XX;Danmark;Danmark Fastnet;firebrand-;ip-pstn;60;0,1;no;0;;0;yes;Norden (DK)
+978996590;09-07-2019 10:56;4578772922;Danmark Fastnet;45367200XX;Danmark;Danmark Fastnet;firebrand-;ip-pstn;120;0,15;no;0;;0;yes;Norden (DK)
+979002652;09-07-2019 11:20;46840836384;Sweden;47975935XX;Udland Mobil;Norway-Mobile;firebrand-;ip-pstn;720;5,6;no;0;;0;yes;Norden Mobil
+979007925;09-07-2019 11:43;4569669633;Danmark Fastnet;45209197XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;360;2,45;no;0;;0;yes;Norden Mobil (DK)
+979009236;09-07-2019 11:49;4569669633;Danmark Fastnet;45292291XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;60;0,45;no;0;;0;yes;Norden Mobil (DK)
+979009286;09-07-2019 11:49;4569669633;Danmark Fastnet;45262808XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;60;0,45;no;0;;0;yes;Norden Mobil (DK)
+979015285;09-07-2019 12:19;4570200645;Danmark 70 nummer;467206310XX;Udland Mobil;Sweden-Mobile;rackpeoplehq-;ip-pstn;0;0,2;no;0;;0;yes;Norden Mobil
+979015543;09-07-2019 12:20;4570200645;Danmark 70 nummer;3933915991XX;Udland Mobil;Italy-Mobile;rackpeoplehq-;ip-pstn;0;0,2;no;0;;0;yes;Europa 1 Mobil
+979019531;09-07-2019 12:41;4578772916;Danmark Fastnet;45416004XX;Danmark Mobil;Danmark Mobil;firebrand-;ip-pstn;60;0,45;no;0;;0;yes;Norden Mobil (DK)
+979020743;09-07-2019 12:47;4569669632;Danmark Fastnet;45887004XX;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;900;0,8;no;0;;0;yes;Norden (DK)
+979021113;09-07-2019 12:49;4578772916;Danmark Fastnet;45292294XX;Danmark Mobil;Danmark Mobil;firebrand-;ip-pstn;60;0,45;no;0;;0;yes;Norden Mobil (DK)
+979023434;09-07-2019 13:00;4533456546;Danmark Fastnet;45317891XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;0;0,05;no;0;;0;yes;Norden Mobil (DK)
+979024622;09-07-2019 13:05;4569669632;Danmark Fastnet;45309104XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;0;0,05;no;0;;0;yes;Norden Mobil (DK)
+979025100;09-07-2019 13:08;46840836388;Sweden;46213914XX;Udland;Sweden;firebrand-;ip-pstn;60;0,27;no;0;;0;yes;Norden
+979025244;09-07-2019 13:08;46840836388;Sweden;4683478XX;Udland;Sweden;firebrand-;ip-pstn;60;0,27;no;0;;0;yes;Norden
+979025672;09-07-2019 13:10;46840836388;Sweden;46853535XX;Udland;Sweden;firebrand-;ip-pstn;0;0,2;no;0;;0;yes;Norden
+979025787;09-07-2019 13:11;46840836388;Sweden;46853535XX;Udland;Sweden;firebrand-;ip-pstn;0;0,2;no;0;;0;yes;Norden
+979025861;09-07-2019 13:11;4578772916;Danmark Fastnet;45292294XX;Danmark Mobil;Danmark Mobil;firebrand-;ip-pstn;60;0,45;no;0;;0;yes;Norden Mobil (DK)
+979026812;09-07-2019 13:15;46840836388;Sweden;4460251490XX;Udland;United Kingdom;firebrand-;ip-pstn;0;0,2;no;0;;0;yes;Europa 1
+979027005;09-07-2019 13:16;46840836388;Sweden;4460251490XX;Udland;United Kingdom;firebrand-;ip-pstn;0;0,2;no;0;;0;yes;Europa 1
+979027105;09-07-2019 13:16;4578772913;Danmark Fastnet;45301613XX;Danmark Mobil;Danmark Mobil;firebrand-;ip-pstn;60;0,45;no;0;;0;yes;Norden Mobil (DK)
+979027204;09-07-2019 13:17;4578772913;Danmark Fastnet;45301613XX;Danmark Mobil;Danmark Mobil;firebrand-;ip-pstn;60;0,45;no;0;;0;yes;Norden Mobil (DK)
+979027517;09-07-2019 13:18;46840836388;Sweden;463172248XX;Udland;Sweden;firebrand-;ip-pstn;240;0,48;no;0;;0;yes;Norden
+979027572;09-07-2019 13:18;4569669633;Danmark Fastnet;45312006XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;540;3,65;no;0;;0;yes;Norden Mobil (DK)
+979029922;09-07-2019 13:29;4569669633;Danmark Fastnet;45312007XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;600;4,05;no;0;;0;yes;Norden Mobil (DK)
+979031762;09-07-2019 13:37;4578772922;Danmark Fastnet;45465580XX;Danmark;Danmark Fastnet;firebrand-;ip-pstn;0;0,05;no;0;;0;yes;Norden (DK)
+979032090;09-07-2019 13:38;4578772922;Danmark Fastnet;467079320XX;Udland Mobil;Sweden-Mobile;firebrand-;ip-pstn;0;0,2;no;0;;0;yes;Norden Mobil
+979032155;09-07-2019 13:39;4569669633;Danmark Fastnet;45312006XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;60;0,45;no;0;;0;yes;Norden Mobil (DK)
+979033227;09-07-2019 13:43;4569669633;Danmark Fastnet;45299916XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;420;2,85;no;0;;0;yes;Norden Mobil (DK)
+979033392;09-07-2019 13:44;4570200645;Danmark 70 nummer;45702055XX;Danmark 70 nummer;Danmark 70 nummer;rackpeoplehq-;ip-pstn;60;0,1;no;0;;0;yes;Norden (DK)
+979035099;09-07-2019 13:52;4569669633;Danmark Fastnet;45515780XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;180;1,25;no;0;;0;yes;Norden Mobil (DK)
+979035121;09-07-2019 13:52;4578772922;Danmark Fastnet;45206814XX;Danmark Mobil;Danmark Mobil;firebrand-;ip-pstn;0;0,05;no;0;;0;yes;Norden Mobil (DK)
+979035590;09-07-2019 13:54;4578772922;Danmark Fastnet;45212625XX;Danmark Mobil;Danmark Mobil;firebrand-;ip-pstn;60;0,45;no;0;;0;yes;Norden Mobil (DK)
+979038067;09-07-2019 14:05;46840836388;Sweden;9665009781XX;Udland Mobil;Saudi Arabia-Mobile;firebrand-;ip-pstn;0;0,2;no;0;;0;yes;Asien Mobil
+979039557;09-07-2019 14:12;4533456546;Danmark Fastnet;45317891XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;0;0,05;no;0;;0;yes;Norden Mobil (DK)
+979040490;09-07-2019 14:16;46840836388;Sweden;467364092XX;Udland Mobil;Sweden-Mobile;firebrand-;ip-pstn;0;0,2;no;0;;0;yes;Norden Mobil
+979040786;09-07-2019 14:18;4570200645;Danmark 70 nummer;45254545XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;60;0,45;no;0;;0;yes;Norden Mobil (DK)
+979042853;09-07-2019 14:28;4578772916;Danmark Fastnet;45416004XX;Danmark Mobil;Danmark Mobil;firebrand-;ip-pstn;0;0,05;no;0;;0;yes;Norden Mobil (DK)
+979043272;09-07-2019 14:30;4569669638;Danmark Fastnet;45691022XX;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;2460;2,1;no;0;;0;yes;Norden (DK)
+979046063;09-07-2019 14:43;4569669633;Danmark Fastnet;45299916XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;60;0,45;no;0;;0;yes;Norden Mobil (DK)
+979051175;09-07-2019 15:08;4578772913;Danmark Fastnet;45787941XX;Danmark;Danmark Fastnet;firebrand-;ip-pstn;60;0,1;no;0;;0;yes;Norden (DK)
+979052240;09-07-2019 15:13;4578772913;Danmark Fastnet;45313282XX;Danmark Mobil;Danmark Mobil;firebrand-;ip-pstn;240;1,65;no;0;;0;yes;Norden Mobil (DK)
+979055496;09-07-2019 15:29;46840838262;Sweden;467610171XX;Udland Mobil;Sweden-Mobile;firebrand-;ip-pstn;240;2;no;0;;0;yes;Norden Mobil
+979056303;09-07-2019 15:33;46840838262;Sweden;467610171XX;Udland Mobil;Sweden-Mobile;firebrand-;ip-pstn;60;0,65;no;0;;0;yes;Norden Mobil
+979056786;09-07-2019 15:35;4570200645;Danmark 70 nummer;45303024XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;180;1,25;no;0;;0;yes;Norden Mobil (DK)
+979059012;09-07-2019 15:47;4578772922;Danmark Fastnet;45516143XX;Danmark Mobil;Danmark Mobil;firebrand-;ip-pstn;360;2,45;no;0;;0;yes;Norden Mobil (DK)
+979060618;09-07-2019 15:57;4578772922;Danmark Fastnet;45516168XX;Danmark Mobil;Danmark Mobil;firebrand-;ip-pstn;60;0,45;no;0;;0;yes;Norden Mobil (DK)
+979061909;09-07-2019 16:06;46840836388;Sweden;46403412XX;Udland;Sweden;firebrand-;ip-pstn;60;0,27;no;0;;0;yes;Norden
+979062024;09-07-2019 16:07;46840836388;Sweden;46213900XX;Udland;Sweden;firebrand-;ip-pstn;60;0,27;no;0;;0;yes;Norden
+979062082;09-07-2019 16:08;4578772913;Danmark Fastnet;45246831XX;Danmark Mobil;Danmark Mobil;firebrand-;ip-pstn;60;0,45;no;0;;0;yes;Norden Mobil (DK)
+979062581;09-07-2019 16:12;4578772913;Danmark Fastnet;45701314XX;Danmark 70 nummer;Danmark 70 nummer;firebrand-;ip-pstn;120;0,15;no;0;;0;yes;Norden (DK)
+979350198;10-07-2019 08:21;46840836381;Sweden;467340022XX;Udland Mobil;Sweden-Mobile;firebrand-;ip-pstn;60;0,65;no;0;;0;yes;Norden Mobil
+979353098;10-07-2019 08:40;4533456546;Danmark Fastnet;45317891XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;1380;9,25;no;0;;0;yes;Norden Mobil (DK)
+979353776;10-07-2019 08:45;46840304715;Sweden;463138589XX;Udland;Sweden;firebrand-;ip-pstn;60;0,27;no;0;;0;yes;Norden
+979356678;10-07-2019 09:02;46840836388;Sweden;467315233XX;Udland Mobil;Sweden-Mobile;firebrand-;ip-pstn;60;0,65;no;0;;0;yes;Norden Mobil
+979356803;10-07-2019 09:03;4578772922;Danmark Fastnet;4570333333XX;Danmark 70 nummer;Danmark 70 nummer;firebrand-;ip-pstn;60;0,1;no;0;;0;yes;Norden (DK)
+979357833;10-07-2019 09:09;46840304715;Sweden;463138589XX;Udland;Sweden;firebrand-;ip-pstn;120;0,34;no;0;;0;yes;Norden
+979358140;10-07-2019 09:10;4578772922;Danmark Fastnet;45361811XX;Danmark;Danmark Fastnet;firebrand-;ip-pstn;0;0,05;no;0;;0;yes;Norden (DK)
+979358162;10-07-2019 09:10;4578772916;Danmark Fastnet;45234202XX;Danmark Mobil;Danmark Mobil;firebrand-;ip-pstn;60;0,45;no;0;;0;yes;Norden Mobil (DK)
+979359465;10-07-2019 09:18;46840304715;Sweden;463138589XX;Udland;Sweden;firebrand-;ip-pstn;60;0,27;no;0;;0;yes;Norden
+979360442;10-07-2019 09:23;46840836384;Sweden;468446836XX;Udland;Sweden;firebrand-;ip-pstn;1080;1,46;no;0;;0;yes;Norden
+979361536;10-07-2019 09:28;4578772922;Danmark Fastnet;45292294XX;Danmark Mobil;Danmark Mobil;firebrand-;ip-pstn;600;4,05;no;0;;0;yes;Norden Mobil (DK)
+979362174;10-07-2019 09:31;4578772914;Danmark Fastnet;467389852XX;Udland Mobil;Sweden-Mobile;firebrand-;ip-pstn;1560;11,9;no;0;;0;yes;Norden Mobil
+979362660;10-07-2019 09:33;46840836388;Sweden;467008453XX;Udland Mobil;Sweden-Mobile;firebrand-;ip-pstn;0;0,2;no;0;;0;yes;Norden Mobil
+979363007;10-07-2019 09:35;46840836388;Sweden;467088787XX;Udland Mobil;Sweden-Mobile;firebrand-;ip-pstn;60;0,65;no;0;;0;yes;Norden Mobil
+979363368;10-07-2019 09:37;46840836388;Sweden;467364092XX;Udland Mobil;Sweden-Mobile;firebrand-;ip-pstn;0;0,2;no;0;;0;yes;Norden Mobil
+979363804;10-07-2019 09:39;4533456546;Danmark Fastnet;45317891XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;60;0,45;no;0;;0;yes;Norden Mobil (DK)
+979364043;10-07-2019 09:40;4533456546;Danmark Fastnet;45317891XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;0;0,05;no;0;;0;yes;Norden Mobil (DK)
+979364373;10-07-2019 09:42;4578772922;Danmark Fastnet;45723793XX;Danmark;Danmark Fastnet;firebrand-;ip-pstn;120;0,15;no;0;;0;yes;Norden (DK)
+979364741;10-07-2019 09:43;4570200645;Danmark 70 nummer;3933915991XX;Udland Mobil;Italy-Mobile;rackpeoplehq-;ip-pstn;0;0,2;no;0;;0;yes;Europa 1 Mobil
+979365229;10-07-2019 09:46;4533456546;Danmark Fastnet;45317891XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;0;0,05;no;0;;0;yes;Norden Mobil (DK)
+979368022;10-07-2019 09:58;46840838262;Sweden;47220950XX;Udland;Norway;firebrand-;ip-pstn;120;0,34;no;0;;0;yes;Norden
+979368340;10-07-2019 10:00;46840836384;Sweden;467041679XX;Udland Mobil;Sweden-Mobile;firebrand-;ip-pstn;180;1,55;no;0;;0;yes;Norden Mobil
+979369232;10-07-2019 10:04;4578772922;Danmark Fastnet;45217268XX;Danmark Mobil;Danmark Mobil;firebrand-;ip-pstn;60;0,45;no;0;;0;yes;Norden Mobil (DK)
+979369286;10-07-2019 10:04;46840836384;Sweden;467009121XX;Udland Mobil;Sweden-Mobile;firebrand-;ip-pstn;0;0,2;no;0;;0;yes;Norden Mobil
+979369690;10-07-2019 10:06;4578772922;Danmark Fastnet;45518819XX;Danmark Mobil;Danmark Mobil;firebrand-;ip-pstn;60;0,45;no;0;;0;yes;Norden Mobil (DK)
+979369877;10-07-2019 10:06;46840836384;Sweden;467304133XX;Udland Mobil;Sweden-Mobile;firebrand-;ip-pstn;0;0,2;no;0;;0;yes;Norden Mobil
+979370196;10-07-2019 10:08;46840836384;Sweden;47479158XX;Udland Mobil;Norway-Mobile;firebrand-;ip-pstn;0;0,2;no;0;;0;yes;Norden Mobil
+979370627;10-07-2019 10:10;46840836384;Sweden;467023838XX;Udland Mobil;Sweden-Mobile;firebrand-;ip-pstn;60;0,65;no;0;;0;yes;Norden Mobil
+979370887;10-07-2019 10:11;4578774477;Danmark Fastnet;45309104XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;0;0,05;no;0;;0;yes;Norden Mobil (DK)
+979371005;10-07-2019 10:11;4578772922;Danmark Fastnet;45516168XX;Danmark Mobil;Danmark Mobil;firebrand-;ip-pstn;420;2,85;no;0;;0;yes;Norden Mobil (DK)
+979371042;10-07-2019 10:11;4578774477;Danmark Fastnet;45309104XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;0;0,05;no;0;;0;yes;Norden Mobil (DK)
+979371319;10-07-2019 10:13;46840836384;Sweden;463644054XX;Udland;Sweden;firebrand-;ip-pstn;60;0,27;no;0;;0;yes;Norden
+979371577;10-07-2019 10:14;46840836384;Sweden;467037849XX;Udland Mobil;Sweden-Mobile;firebrand-;ip-pstn;60;0,65;no;0;;0;yes;Norden Mobil
+979371690;10-07-2019 10:14;46840836384;Sweden;467039920XX;Udland Mobil;Sweden-Mobile;firebrand-;ip-pstn;60;0,65;no;0;;0;yes;Norden Mobil
+979374230;10-07-2019 10:25;4533456546;Danmark Fastnet;45203078XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;960;6,45;no;0;;0;yes;Norden Mobil (DK)
+979375437;10-07-2019 10:30;4569669632;Danmark Fastnet;45887004XX;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;480;0,45;no;0;;0;yes;Norden (DK)
+979376154;10-07-2019 10:33;46840836384;Sweden;461044745XX;Udland;Sweden;firebrand-;ip-pstn;60;0,27;no;0;;0;yes;Norden
+979376287;10-07-2019 10:34;4578772916;Danmark Fastnet;45206669XX;Danmark Mobil;Danmark Mobil;firebrand-;ip-pstn;480;3,25;no;0;;0;yes;Norden Mobil (DK)
+979376397;10-07-2019 10:34;4578772916;Danmark Fastnet;45416004XX;Danmark Mobil;Danmark Mobil;firebrand-;ip-pstn;60;0,45;no;0;;0;yes;Norden Mobil (DK)
+979376501;10-07-2019 10:35;46840836384;Sweden;47905361XX;Udland Mobil;Norway-Mobile;firebrand-;ip-pstn;120;1,1;no;0;;0;yes;Norden Mobil
+979377346;10-07-2019 10:38;46840836384;Sweden;4682026XX;Udland;Sweden;firebrand-;ip-pstn;120;0,34;no;0;;0;yes;Norden
+979377798;10-07-2019 10:40;4533456546;Danmark Fastnet;45203078XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;180;1,25;no;0;;0;yes;Norden Mobil (DK)
+979377944;10-07-2019 10:41;4533456549;Danmark Fastnet;45204492XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;60;0,45;no;0;;0;yes;Norden Mobil (DK)
+979378245;10-07-2019 10:42;4570200645;Danmark 70 nummer;466505414XX;Udland;Sweden;rackpeoplehq-;ip-pstn;60;0,27;no;0;;0;yes;Norden
+979378674;10-07-2019 10:44;46840836384;Sweden;467031622XX;Udland Mobil;Sweden-Mobile;firebrand-;ip-pstn;240;2;no;0;;0;yes;Norden Mobil
+979380571;10-07-2019 10:52;46840836384;Sweden;47930080XX;Udland Mobil;Norway-Mobile;firebrand-;ip-pstn;0;0,2;no;0;;0;yes;Norden Mobil
+979380892;10-07-2019 10:53;4569669633;Danmark Fastnet;45702108XX;Danmark 70 nummer;Danmark 70 nummer;rackpeoplehq-;ip-pstn;120;0,15;no;0;;0;yes;Norden (DK)
+979381095;10-07-2019 10:54;4578772916;Danmark Fastnet;45234202XX;Danmark Mobil;Danmark Mobil;firebrand-;ip-pstn;1020;6,85;no;0;;0;yes;Norden Mobil (DK)
+979381401;10-07-2019 10:55;46840836384;Sweden;467056080XX;Udland Mobil;Sweden-Mobile;firebrand-;ip-pstn;0;0,2;no;0;;0;yes;Norden Mobil
+979381647;10-07-2019 10:57;4569669633;Danmark Fastnet;45301081XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;360;2,45;no;0;;0;yes;Norden Mobil (DK)
+979381804;10-07-2019 10:57;46840836384;Sweden;467029553XX;Udland Mobil;Sweden-Mobile;firebrand-;ip-pstn;60;0,65;no;0;;0;yes;Norden Mobil
+979382764;10-07-2019 11:01;46840836384;Sweden;467235710XX;Udland Mobil;Sweden-Mobile;firebrand-;ip-pstn;0;0,2;no;0;;0;yes;Norden Mobil
+979383371;10-07-2019 11:04;4569669633;Danmark Fastnet;45533920XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;60;0,45;no;0;;0;yes;Norden Mobil (DK)
+979385805;10-07-2019 11:14;4569669633;Danmark Fastnet;45361545XX;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;180;0,2;no;0;;0;yes;Norden (DK)
+979387741;10-07-2019 11:22;46840838262;Sweden;463135312XX;Udland;Sweden;firebrand-;ip-pstn;0;0,2;no;0;;0;yes;Norden
+979387918;10-07-2019 11:23;4569804969;Danmark Fastnet;45442258XX;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;60;0,1;no;0;;0;yes;Norden (DK)
+979388556;10-07-2019 11:26;4569669633;Danmark Fastnet;45299916XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;0;0,05;no;0;;0;yes;Norden Mobil (DK)
+979389430;10-07-2019 11:30;4569669633;Danmark Fastnet;45262808XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;300;2,05;no;0;;0;yes;Norden Mobil (DK)
+979390011;10-07-2019 11:32;4569669638;Danmark Fastnet;45691022XX;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;1320;1,15;no;0;;0;yes;Norden (DK)
+979390665;10-07-2019 11:35;4533456546;Danmark Fastnet;45317891XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;0;0,05;no;0;;0;yes;Norden Mobil (DK)
+979391858;10-07-2019 11:41;4533456546;Danmark Fastnet;45317891XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;0;0,05;no;0;;0;yes;Norden Mobil (DK)
+979392488;10-07-2019 11:44;46840836388;Sweden;467315233XX;Udland Mobil;Sweden-Mobile;firebrand-;ip-pstn;60;0,65;no;0;;0;yes;Norden Mobil
+979400717;10-07-2019 12:30;46840836384;Sweden;468562830XX;Udland;Sweden;firebrand-;ip-pstn;1200;1,6;no;0;;0;yes;Norden
+979400919;10-07-2019 12:31;4569804969;Danmark Fastnet;45442258XX;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;60;0,1;no;0;;0;yes;Norden (DK)
+979401181;10-07-2019 12:32;4569804969;Danmark Fastnet;45442258XX;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;120;0,15;no;0;;0;yes;Norden (DK)
+979403568;10-07-2019 12:45;4533456546;Danmark Fastnet;45301005XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;60;0,45;no;0;;0;yes;Norden Mobil (DK)
+979403780;10-07-2019 12:46;4533456546;Danmark Fastnet;45317891XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;60;0,45;no;0;;0;yes;Norden Mobil (DK)
+979403964;10-07-2019 12:47;4533456546;Danmark Fastnet;45317891XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;60;0,45;no;0;;0;yes;Norden Mobil (DK)
+979425219;10-07-2019 14:29;4533456546;Danmark Fastnet;45317891XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;0;0,05;no;0;;0;yes;Norden Mobil (DK)
+979425414;10-07-2019 14:30;4569804969;Danmark Fastnet;45401137XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;120;0,85;no;0;;0;yes;Norden Mobil (DK)
+979425478;10-07-2019 14:30;4569669632;Danmark Fastnet;45315195XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;60;0,45;no;0;;0;yes;Norden Mobil (DK)
+979425668;10-07-2019 14:31;4533456546;Danmark Fastnet;45317891XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;0;0,05;no;0;;0;yes;Norden Mobil (DK)
+979426404;10-07-2019 14:34;4533456546;Danmark Fastnet;45317891XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;0;0,05;no;0;;0;yes;Norden Mobil (DK)
+979428433;10-07-2019 14:44;4533456546;Danmark Fastnet;45317891XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;60;0,45;no;0;;0;yes;Norden Mobil (DK)
+979429111;10-07-2019 14:48;4533456546;Danmark Fastnet;45893411XX;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;240;0,25;no;0;;0;yes;Norden (DK)
+979429147;10-07-2019 14:48;4533456544;Danmark Fastnet;45203078XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;1020;6,85;no;0;;0;yes;Norden Mobil (DK)
+979433961;10-07-2019 15:12;4578772913;Danmark Fastnet;45268068XX;Danmark Mobil;Danmark Mobil;firebrand-;ip-pstn;60;0,45;no;0;;0;yes;Norden Mobil (DK)
+979434049;10-07-2019 15:12;46840836388;Sweden;467298195XX;Udland Mobil;Sweden-Mobile;firebrand-;ip-pstn;0;0,2;no;0;;0;yes;Norden Mobil
+979434056;10-07-2019 15:12;4578772913;Danmark Fastnet;45268068XX;Danmark Mobil;Danmark Mobil;firebrand-;ip-pstn;60;0,45;no;0;;0;yes;Norden Mobil (DK)
+979434714;10-07-2019 15:16;4578772922;Danmark Fastnet;45301741XX;Danmark Mobil;Danmark Mobil;firebrand-;ip-pstn;300;2,05;no;0;;0;yes;Norden Mobil (DK)
+979435328;10-07-2019 15:19;4570200645;Danmark 70 nummer;45291087XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;120;0,85;no;0;;0;yes;Norden Mobil (DK)
+979436287;10-07-2019 15:24;4578774477;Danmark Fastnet;45226319XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;0;0,05;no;0;;0;yes;Norden Mobil (DK)
+979436288;10-07-2019 15:24;4578774477;Danmark Fastnet;45309104XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;0;0,05;no;0;;0;yes;Norden Mobil (DK)
+979436621;10-07-2019 15:26;4570200645;Danmark 70 nummer;45918938XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;180;1,25;no;0;;0;yes;Norden Mobil (DK)
+979438130;10-07-2019 15:34;4533456546;Danmark Fastnet;45203078XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;3060;20,45;no;0;;0;yes;Norden Mobil (DK)
+979439256;10-07-2019 15:41;4570200645;Danmark 70 nummer;45289203XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;2280;15,25;no;0;;0;yes;Norden Mobil (DK)
+979441382;10-07-2019 15:54;4578772922;Danmark Fastnet;45292294XX;Danmark Mobil;Danmark Mobil;firebrand-;ip-pstn;240;1,65;no;0;;0;yes;Norden Mobil (DK)
+979443137;10-07-2019 16:06;4570200645;Danmark 70 nummer;45268499XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;900;6,05;no;0;;0;yes;Norden Mobil (DK)
+979443548;10-07-2019 16:10;4570200645;Danmark 70 nummer;45234618XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;420;2,85;no;0;;0;yes;Norden Mobil (DK)
+979722170;11-07-2019 08:20;4533456546;Danmark Fastnet;45317891XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;60;0,45;no;0;;0;yes;Norden Mobil (DK)
+979722180;11-07-2019 08:20;46840836386;Sweden;467061172XX;Udland Mobil;Sweden-Mobile;firebrand-;ip-pstn;120;1,1;no;0;;0;yes;Norden Mobil
+979725249;11-07-2019 08:42;4533456546;Danmark Fastnet;45317891XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;0;0,05;no;0;;0;yes;Norden Mobil (DK)
+979725595;11-07-2019 08:45;4578772913;Danmark Fastnet;45246831XX;Danmark Mobil;Danmark Mobil;firebrand-;ip-pstn;300;2,05;no;0;;0;yes;Norden Mobil (DK)
+979726599;11-07-2019 08:51;4578772913;Danmark Fastnet;45416004XX;Danmark Mobil;Danmark Mobil;firebrand-;ip-pstn;60;0,45;no;0;;0;yes;Norden Mobil (DK)
+979729190;11-07-2019 09:06;4578772922;Danmark Fastnet;45338515XX;Danmark;Danmark Fastnet;firebrand-;ip-pstn;60;0,1;no;0;;0;yes;Norden (DK)
+979730725;11-07-2019 09:15;4569669500;Danmark Fastnet;45536397XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;360;2,45;no;0;;0;yes;Norden Mobil (DK)
+979733887;11-07-2019 09:32;4578772916;Danmark Fastnet;45603739XX;Danmark Mobil;Danmark Mobil;firebrand-;ip-pstn;60;0,45;no;0;;0;yes;Norden Mobil (DK)
+979734624;11-07-2019 09:36;4533456549;Danmark Fastnet;45204492XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;60;0,45;no;0;;0;yes;Norden Mobil (DK)
+979736304;11-07-2019 09:44;4570200645;Danmark 70 nummer;45298531XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;60;0,45;no;0;;0;yes;Norden Mobil (DK)
+979737650;11-07-2019 09:51;4533456544;Danmark Fastnet;45461406XX;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;120;0,15;no;0;;0;yes;Norden (DK)
+979750797;11-07-2019 10:49;4533456543;Danmark Fastnet;45214981XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;60;0,45;no;0;;0;yes;Norden Mobil (DK)
+979752761;11-07-2019 10:58;4533456549;Danmark Fastnet;45204492XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;120;0,85;no;0;;0;yes;Norden Mobil (DK)
+979756912;11-07-2019 11:17;4578772913;Danmark Fastnet;45271074XX;Danmark Mobil;Danmark Mobil;firebrand-;ip-pstn;120;0,85;no;0;;0;yes;Norden Mobil (DK)
+979757006;11-07-2019 11:17;4533456549;Danmark Fastnet;45204492XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;60;0,45;no;0;;0;yes;Norden Mobil (DK)
+979758653;11-07-2019 11:25;46840838262;Sweden;467059125XX;Udland Mobil;Sweden-Mobile;firebrand-;ip-pstn;60;0,65;no;0;;0;yes;Norden Mobil
+979762961;11-07-2019 11:45;4533456546;Danmark Fastnet;45773029XX;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;60;0,1;no;0;;0;yes;Norden (DK)
+979768559;11-07-2019 12:14;4570200645;Danmark 70 nummer;45291087XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;720;4,85;no;0;;0;yes;Norden Mobil (DK)
+979771660;11-07-2019 12:32;4569669638;Danmark Fastnet;45515647XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;180;1,25;no;0;;0;yes;Norden Mobil (DK)
+979773401;11-07-2019 12:41;4578774477;Danmark Fastnet;45226319XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;0;0,05;no;0;;0;yes;Norden Mobil (DK)
+979775167;11-07-2019 12:50;4578772913;Danmark Fastnet;467340022XX;Udland Mobil;Sweden-Mobile;firebrand-;ip-pstn;60;0,65;no;0;;0;yes;Norden Mobil
+979777986;11-07-2019 13:04;4569669638;Danmark Fastnet;45576847XX;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;300;0,3;no;0;;0;yes;Norden (DK)
+979779003;11-07-2019 13:09;46840838262;Sweden;467386228XX;Udland Mobil;Sweden-Mobile;firebrand-;ip-pstn;120;1,1;no;0;;0;yes;Norden Mobil
+979779527;11-07-2019 13:12;46840838262;Sweden;467386225XX;Udland Mobil;Sweden-Mobile;firebrand-;ip-pstn;1320;10,1;no;0;;0;yes;Norden Mobil
+979780380;11-07-2019 13:16;4533456544;Danmark Fastnet;45758972XX;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;60;0,1;no;0;;0;yes;Norden (DK)
+979780772;11-07-2019 13:18;4533456544;Danmark Fastnet;45461406XX;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;180;0,2;no;0;;0;yes;Norden (DK)
+979781034;11-07-2019 13:19;46840836386;Sweden;467341203XX;Udland Mobil;Sweden-Mobile;firebrand-;ip-pstn;240;2;no;0;;0;yes;Norden Mobil
+979781137;11-07-2019 13:19;4533456549;Danmark Fastnet;45204492XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;60;0,45;no;0;;0;yes;Norden Mobil (DK)
+979783990;11-07-2019 13:33;4578772922;Danmark Fastnet;2995543XX;Udland;Greenland;firebrand-;ip-pstn;1020;38,45;no;0;;0;yes;Øvrige Verden 3
+979784231;11-07-2019 13:34;46840838262;Sweden;467340022XX;Udland Mobil;Sweden-Mobile;firebrand-;ip-pstn;60;0,65;no;0;;0;yes;Norden Mobil
+979785013;11-07-2019 13:37;4570200645;Danmark 70 nummer;467206310XX;Udland Mobil;Sweden-Mobile;rackpeoplehq-;ip-pstn;240;2;no;0;;0;yes;Norden Mobil
+979790379;11-07-2019 14:04;4569669638;Danmark Fastnet;45536012XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;1500;10,05;no;0;;0;yes;Norden Mobil (DK)
+979795485;11-07-2019 14:29;46840836384;Sweden;467037700XX;Udland Mobil;Sweden-Mobile;firebrand-;ip-pstn;0;0,2;no;0;;0;yes;Norden Mobil
+979795680;11-07-2019 14:30;46840836384;Sweden;47454643XX;Udland Mobil;Norway-Mobile;firebrand-;ip-pstn;180;1,55;no;0;;0;yes;Norden Mobil
+979795813;11-07-2019 14:31;4569669638;Danmark Fastnet;45536012XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;600;4,05;no;0;;0;yes;Norden Mobil (DK)
+979798171;11-07-2019 14:43;4533456544;Danmark Fastnet;45758972XX;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;300;0,3;no;0;;0;yes;Norden (DK)
+979799018;11-07-2019 14:47;46840836384;Sweden;467302282XX;Udland Mobil;Sweden-Mobile;firebrand-;ip-pstn;60;0,65;no;0;;0;yes;Norden Mobil
+979799992;11-07-2019 14:52;46840836384;Sweden;47930556XX;Udland Mobil;Norway-Mobile;firebrand-;ip-pstn;0;0,2;no;0;;0;yes;Norden Mobil
+979800145;11-07-2019 14:53;46840836384;Sweden;467250988XX;Udland Mobil;Sweden-Mobile;firebrand-;ip-pstn;60;0,65;no;0;;0;yes;Norden Mobil
+979800485;11-07-2019 14:55;46840836380;Sweden;4416097602XX;Udland;United Kingdom;firebrand-;ip-pstn;300;0,8;no;0;;0;yes;Europa 1
+979800580;11-07-2019 14:55;46840836384;Sweden;467613770XX;Udland Mobil;Sweden-Mobile;firebrand-;ip-pstn;60;0,65;no;0;;0;yes;Norden Mobil
+979800630;11-07-2019 14:55;46840838262;Sweden;467253787XX;Udland Mobil;Sweden-Mobile;firebrand-;ip-pstn;120;1,1;no;0;;0;yes;Norden Mobil
+979800856;11-07-2019 14:57;46840836384;Sweden;467021270XX;Udland Mobil;Sweden-Mobile;firebrand-;ip-pstn;900;6,95;no;0;;0;yes;Norden Mobil
+979804405;11-07-2019 15:15;4578772922;Danmark Fastnet;3584051291XX;Udland Mobil;Finland-Mobile;firebrand-;ip-pstn;60;0,65;no;0;;0;yes;Norden Mobil
+979806309;11-07-2019 15:25;4578772922;Danmark Fastnet;45292294XX;Danmark Mobil;Danmark Mobil;firebrand-;ip-pstn;300;2,05;no;0;;0;yes;Norden Mobil (DK)
+979806811;11-07-2019 15:28;4569669638;Danmark Fastnet;45536012XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;1020;6,85;no;0;;0;yes;Norden Mobil (DK)
+979809197;11-07-2019 15:42;4578772922;Danmark Fastnet;45279504XX;Danmark Mobil;Danmark Mobil;firebrand-;ip-pstn;0;0,05;no;0;;0;yes;Norden Mobil (DK)
+979810542;11-07-2019 15:50;4578772922;Danmark Fastnet;45702330XX;Danmark 70 nummer;Danmark 70 nummer;firebrand-;ip-pstn;60;0,1;no;0;;0;yes;Norden (DK)
+979810762;11-07-2019 15:51;4578772922;Danmark Fastnet;45691589XX;Danmark;Danmark Fastnet;firebrand-;ip-pstn;180;0,2;no;0;;0;yes;Norden (DK)
+979810963;11-07-2019 15:53;4533456546;Danmark Fastnet;45317891XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;0;0,05;no;0;;0;yes;Norden Mobil (DK)
+979811293;11-07-2019 15:55;4533456544;Danmark Fastnet;45407524XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;60;0,45;no;0;;0;yes;Norden Mobil (DK)
+979811440;11-07-2019 15:56;4578772922;Danmark Fastnet;45294848XX;Danmark Mobil;Danmark Mobil;firebrand-;ip-pstn;300;2,05;no;0;;0;yes;Norden Mobil (DK)
+979813559;11-07-2019 16:11;4578772922;Danmark Fastnet;45254316XX;Danmark Mobil;Danmark Mobil;firebrand-;ip-pstn;60;0,45;no;0;;0;yes;Norden Mobil (DK)
+979821486;11-07-2019 17:46;46840836380;Sweden;4479581227XX;Udland Mobil;United Kingdom-Mobile;firebrand-;ip-pstn;180;1,7;no;0;;0;yes;Europa 1 Mobil
+979821613;11-07-2019 17:49;46840836380;Sweden;45327205XX;Danmark;Danmark Fastnet;firebrand-;ip-pstn;60;0,1;no;0;;0;yes;Norden (DK)
+979821665;11-07-2019 17:50;46840836380;Sweden;45327205XX;Danmark;Danmark Fastnet;firebrand-;ip-pstn;60;0,1;no;0;;0;yes;Norden (DK)
+979825351;11-07-2019 19:12;46840836380;Sweden;4479581227XX;Udland Mobil;United Kingdom-Mobile;firebrand-;ip-pstn;540;4,7;no;0;;0;yes;Europa 1 Mobil
+980099009;12-07-2019 08:24;4569669632;Danmark Fastnet;45417869XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;60;0,45;no;0;;0;yes;Norden Mobil (DK)
+980102308;12-07-2019 08:50;4578772922;Danmark Fastnet;45333333XX;Danmark;Danmark Fastnet;firebrand-;ip-pstn;360;0,35;no;0;;0;yes;Norden (DK)
+980103265;12-07-2019 08:57;4533456546;Danmark Fastnet;45317891XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;60;0,45;no;0;;0;yes;Norden Mobil (DK)
+980106227;12-07-2019 09:15;4533456546;Danmark Fastnet;45203078XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;660;4,45;no;0;;0;yes;Norden Mobil (DK)
+980108761;12-07-2019 09:29;4570200645;Danmark 70 nummer;45417233XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;900;6,05;no;0;;0;yes;Norden Mobil (DK)
+980109544;12-07-2019 09:33;4569669632;Danmark Fastnet;45417869XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;180;1,25;no;0;;0;yes;Norden Mobil (DK)
+980109561;12-07-2019 09:33;4578774477;Danmark Fastnet;45519613XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;0;0,05;no;0;;0;yes;Norden Mobil (DK)
+980109560;12-07-2019 09:33;4578774477;Danmark Fastnet;45226319XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;0;0,05;no;0;;0;yes;Norden Mobil (DK)
+980110091;12-07-2019 09:36;4578774477;Danmark Fastnet;45226319XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;0;0,05;no;0;;0;yes;Norden Mobil (DK)
+980110089;12-07-2019 09:36;4578774477;Danmark Fastnet;45519613XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;60;0,45;no;0;;0;yes;Norden Mobil (DK)
+980110268;12-07-2019 09:36;4569669632;Danmark Fastnet;45406171XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;120;0,85;no;0;;0;yes;Norden Mobil (DK)
+980110487;12-07-2019 09:38;46840836386;Sweden;464184511XX;Udland;Sweden;firebrand-;ip-pstn;180;0,41;no;0;;0;yes;Norden
+980110497;12-07-2019 09:38;46840838262;Sweden;47930152XX;Udland Mobil;Norway-Mobile;firebrand-;ip-pstn;300;2,45;no;0;;0;yes;Norden Mobil
+980110900;12-07-2019 09:40;4578774477;Danmark Fastnet;45519613XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;60;0,45;no;0;;0;yes;Norden Mobil (DK)
+980111254;12-07-2019 09:42;4569669632;Danmark Fastnet;45417869XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;120;0,85;no;0;;0;yes;Norden Mobil (DK)
+980111878;12-07-2019 09:45;4569669632;Danmark Fastnet;45406171XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;120;0,85;no;0;;0;yes;Norden Mobil (DK)
+980112541;12-07-2019 09:48;4533456540;Danmark Fastnet;45464624XX;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;120;0,15;no;0;;0;yes;Norden (DK)
+980113996;12-07-2019 09:55;46840838262;Sweden;467030071XX;Udland Mobil;Sweden-Mobile;firebrand-;ip-pstn;0;0,2;no;0;;0;yes;Norden Mobil
+980114795;12-07-2019 09:59;4569669632;Danmark Fastnet;45406171XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;60;0,45;no;0;;0;yes;Norden Mobil (DK)
+980114866;12-07-2019 09:59;4578772913;Danmark Fastnet;45413985XX;Danmark Mobil;Danmark Mobil;firebrand-;ip-pstn;840;5,65;no;0;;0;yes;Norden Mobil (DK)
+980114965;12-07-2019 10:00;4533456546;Danmark Fastnet;45792037XX;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;1080;0,95;no;0;;0;yes;Norden (DK)
+980119482;12-07-2019 10:20;4570200645;Danmark 70 nummer;45244597XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;840;5,65;no;0;;0;yes;Norden Mobil (DK)
+980120374;12-07-2019 10:23;4533456546;Danmark Fastnet;45203078XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;60;0,45;no;0;;0;yes;Norden Mobil (DK)
+980122279;12-07-2019 10:32;4533456546;Danmark Fastnet;45317891XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;0;0,05;no;0;;0;yes;Norden Mobil (DK)
+980122783;12-07-2019 10:34;46840838262;Sweden;467309859XX;Udland Mobil;Sweden-Mobile;firebrand-;ip-pstn;180;1,55;no;0;;0;yes;Norden Mobil
+980124098;12-07-2019 10:41;4533456546;Danmark Fastnet;45402600XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;1020;6,85;no;0;;0;yes;Norden Mobil (DK)
+980126000;12-07-2019 10:49;4578772914;Danmark Fastnet;45533836XX;Danmark Mobil;Danmark Mobil;firebrand-;ip-pstn;180;1,25;no;0;;0;yes;Norden Mobil (DK)
+980127470;12-07-2019 10:56;46840836384;Sweden;47920749XX;Udland Mobil;Norway-Mobile;firebrand-;ip-pstn;60;0,65;no;0;;0;yes;Norden Mobil
+980128001;12-07-2019 10:58;46840836380;Sweden;4416097602XX;Udland;United Kingdom;firebrand-;ip-pstn;600;1,4;no;0;;0;yes;Europa 1
+980128951;12-07-2019 11:03;4578772913;Danmark Fastnet;45537440XX;Danmark Mobil;Danmark Mobil;firebrand-;ip-pstn;360;2,45;no;0;;0;yes;Norden Mobil (DK)
+980131722;12-07-2019 11:15;46840836380;Sweden;4416097602XX;Udland;United Kingdom;firebrand-;ip-pstn;300;0,8;no;0;;0;yes;Europa 1
+980134759;12-07-2019 11:29;46840836380;Sweden;49151115567XX;Udland Mobil;Germany-Mobile;firebrand-;ip-pstn;120;1,2;no;0;;0;yes;Europa 1 Mobil
+980134825;12-07-2019 11:30;4570200645;Danmark 70 nummer;45918938XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;120;0,85;no;0;;0;yes;Norden Mobil (DK)
+980135209;12-07-2019 11:31;46840836380;Sweden;49151115567XX;Udland Mobil;Germany-Mobile;firebrand-;ip-pstn;120;1,2;no;0;;0;yes;Europa 1 Mobil
+980136237;12-07-2019 11:36;46840836384;Sweden;461044745XX;Udland;Sweden;firebrand-;ip-pstn;0;0,2;no;0;;0;yes;Norden
+980139452;12-07-2019 11:51;4578774477;Danmark Fastnet;45519613XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;0;0,05;no;0;;0;yes;Norden Mobil (DK)
+980148583;12-07-2019 12:40;4569669638;Danmark Fastnet;45519613XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;180;1,25;no;0;;0;yes;Norden Mobil (DK)
+980151345;12-07-2019 12:55;4578774477;Danmark Fastnet;45519613XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;120;0,85;no;0;;0;yes;Norden Mobil (DK)
+980151377;12-07-2019 12:56;4578774477;Danmark Fastnet;45519613XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;60;0,45;no;0;;0;yes;Norden Mobil (DK)
+980151586;12-07-2019 12:57;4533456549;Danmark Fastnet;45204492XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;60;0,45;no;0;;0;yes;Norden Mobil (DK)
+980151582;12-07-2019 12:57;4533456544;Danmark Fastnet;45222298XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;420;2,85;no;0;;0;yes;Norden Mobil (DK)
+980154731;12-07-2019 13:14;4578774477;Danmark Fastnet;45519613XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;180;1,25;no;0;;0;yes;Norden Mobil (DK)
+980157396;12-07-2019 13:28;46840838262;Sweden;467055025XX;Udland Mobil;Sweden-Mobile;firebrand-;ip-pstn;0;0,2;no;0;;0;yes;Norden Mobil
+980157751;12-07-2019 13:30;46840836386;Sweden;464184511XX;Udland;Sweden;firebrand-;ip-pstn;60;0,27;no;0;;0;yes;Norden
+980157869;12-07-2019 13:30;46840836386;Sweden;464184511XX;Udland;Sweden;firebrand-;ip-pstn;120;0,34;no;0;;0;yes;Norden
+980157989;12-07-2019 13:31;46840838262;Sweden;46847747XX;Udland;Sweden;firebrand-;ip-pstn;240;0,48;no;0;;0;yes;Norden
+980158496;12-07-2019 13:34;4533456546;Danmark Fastnet;45339275XX;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;360;0,35;no;0;;0;yes;Norden (DK)
+980159032;12-07-2019 13:37;4569669638;Danmark Fastnet;45519613XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;360;2,45;no;0;;0;yes;Norden Mobil (DK)
+980160107;12-07-2019 13:42;4569669638;Danmark Fastnet;45519613XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;180;1,25;no;0;;0;yes;Norden Mobil (DK)
+980161979;12-07-2019 13:53;46840838262;Sweden;467030071XX;Udland Mobil;Sweden-Mobile;firebrand-;ip-pstn;420;3,35;no;0;;0;yes;Norden Mobil
+980162931;12-07-2019 13:59;4569804965;Danmark Fastnet;45702233XX;Danmark 70 nummer;Danmark 70 nummer;rackpeoplehq-;ip-pstn;300;0,3;no;0;;0;yes;Norden (DK)
+980163908;12-07-2019 14:05;4578772913;Danmark Fastnet;45413985XX;Danmark Mobil;Danmark Mobil;firebrand-;ip-pstn;60;0,45;no;0;;0;yes;Norden Mobil (DK)
+980163980;12-07-2019 14:05;4578774477;Danmark Fastnet;45519613XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;60;0,45;no;0;;0;yes;Norden Mobil (DK)
+980164104;12-07-2019 14:06;4578772913;Danmark Fastnet;45787941XX;Danmark;Danmark Fastnet;firebrand-;ip-pstn;180;0,2;no;0;;0;yes;Norden (DK)
+980164128;12-07-2019 14:06;4578774477;Danmark Fastnet;45519613XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;0;0,05;no;0;;0;yes;Norden Mobil (DK)
+980164439;12-07-2019 14:08;4578774477;Danmark Fastnet;45519613XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;1080;7,25;no;0;;0;yes;Norden Mobil (DK)
+980167098;12-07-2019 14:26;46840836384;Sweden;467035275XX;Udland Mobil;Sweden-Mobile;firebrand-;ip-pstn;300;2,45;no;0;;0;yes;Norden Mobil
+980168547;12-07-2019 14:35;4578772913;Danmark Fastnet;45403490XX;Danmark Mobil;Danmark Mobil;firebrand-;ip-pstn;60;0,45;no;0;;0;yes;Norden Mobil (DK)
+980171373;12-07-2019 14:54;46840838262;Sweden;47220950XX;Udland;Norway;firebrand-;ip-pstn;120;0,34;no;0;;0;yes;Norden
+980171961;12-07-2019 14:59;4578772913;Danmark Fastnet;45413985XX;Danmark Mobil;Danmark Mobil;firebrand-;ip-pstn;300;2,05;no;0;;0;yes;Norden Mobil (DK)
+980174760;12-07-2019 15:19;4570200645;Danmark 70 nummer;467068670XX;Udland Mobil;Sweden-Mobile;rackpeoplehq-;ip-pstn;2460;18,65;no;0;;0;yes;Norden Mobil
+980175034;12-07-2019 15:21;4570200645;Danmark 70 nummer;45405214XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;240;1,65;no;0;;0;yes;Norden Mobil (DK)
+980175718;12-07-2019 15:26;4533456544;Danmark Fastnet;45407524XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;300;2,05;no;0;;0;yes;Norden Mobil (DK)
+980176746;12-07-2019 15:34;46840836380;Sweden;4416097602XX;Udland;United Kingdom;firebrand-;ip-pstn;180;0,56;no;0;;0;yes;Europa 1
+980452029;13-07-2019 02:19;4569669633;Danmark Fastnet;45703012XX;Danmark 70 nummer;Danmark 70 nummer;rackpeoplehq-;ip-pstn;120;0,15;no;0;;0;yes;Norden (DK)
+980852211;15-07-2019 08:29;4578774477;Danmark Fastnet;45519613XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;0;0,05;no;0;;0;yes;Norden Mobil (DK)
+980852454;15-07-2019 08:31;46840836384;Sweden;46902XX;Udland;Sweden;firebrand-;ip-pstn;0;0,2;no;0;;0;yes;Norden
+980853460;15-07-2019 08:39;4569669638;Danmark Fastnet;45881354XX;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;780;0,7;no;0;;0;yes;Norden (DK)
+980858047;15-07-2019 09:09;4533456546;Danmark Fastnet;45317891XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;0;0,05;no;0;;0;yes;Norden Mobil (DK)
+980859623;15-07-2019 09:19;4569669638;Danmark Fastnet;45536012XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;360;2,45;no;0;;0;yes;Norden Mobil (DK)
+980863096;15-07-2019 09:39;4578774477;Danmark Fastnet;45519613XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;0;0,05;no;0;;0;yes;Norden Mobil (DK)
+980863510;15-07-2019 09:41;4569669638;Danmark Fastnet;45691022XX;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;300;0,3;no;0;;0;yes;Norden (DK)
+980873471;15-07-2019 10:30;4570200645;Danmark 70 nummer;45701565XX;Danmark 70 nummer;Danmark 70 nummer;rackpeoplehq-;ip-pstn;0;0,05;no;0;;0;yes;Norden (DK)
+980878639;15-07-2019 10:55;46840836384;Sweden;467343313XX;Udland Mobil;Sweden-Mobile;firebrand-;ip-pstn;60;0,65;no;0;;0;yes;Norden Mobil
+980879719;15-07-2019 11:00;46840836384;Sweden;467343313XX;Udland Mobil;Sweden-Mobile;firebrand-;ip-pstn;60;0,65;no;0;;0;yes;Norden Mobil
+980880353;15-07-2019 11:03;4569669632;Danmark Fastnet;45887004XX;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;60;0,1;no;0;;0;yes;Norden (DK)
+980880528;15-07-2019 11:04;46840836384;Sweden;467343313XX;Udland Mobil;Sweden-Mobile;firebrand-;ip-pstn;60;0,65;no;0;;0;yes;Norden Mobil
+980881364;15-07-2019 11:08;46840836384;Sweden;467343313XX;Udland Mobil;Sweden-Mobile;firebrand-;ip-pstn;60;0,65;no;0;;0;yes;Norden Mobil
+980883578;15-07-2019 11:20;4578772913;Danmark Fastnet;45435592XX;Danmark;Danmark Fastnet;firebrand-;ip-pstn;180;0,2;no;0;;0;yes;Norden (DK)
+980885314;15-07-2019 11:29;4569804969;Danmark Fastnet;45363836XX;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;60;0,1;no;0;;0;yes;Norden (DK)
+980885474;15-07-2019 11:29;4569804969;Danmark Fastnet;45363836XX;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;60;0,1;no;0;;0;yes;Norden (DK)
+980886111;15-07-2019 11:32;4578772913;Danmark Fastnet;45413985XX;Danmark Mobil;Danmark Mobil;firebrand-;ip-pstn;0;0,05;no;0;;0;yes;Norden Mobil (DK)
+980886466;15-07-2019 11:34;4569804969;Danmark Fastnet;45463400XX;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;60;0,1;no;0;;0;yes;Norden (DK)
+980887853;15-07-2019 11:41;4533456546;Danmark Fastnet;45317891XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;0;0,05;no;0;;0;yes;Norden Mobil (DK)
+980891004;15-07-2019 11:57;46840836384;Sweden;467343313XX;Udland Mobil;Sweden-Mobile;firebrand-;ip-pstn;60;0,65;no;0;;0;yes;Norden Mobil
+980893569;15-07-2019 12:13;4570200645;Danmark 70 nummer;45424616XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;120;0,85;no;0;;0;yes;Norden Mobil (DK)
+980894656;15-07-2019 12:20;4570200645;Danmark 70 nummer;45394543XX;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;660;0,6;no;0;;0;yes;Norden (DK)
+980902210;15-07-2019 13:04;4578772913;Danmark Fastnet;45246831XX;Danmark Mobil;Danmark Mobil;firebrand-;ip-pstn;240;1,65;no;0;;0;yes;Norden Mobil (DK)
+980903025;15-07-2019 13:08;4578772913;Danmark Fastnet;45413985XX;Danmark Mobil;Danmark Mobil;firebrand-;ip-pstn;60;0,45;no;0;;0;yes;Norden Mobil (DK)
+980904594;15-07-2019 13:17;4569669638;Danmark Fastnet;45691022XX;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;240;0,25;no;0;;0;yes;Norden (DK)
+980909120;15-07-2019 13:42;4569669632;Danmark Fastnet;45887004XX;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;180;0,2;no;0;;0;yes;Norden (DK)
+980909875;15-07-2019 13:47;46840836384;Sweden;467677721XX;Udland Mobil;Sweden-Mobile;firebrand-;ip-pstn;1080;8,3;no;0;;0;yes;Norden Mobil
+980913805;15-07-2019 14:08;4569669632;Danmark Fastnet;45406171XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;660;4,45;no;0;;0;yes;Norden Mobil (DK)
+980915051;15-07-2019 14:15;4533456544;Danmark Fastnet;45743725XX;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;1800;1,55;no;0;;0;yes;Norden (DK)
+980920465;15-07-2019 14:45;4533456544;Danmark Fastnet;45743778XX;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;240;0,25;no;0;;0;yes;Norden (DK)
+980925153;15-07-2019 15:13;4533456546;Danmark Fastnet;45317891XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;1560;10,45;no;0;;0;yes;Norden Mobil (DK)
+980928645;15-07-2019 15:34;4569669638;Danmark Fastnet;45293736XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;240;1,65;no;0;;0;yes;Norden Mobil (DK)
+980938397;15-07-2019 17:03;4578772913;Danmark Fastnet;45233046XX;Danmark Mobil;Danmark Mobil;firebrand-;ip-pstn;660;4,45;no;0;;0;yes;Norden Mobil (DK)
+981186777;16-07-2019 08:06;4533456546;Danmark Fastnet;45317891XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;0;0,05;no;0;;0;yes;Norden Mobil (DK)
+981192227;16-07-2019 08:57;4533456546;Danmark Fastnet;45203078XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;60;0,45;no;0;;0;yes;Norden Mobil (DK)
+981192549;16-07-2019 08:59;4533456546;Danmark Fastnet;45317891XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;0;0,05;no;0;;0;yes;Norden Mobil (DK)
+981193750;16-07-2019 09:08;4569669638;Danmark Fastnet;45471209XX;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;360;0,35;no;0;;0;yes;Norden (DK)
+981197717;16-07-2019 09:32;4569669638;Danmark Fastnet;45471209XX;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;1080;0,95;no;0;;0;yes;Norden (DK)
+981202318;16-07-2019 09:59;4569669638;Danmark Fastnet;45471209XX;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;120;0,15;no;0;;0;yes;Norden (DK)
+981210018;16-07-2019 10:38;4569669638;Danmark Fastnet;45471209XX;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;360;0,35;no;0;;0;yes;Norden (DK)
+981213855;16-07-2019 10:56;4533456546;Danmark Fastnet;45317891XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;0;0,05;no;0;;0;yes;Norden Mobil (DK)
+981217570;16-07-2019 11:15;4533456544;Danmark Fastnet;45225686XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;60;0,45;no;0;;0;yes;Norden Mobil (DK)
+981223865;16-07-2019 11:49;4533456546;Danmark Fastnet;45203078XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;0;0,05;no;0;;0;yes;Norden Mobil (DK)
+981223898;16-07-2019 11:49;4533456546;Danmark Fastnet;45203078XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;300;2,05;no;0;;0;yes;Norden Mobil (DK)
+981227806;16-07-2019 12:13;4533456546;Danmark Fastnet;45317891XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;60;0,45;no;0;;0;yes;Norden Mobil (DK)
+981230888;16-07-2019 12:34;4533456546;Danmark Fastnet;45792037XX;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;0;0,05;no;0;;0;yes;Norden (DK)
+981230978;16-07-2019 12:35;4533456546;Danmark Fastnet;45222054XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;60;0,45;no;0;;0;yes;Norden Mobil (DK)
+981231503;16-07-2019 12:38;4533456546;Danmark Fastnet;45317891XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;0;0,05;no;0;;0;yes;Norden Mobil (DK)
+981231603;16-07-2019 12:39;4533456546;Danmark Fastnet;45222054XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;720;4,85;no;0;;0;yes;Norden Mobil (DK)
+981232443;16-07-2019 12:44;46840838262;Sweden;467689063XX;Udland Mobil;Sweden-Mobile;firebrand-;ip-pstn;60;0,65;no;0;;0;yes;Norden Mobil
+981236197;16-07-2019 13:07;4533456546;Danmark Fastnet;45317891XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;60;0,45;no;0;;0;yes;Norden Mobil (DK)
+981237079;16-07-2019 13:12;4533456549;Danmark Fastnet;45204492XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;180;1,25;no;0;;0;yes;Norden Mobil (DK)
+981237126;16-07-2019 13:12;46840836384;Sweden;467222272XX;Udland Mobil;Sweden-Mobile;firebrand-;ip-pstn;0;0,2;no;0;;0;yes;Norden Mobil
+981237589;16-07-2019 13:15;46840836384;Sweden;467054324XX;Udland Mobil;Sweden-Mobile;firebrand-;ip-pstn;60;0,65;no;0;;0;yes;Norden Mobil
+981237710;16-07-2019 13:15;46840836384;Sweden;467218624XX;Udland Mobil;Sweden-Mobile;firebrand-;ip-pstn;0;0,2;no;0;;0;yes;Norden Mobil
+981238277;16-07-2019 13:18;4578772913;Danmark Fastnet;45222045XX;Danmark Mobil;Danmark Mobil;firebrand-;ip-pstn;0;0,05;no;0;;0;yes;Norden Mobil (DK)
+981238733;16-07-2019 13:21;46840836384;Sweden;467064688XX;Udland Mobil;Sweden-Mobile;firebrand-;ip-pstn;0;0,2;no;0;;0;yes;Norden Mobil
+981239124;16-07-2019 13:23;46840836384;Sweden;467304133XX;Udland Mobil;Sweden-Mobile;firebrand-;ip-pstn;0;0,2;no;0;;0;yes;Norden Mobil
+981239245;16-07-2019 13:24;46840836384;Sweden;467308733XX;Udland Mobil;Sweden-Mobile;firebrand-;ip-pstn;60;0,65;no;0;;0;yes;Norden Mobil
+981239292;16-07-2019 13:24;4578772913;Danmark Fastnet;45297235XX;Danmark Mobil;Danmark Mobil;firebrand-;ip-pstn;60;0,45;no;0;;0;yes;Norden Mobil (DK)
+981239307;16-07-2019 13:24;46840836384;Sweden;467250988XX;Udland Mobil;Sweden-Mobile;firebrand-;ip-pstn;60;0,65;no;0;;0;yes;Norden Mobil
+981242977;16-07-2019 13:45;4578772913;Danmark Fastnet;467343313XX;Udland Mobil;Sweden-Mobile;firebrand-;ip-pstn;0;0,2;no;0;;0;yes;Norden Mobil
+981244421;16-07-2019 13:54;46840836384;Sweden;467362021XX;Udland Mobil;Sweden-Mobile;firebrand-;ip-pstn;1620;12,35;no;0;;0;yes;Norden Mobil
+981248229;16-07-2019 14:16;4533456546;Danmark Fastnet;45203078XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;60;0,45;no;0;;0;yes;Norden Mobil (DK)
+981251815;16-07-2019 14:38;4578772913;Danmark Fastnet;45292910XX;Danmark Mobil;Danmark Mobil;firebrand-;ip-pstn;60;0,45;no;0;;0;yes;Norden Mobil (DK)
+981252345;16-07-2019 14:42;4578774477;Danmark Fastnet;45226319XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;60;0,45;no;0;;0;yes;Norden Mobil (DK)
+981255457;16-07-2019 15:02;4570200645;Danmark 70 nummer;45424616XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;240;1,65;no;0;;0;yes;Norden Mobil (DK)
+981259238;16-07-2019 15:27;4578772913;Danmark Fastnet;45246831XX;Danmark Mobil;Danmark Mobil;firebrand-;ip-pstn;180;1,25;no;0;;0;yes;Norden Mobil (DK)
+981508425;17-07-2019 08:07;4578774477;Danmark Fastnet;45226319XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;60;0,45;no;0;;0;yes;Norden Mobil (DK)
+981509269;17-07-2019 08:16;4533456544;Danmark Fastnet;45202074XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;180;1,25;no;0;;0;yes;Norden Mobil (DK)
+981511213;17-07-2019 08:35;4533456546;Danmark Fastnet;45317891XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;60;0,45;no;0;;0;yes;Norden Mobil (DK)
+981513247;17-07-2019 08:54;4533456544;Danmark Fastnet;45317891XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;0;0,05;no;0;;0;yes;Norden Mobil (DK)
+981513250;17-07-2019 08:54;4533456546;Danmark Fastnet;45203078XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;0;0,05;no;0;;0;yes;Norden Mobil (DK)
+981513381;17-07-2019 08:55;4533456546;Danmark Fastnet;45317891XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;0;0,05;no;0;;0;yes;Norden Mobil (DK)
+981513562;17-07-2019 08:57;4569669632;Danmark Fastnet;45887004XX;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;60;0,1;no;0;;0;yes;Norden (DK)
+981515212;17-07-2019 09:09;4533456546;Danmark Fastnet;45203078XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;60;0,45;no;0;;0;yes;Norden Mobil (DK)
+981515306;17-07-2019 09:09;4533456546;Danmark Fastnet;45214981XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;120;0,85;no;0;;0;yes;Norden Mobil (DK)
+981517313;17-07-2019 09:24;4533456544;Danmark Fastnet;45993630XX;Danmark;Denmark Fastnet;rackpeoplehq-;ip-pstn;180;0,2;no;0;;0;yes;Norden (DK)
+981517543;17-07-2019 09:25;4533456546;Danmark Fastnet;45317891XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;60;0,45;no;0;;0;yes;Norden Mobil (DK)
+981517677;17-07-2019 09:26;4533456546;Danmark Fastnet;45203078XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;1620;10,85;no;0;;0;yes;Norden Mobil (DK)
+981518390;17-07-2019 09:31;4533456544;Danmark Fastnet;45592761XX;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;120;0,15;no;0;;0;yes;Norden (DK)
+981518749;17-07-2019 09:33;4533456544;Danmark Fastnet;45596562XX;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;120;0,15;no;0;;0;yes;Norden (DK)
+981519016;17-07-2019 09:35;4533456544;Danmark Fastnet;45595100XX;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;120;0,15;no;0;;0;yes;Norden (DK)
+981521893;17-07-2019 09:53;4533456546;Danmark Fastnet;45317891XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;0;0,05;no;0;;0;yes;Norden Mobil (DK)
+981522003;17-07-2019 09:53;4569669632;Danmark Fastnet;45887004XX;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;240;0,25;no;0;;0;yes;Norden (DK)
+981523784;17-07-2019 10:03;4569669632;Danmark Fastnet;45867617XX;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;120;0,15;no;0;;0;yes;Norden (DK)
+981524173;17-07-2019 10:06;4569669632;Danmark Fastnet;45437135XX;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;180;0,2;no;0;;0;yes;Norden (DK)
+981526110;17-07-2019 10:16;4569669632;Danmark Fastnet;45887004XX;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;300;0,3;no;0;;0;yes;Norden (DK)
+981527177;17-07-2019 10:22;4569669632;Danmark Fastnet;45437135XX;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;120;0,15;no;0;;0;yes;Norden (DK)
+981529931;17-07-2019 10:36;4569669632;Danmark Fastnet;45887004XX;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;180;0,2;no;0;;0;yes;Norden (DK)
+981531092;17-07-2019 10:42;4569669632;Danmark Fastnet;45887004XX;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;300;0,3;no;0;;0;yes;Norden (DK)
+981531641;17-07-2019 10:45;4533456544;Danmark Fastnet;45759427XX;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;2700;2,3;no;0;;0;yes;Norden (DK)
+981532139;17-07-2019 10:47;4569669632;Danmark Fastnet;45437135XX;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;120;0,15;no;0;;0;yes;Norden (DK)
+981533298;17-07-2019 10:53;4578774477;Danmark Fastnet;45226319XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;0;0,05;no;0;;0;yes;Norden Mobil (DK)
+981533359;17-07-2019 10:54;46840838262;Sweden;467689063XX;Udland Mobil;Sweden-Mobile;firebrand-;ip-pstn;60;0,65;no;0;;0;yes;Norden Mobil
+981543758;17-07-2019 11:50;46840838262;Sweden;467092211XX;Udland Mobil;Sweden-Mobile;firebrand-;ip-pstn;900;6,95;no;0;;0;yes;Norden Mobil
+981544457;17-07-2019 11:54;4569669638;Danmark Fastnet;45887040XX;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;60;0,1;no;0;;0;yes;Norden (DK)
+981544789;17-07-2019 11:56;4569669638;Danmark Fastnet;45887040XX;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;360;0,35;no;0;;0;yes;Norden (DK)
+981548696;17-07-2019 12:23;4570200645;Danmark 70 nummer;45238469XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;420;2,85;no;0;;0;yes;Norden Mobil (DK)
+981552096;17-07-2019 12:46;4570200645;Danmark 70 nummer;45312228XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;60;0,45;no;0;;0;yes;Norden Mobil (DK)
+981552975;17-07-2019 12:52;4569669638;Danmark Fastnet;45536012XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;180;1,25;no;0;;0;yes;Norden Mobil (DK)
+981553435;17-07-2019 12:55;4569669638;Danmark Fastnet;45887040XX;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;120;0,15;no;0;;0;yes;Norden (DK)
+981558359;17-07-2019 13:24;4533456543;Danmark Fastnet;45214981XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;720;4,85;no;0;;0;yes;Norden Mobil (DK)
+981563076;17-07-2019 13:54;4578772913;Danmark Fastnet;45246831XX;Danmark Mobil;Danmark Mobil;firebrand-;ip-pstn;120;0,85;no;0;;0;yes;Norden Mobil (DK)
+981564574;17-07-2019 14:03;4578772913;Danmark Fastnet;45242924XX;Danmark Mobil;Danmark Mobil;firebrand-;ip-pstn;300;2,05;no;0;;0;yes;Norden Mobil (DK)
+981566087;17-07-2019 14:13;4578772913;Danmark Fastnet;45221967XX;Danmark Mobil;Danmark Mobil;firebrand-;ip-pstn;60;0,45;no;0;;0;yes;Norden Mobil (DK)
+981566765;17-07-2019 14:17;4578772913;Danmark Fastnet;45297235XX;Danmark Mobil;Danmark Mobil;firebrand-;ip-pstn;60;0,45;no;0;;0;yes;Norden Mobil (DK)
+981567147;17-07-2019 14:19;4578772913;Danmark Fastnet;45202013XX;Danmark Mobil;Danmark Mobil;firebrand-;ip-pstn;0;0,05;no;0;;0;yes;Norden Mobil (DK)
+981567217;17-07-2019 14:20;4578772913;Danmark Fastnet;45303030XX;Danmark Mobil;Danmark Mobil;firebrand-;ip-pstn;0;0,05;no;0;;0;yes;Norden Mobil (DK)
+981567497;17-07-2019 14:22;4578772913;Danmark Fastnet;45224684XX;Danmark Mobil;Danmark Mobil;firebrand-;ip-pstn;0;0,05;no;0;;0;yes;Norden Mobil (DK)
+981568422;17-07-2019 14:27;4578772913;Danmark Fastnet;45251270XX;Danmark Mobil;Danmark Mobil;firebrand-;ip-pstn;60;0,45;no;0;;0;yes;Norden Mobil (DK)
+981568793;17-07-2019 14:30;4578772913;Danmark Fastnet;45292910XX;Danmark Mobil;Danmark Mobil;firebrand-;ip-pstn;0;0,05;no;0;;0;yes;Norden Mobil (DK)
+981568925;17-07-2019 14:31;4570200645;Danmark 70 nummer;45401754XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;180;1,25;no;0;;0;yes;Norden Mobil (DK)
+981569453;17-07-2019 14:34;4578772913;Danmark Fastnet;3585036362XX;Udland Mobil;Finland-Mobile;firebrand-;ip-pstn;0;0,2;no;0;;0;yes;Norden Mobil
+981570995;17-07-2019 14:43;4578772913;Danmark Fastnet;45601514XX;Danmark Mobil;Danmark Mobil;firebrand-;ip-pstn;0;0,05;no;0;;0;yes;Norden Mobil (DK)
+981572197;17-07-2019 14:50;46840836384;Sweden;467222272XX;Udland Mobil;Sweden-Mobile;firebrand-;ip-pstn;1260;9,65;no;0;;0;yes;Norden Mobil
+981574174;17-07-2019 15:02;4578772913;Danmark Fastnet;45402429XX;Danmark Mobil;Danmark Mobil;firebrand-;ip-pstn;60;0,45;no;0;;0;yes;Norden Mobil (DK)
+981576308;17-07-2019 15:17;4578772913;Danmark Fastnet;45443580XX;Danmark;Danmark Fastnet;firebrand-;ip-pstn;60;0,1;no;0;;0;yes;Norden (DK)
+981576587;17-07-2019 15:18;4533456546;Danmark Fastnet;45317891XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;0;0,05;no;0;;0;yes;Norden Mobil (DK)
+981576947;17-07-2019 15:21;4533456544;Danmark Fastnet;45407524XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;420;2,85;no;0;;0;yes;Norden Mobil (DK)
+981577541;17-07-2019 15:25;4578772913;Danmark Fastnet;45443580XX;Danmark;Danmark Fastnet;firebrand-;ip-pstn;240;0,25;no;0;;0;yes;Norden (DK)
+981578069;17-07-2019 15:29;4578772913;Danmark Fastnet;45403555XX;Danmark Mobil;Danmark Mobil;firebrand-;ip-pstn;240;1,65;no;0;;0;yes;Norden Mobil (DK)
+981579553;17-07-2019 15:40;4570200645;Danmark 70 nummer;467099077XX;Udland Mobil;Sweden-Mobile;rackpeoplehq-;ip-pstn;540;4,25;no;0;;0;yes;Norden Mobil
+981580385;17-07-2019 15:46;4569669638;Danmark Fastnet;45249172XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;0;0,05;no;0;;0;yes;Norden Mobil (DK)
+981583025;17-07-2019 16:08;4578772913;Danmark Fastnet;45268440XX;Danmark Mobil;Danmark Mobil;firebrand-;ip-pstn;0;0,05;no;0;;0;yes;Norden Mobil (DK)
+981829447;18-07-2019 08:35;4570200645;Danmark 70 nummer;45238469XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;60;0,45;no;0;;0;yes;Norden Mobil (DK)
+981837661;18-07-2019 09:36;4533456544;Danmark Fastnet;45203078XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;900;6,05;no;0;;0;yes;Norden Mobil (DK)
+981845287;18-07-2019 10:20;4569804965;Danmark Fastnet;45707011XX;Danmark 70 nummer;Danmark 70 nummer;rackpeoplehq-;ip-pstn;120;0,15;no;0;;0;yes;Norden (DK)
+981846525;18-07-2019 10:26;4570200645;Danmark 70 nummer;467099077XX;Udland Mobil;Sweden-Mobile;rackpeoplehq-;ip-pstn;60;0,65;no;0;;0;yes;Norden Mobil
+981849362;18-07-2019 10:41;46840836384;Sweden;461088866XX;Udland;Sweden;firebrand-;ip-pstn;660;0,97;no;0;;0;yes;Norden
+981862891;18-07-2019 11:56;46840836385;Sweden;467388021XX;Udland Mobil;Sweden-Mobile;firebrand-;ip-pstn;0;0,2;no;0;;0;yes;Norden Mobil
+981862929;18-07-2019 11:57;46840836385;Sweden;467388021XX;Udland Mobil;Sweden-Mobile;firebrand-;ip-pstn;0;0,2;no;0;;0;yes;Norden Mobil
+981876913;18-07-2019 13:30;4570200645;Danmark 70 nummer;45332797XX;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;180;0,2;no;0;;0;yes;Norden (DK)
+981877466;18-07-2019 13:33;4570200645;Danmark 70 nummer;45332797XX;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;1140;1;no;0;;0;yes;Norden (DK)
+981883494;18-07-2019 14:12;4570200645;Danmark 70 nummer;467099077XX;Udland Mobil;Sweden-Mobile;rackpeoplehq-;ip-pstn;360;2,9;no;0;;0;yes;Norden Mobil
+981885890;18-07-2019 14:27;4570200645;Danmark 70 nummer;172727714XX;Udland;USA;rackpeoplehq-;ip-pstn;600;0,8;no;0;;0;yes;Nordamerika
+981886288;18-07-2019 14:30;4569669638;Danmark Fastnet;45881354XX;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;960;0,85;no;0;;0;yes;Norden (DK)
+981890427;18-07-2019 14:57;4569804964;Danmark Fastnet;45207513XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;60;0,45;no;0;;0;yes;Norden Mobil (DK)
+981891985;18-07-2019 15:09;4569669638;Danmark Fastnet;45271240XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;60;0,45;no;0;;0;yes;Norden Mobil (DK)
+981900724;18-07-2019 16:24;4533456546;Danmark Fastnet;45317891XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;0;0,05;no;0;;0;yes;Norden Mobil (DK)
+983137690;19-07-2019 09:06;4570200645;Danmark 70 nummer;45888082XX;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;60;0,1;no;0;;0;yes;Norden (DK)
+983137836;19-07-2019 09:07;46840836384;Sweden;467362021XX;Udland Mobil;Sweden-Mobile;firebrand-;ip-pstn;0;0,2;no;0;;0;yes;Norden Mobil
+983138374;19-07-2019 09:12;4533456546;Danmark Fastnet;45317891XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;0;0,05;no;0;;0;yes;Norden Mobil (DK)
+983140617;19-07-2019 09:30;46840836384;Sweden;467063099XX;Udland Mobil;Sweden-Mobile;firebrand-;ip-pstn;0;0,2;no;0;;0;yes;Norden Mobil
+983141409;19-07-2019 09:36;46840836384;Sweden;467069019XX;Udland Mobil;Sweden-Mobile;firebrand-;ip-pstn;0;0,2;no;0;;0;yes;Norden Mobil
+983141768;19-07-2019 09:39;4578774477;Danmark Fastnet;45226319XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;60;0,45;no;0;;0;yes;Norden Mobil (DK)
+983142687;19-07-2019 09:46;4533456546;Danmark Fastnet;45317891XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;0;0,05;no;0;;0;yes;Norden Mobil (DK)
+983142776;19-07-2019 09:46;4533456546;Danmark Fastnet;45203078XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;60;0,45;no;0;;0;yes;Norden Mobil (DK)
+983142823;19-07-2019 09:47;4533456546;Danmark Fastnet;45203078XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;1440;9,65;no;0;;0;yes;Norden Mobil (DK)
+983145903;19-07-2019 10:08;46840836384;Sweden;467086918XX;Udland Mobil;Sweden-Mobile;firebrand-;ip-pstn;60;0,65;no;0;;0;yes;Norden Mobil
+983146483;19-07-2019 10:12;46840836384;Sweden;467303188XX;Udland Mobil;Sweden-Mobile;firebrand-;ip-pstn;0;0,2;no;0;;0;yes;Norden Mobil
+983147552;19-07-2019 10:19;4533456546;Danmark Fastnet;45317891XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;0;0,05;no;0;;0;yes;Norden Mobil (DK)
+983150369;19-07-2019 10:37;4570200645;Danmark 70 nummer;45339252XX;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;300;0,3;no;0;;0;yes;Norden (DK)
+983153106;19-07-2019 10:55;4578772913;Danmark Fastnet;45246831XX;Danmark Mobil;Danmark Mobil;firebrand-;ip-pstn;60;0,45;no;0;;0;yes;Norden Mobil (DK)
+983156200;19-07-2019 11:15;4570200645;Danmark 70 nummer;45268270XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;420;2,85;no;0;;0;yes;Norden Mobil (DK)
+983156877;19-07-2019 11:19;4533456546;Danmark Fastnet;45203078XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;60;0,45;no;0;;0;yes;Norden Mobil (DK)
+983157136;19-07-2019 11:21;4569804969;Danmark Fastnet;45401137XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;0;0,05;no;0;;0;yes;Norden Mobil (DK)
+983158257;19-07-2019 11:27;4533456546;Danmark Fastnet;45317891XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;0;0,05;no;0;;0;yes;Norden Mobil (DK)
+983161026;19-07-2019 11:45;4578772913;Danmark Fastnet;44084547010XX;Udland;United Kingdom;firebrand-;ip-pstn;0;0,2;no;0;;0;yes;Europa 1
+983161114;19-07-2019 11:46;4578772913;Danmark Fastnet;44084547010XX;Udland;United Kingdom;firebrand-;ip-pstn;0;0,2;no;0;;0;yes;Europa 1
+983161355;19-07-2019 11:48;4578772913;Danmark Fastnet;4484547010XX;Udland Mobil;United Kingdom-Mobile;firebrand-;ip-pstn;300;2,7;no;0;;0;yes;Europa 1 Mobil
+983167069;19-07-2019 12:30;4533456546;Danmark Fastnet;45317891XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;0;0,05;no;0;;0;yes;Norden Mobil (DK)
+983167698;19-07-2019 12:36;4533456546;Danmark Fastnet;45595734XX;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;180;0,2;no;0;;0;yes;Norden (DK)
+983174533;19-07-2019 13:27;4578772913;Danmark Fastnet;45514000XX;Danmark Mobil;Danmark Mobil;firebrand-;ip-pstn;120;0,85;no;0;;0;yes;Norden Mobil (DK)
+983176234;19-07-2019 13:38;4578772913;Danmark Fastnet;45307804XX;Danmark Mobil;Danmark Mobil;firebrand-;ip-pstn;300;2,05;no;0;;0;yes;Norden Mobil (DK)
+983180430;19-07-2019 14:11;4570200645;Danmark 70 nummer;468586400XX;Udland;Sweden;rackpeoplehq-;ip-pstn;180;0,41;no;0;;0;yes;Norden
+983180714;19-07-2019 14:13;4570200645;Danmark 70 nummer;468586400XX;Udland;Sweden;rackpeoplehq-;ip-pstn;60;0,27;no;0;;0;yes;Norden
+983180777;19-07-2019 14:14;4570200645;Danmark 70 nummer;468586400XX;Udland;Sweden;rackpeoplehq-;ip-pstn;60;0,27;no;0;;0;yes;Norden
+983180824;19-07-2019 14:14;4570200645;Danmark 70 nummer;468586400XX;Udland;Sweden;rackpeoplehq-;ip-pstn;120;0,34;no;0;;0;yes;Norden
+983182341;19-07-2019 14:27;4569669638;Danmark Fastnet;45396910XX;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;60;0,1;no;0;;0;yes;Norden (DK)
+983182417;19-07-2019 14:28;4569669638;Danmark Fastnet;45396910XX;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;60;0,1;no;0;;0;yes;Norden (DK)
+983183089;19-07-2019 14:34;4578774477;Danmark Fastnet;45226319XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;0;0,05;no;0;;0;yes;Norden Mobil (DK)
+983186286;19-07-2019 15:05;4533456546;Danmark Fastnet;45317891XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;0;0,05;no;0;;0;yes;Norden Mobil (DK)
+983118722;21-07-2019 14:01;4569669500;Danmark Fastnet;467378177XX;Udland Mobil;Sweden-Mobile;rackpeoplehq-;ip-pstn;60;0,65;no;0;;0;yes;Norden Mobil
+983118773;21-07-2019 14:03;4569669500;Danmark Fastnet;467378177XX;Udland Mobil;Sweden-Mobile;rackpeoplehq-;ip-pstn;60;0,65;no;0;;0;yes;Norden Mobil
+982919230;22-07-2019 07:41;4533456549;Danmark Fastnet;45204492XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;180;1,25;no;0;;0;yes;Norden Mobil (DK)
+982923427;22-07-2019 08:30;4533456543;Danmark Fastnet;45402600XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;60;0,45;no;0;;0;yes;Norden Mobil (DK)
+982923808;22-07-2019 08:34;4533456543;Danmark Fastnet;45214981XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;0;0,05;no;0;;0;yes;Norden Mobil (DK)
+982932658;22-07-2019 09:39;4578772915;Danmark Fastnet;45402964XX;Danmark Mobil;Danmark Mobil;firebrand-;ip-pstn;660;4,45;no;0;;0;yes;Norden Mobil (DK)
+982937939;22-07-2019 10:11;4578772918;Danmark Fastnet;45981677XX;Danmark;Denmark Fastnet;firebrand-;ip-pstn;180;0,2;no;0;;0;yes;Norden (DK)
+982938040;22-07-2019 10:12;4578772915;Danmark Fastnet;3022410627XX;Udland;Greece;firebrand-;ip-pstn;180;0,56;no;0;;0;yes;Europa 1
+982939674;22-07-2019 10:21;4533456543;Danmark Fastnet;45204492XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;240;1,65;no;0;;0;yes;Norden Mobil (DK)
+982940061;22-07-2019 10:23;4569669636;Danmark Fastnet;45463042XX;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;60;0,1;no;0;;0;yes;Norden (DK)
+982943947;22-07-2019 10:46;4578772915;Danmark Fastnet;3022410627XX;Udland;Greece;firebrand-;ip-pstn;60;0,32;no;0;;0;yes;Europa 1
+982944508;22-07-2019 10:49;4569669636;Danmark Fastnet;45463042XX;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;60;0,1;no;0;;0;yes;Norden (DK)
+982949029;22-07-2019 11:15;4569804979;Danmark Fastnet;45576624XX;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;120;0,15;no;0;;0;yes;Norden (DK)
+982953257;22-07-2019 11:39;4569669632;Danmark Fastnet;45537200XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;60;0,45;no;0;;0;yes;Norden Mobil (DK)
+982954536;22-07-2019 11:46;4569669636;Danmark Fastnet;45303068XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;60;0,45;no;0;;0;yes;Norden Mobil (DK)
+982955100;22-07-2019 11:50;4569804978;Danmark Fastnet;45702233XX;Danmark 70 nummer;Danmark 70 nummer;rackpeoplehq-;ip-pstn;120;0,15;no;0;;0;yes;Norden (DK)
+982956268;22-07-2019 11:57;4569804979;Danmark Fastnet;45402566XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;360;2,45;no;0;;0;yes;Norden Mobil (DK)
+982958012;22-07-2019 12:09;4533456546;Danmark Fastnet;45204492XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;360;2,45;no;0;;0;yes;Norden Mobil (DK)
+982960297;22-07-2019 12:27;4569669636;Danmark Fastnet;45463042XX;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;120;0,15;no;0;;0;yes;Norden (DK)
+982960882;22-07-2019 12:31;4578772915;Danmark Fastnet;45422422XX;Danmark Mobil;Danmark Mobil;firebrand-;ip-pstn;120;0,85;no;0;;0;yes;Norden Mobil (DK)
+982962135;22-07-2019 12:40;4578772915;Danmark Fastnet;3022410627XX;Udland;Greece;firebrand-;ip-pstn;60;0,32;no;0;;0;yes;Europa 1
+982963209;22-07-2019 12:47;4570200645;Danmark 70 nummer;45364401XX;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;120;0,15;no;0;;0;yes;Norden (DK)
+982966343;22-07-2019 13:08;4578772916;Danmark Fastnet;45416004XX;Danmark Mobil;Danmark Mobil;firebrand-;ip-pstn;120;0,85;no;0;;0;yes;Norden Mobil (DK)
+982967701;22-07-2019 13:16;4569669632;Danmark Fastnet;45396910XX;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;600;0,55;no;0;;0;yes;Norden (DK)
+982973345;22-07-2019 13:53;4569669632;Danmark Fastnet;45396910XX;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;180;0,2;no;0;;0;yes;Norden (DK)
+982974998;22-07-2019 14:04;4570200645;Danmark 70 nummer;45238469XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;120;0,85;no;0;;0;yes;Norden Mobil (DK)
+982976420;22-07-2019 14:14;4533456546;Danmark Fastnet;45317891XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;60;0,45;no;0;;0;yes;Norden Mobil (DK)
+982976716;22-07-2019 14:16;4533456546;Danmark Fastnet;45317891XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;540;3,65;no;0;;0;yes;Norden Mobil (DK)
+982977948;22-07-2019 14:24;4533456546;Danmark Fastnet;45317891XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;0;0,05;no;0;;0;yes;Norden Mobil (DK)
+982978517;22-07-2019 14:28;4533456546;Danmark Fastnet;45792037XX;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;240;0,25;no;0;;0;yes;Norden (DK)
+982980334;22-07-2019 14:41;4578772918;Danmark Fastnet;45409857XX;Danmark Mobil;Danmark Mobil;firebrand-;ip-pstn;120;0,85;no;0;;0;yes;Norden Mobil (DK)
+982987368;22-07-2019 15:32;4569669632;Danmark Fastnet;45204559XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;120;0,85;no;0;;0;yes;Norden Mobil (DK)
+982990114;22-07-2019 15:55;4570200645;Danmark 70 nummer;45911717XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;480;3,25;no;0;;0;yes;Norden Mobil (DK)
+983007761;23-07-2019 08:21;4578774477;Danmark Fastnet;45519613XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;540;3,65;no;0;;0;yes;Norden Mobil (DK)
+983011899;23-07-2019 09:03;4569669632;Danmark Fastnet;45396910XX;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;120;0,15;no;0;;0;yes;Norden (DK)
+983013917;23-07-2019 09:18;4569669638;Danmark Fastnet;45405496XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;480;3,25;no;0;;0;yes;Norden Mobil (DK)
+983016501;23-07-2019 09:36;4578774477;Danmark Fastnet;45519613XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;120;0,85;no;0;;0;yes;Norden Mobil (DK)
+983016499;23-07-2019 09:36;4578774477;Danmark Fastnet;45226319XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;0;0,05;no;0;;0;yes;Norden Mobil (DK)
+983023260;23-07-2019 10:19;4578772918;Danmark Fastnet;45429101XX;Danmark Mobil;Danmark Mobil;firebrand-;ip-pstn;120;0,85;no;0;;0;yes;Norden Mobil (DK)
+983024843;23-07-2019 10:28;4578772918;Danmark Fastnet;45283086XX;Danmark Mobil;Danmark Mobil;firebrand-;ip-pstn;120;0,85;no;0;;0;yes;Norden Mobil (DK)
+983028876;23-07-2019 10:53;4578774477;Danmark Fastnet;45519613XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;0;0,05;no;0;;0;yes;Norden Mobil (DK)
+983031411;23-07-2019 11:08;4570200645;Danmark 70 nummer;467099077XX;Udland Mobil;Sweden-Mobile;rackpeoplehq-;ip-pstn;60;0,65;no;0;;0;yes;Norden Mobil
+983040489;23-07-2019 12:08;4569669632;Danmark Fastnet;45439991XX;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;120;0,15;no;0;;0;yes;Norden (DK)
+983045217;23-07-2019 12:44;4570200645;Danmark 70 nummer;45242442XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;60;0,45;no;0;;0;yes;Norden Mobil (DK)
+983045345;23-07-2019 12:45;4570200645;Danmark 70 nummer;45242442XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;180;1,25;no;0;;0;yes;Norden Mobil (DK)
+983045948;23-07-2019 12:49;4570200645;Danmark 70 nummer;45616777XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;840;5,65;no;0;;0;yes;Norden Mobil (DK)
+983047212;23-07-2019 12:58;4569804978;Danmark Fastnet;45702233XX;Danmark 70 nummer;Danmark 70 nummer;rackpeoplehq-;ip-pstn;60;0,1;no;0;;0;yes;Norden (DK)
+983047267;23-07-2019 12:58;4569804978;Danmark Fastnet;45702233XX;Danmark 70 nummer;Danmark 70 nummer;rackpeoplehq-;ip-pstn;120;0,15;no;0;;0;yes;Norden (DK)
+983051482;23-07-2019 13:27;4569669638;Danmark Fastnet;45396910XX;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;360;0,35;no;0;;0;yes;Norden (DK)
+983059148;23-07-2019 14:20;4569804979;Danmark Fastnet;45289242XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;60;0,45;no;0;;0;yes;Norden Mobil (DK)
+983059446;23-07-2019 14:22;4570200645;Danmark 70 nummer;467099077XX;Udland Mobil;Sweden-Mobile;rackpeoplehq-;ip-pstn;60;0,65;no;0;;0;yes;Norden Mobil
+983061169;23-07-2019 14:34;4569669636;Danmark Fastnet;45422623XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;60;0,45;no;0;;0;yes;Norden Mobil (DK)
+983062609;23-07-2019 14:45;4570200645;Danmark 70 nummer;467099077XX;Udland Mobil;Sweden-Mobile;rackpeoplehq-;ip-pstn;60;0,65;no;0;;0;yes;Norden Mobil
+983062782;23-07-2019 14:46;4570200645;Danmark 70 nummer;467099077XX;Udland Mobil;Sweden-Mobile;rackpeoplehq-;ip-pstn;60;0,65;no;0;;0;yes;Norden Mobil
+983063006;23-07-2019 14:48;4570200645;Danmark 70 nummer;467099077XX;Udland Mobil;Sweden-Mobile;rackpeoplehq-;ip-pstn;360;2,9;no;0;;0;yes;Norden Mobil
+983063199;23-07-2019 14:49;4569669638;Danmark Fastnet;45887004XX;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;0;0,05;no;0;;0;yes;Norden (DK)
+983063226;23-07-2019 14:50;4569669638;Danmark Fastnet;45887004XX;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;60;0,1;no;0;;0;yes;Norden (DK)
+983069924;23-07-2019 15:41;4533456546;Danmark Fastnet;45317891XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;360;2,45;no;0;;0;yes;Norden Mobil (DK)
+983441139;24-07-2019 08:47;4578772915;Danmark Fastnet;45708080XX;Danmark 70 nummer;Danmark 70 nummer;firebrand-;ip-pstn;300;0,3;no;0;;0;yes;Norden (DK)
+983452518;24-07-2019 10:05;4578772915;Danmark Fastnet;45354488XX;Danmark;Danmark Fastnet;firebrand-;ip-pstn;0;0,05;no;0;;0;yes;Norden (DK)
+983452616;24-07-2019 10:06;4578772915;Danmark Fastnet;45354488XX;Danmark;Danmark Fastnet;firebrand-;ip-pstn;240;0,25;no;0;;0;yes;Norden (DK)
+983453734;24-07-2019 10:12;4578772915;Danmark Fastnet;45446010XX;Danmark;Danmark Fastnet;firebrand-;ip-pstn;120;0,15;no;0;;0;yes;Norden (DK)
+983454212;24-07-2019 10:14;4570200645;Danmark 70 nummer;45701515XX;Danmark 70 nummer;Danmark 70 nummer;rackpeoplehq-;ip-pstn;120;0,15;no;0;;0;yes;Norden (DK)
+983455066;24-07-2019 10:19;4578772915;Danmark Fastnet;45722168XX;Danmark;Danmark Fastnet;firebrand-;ip-pstn;180;0,2;no;0;;0;yes;Norden (DK)
+983455482;24-07-2019 10:21;4578772915;Danmark Fastnet;45722168XX;Danmark;Danmark Fastnet;firebrand-;ip-pstn;120;0,15;no;0;;0;yes;Norden (DK)
+983457103;24-07-2019 10:30;4578772915;Danmark Fastnet;45447744XX;Danmark;Danmark Fastnet;firebrand-;ip-pstn;60;0,1;no;0;;0;yes;Norden (DK)
+983457237;24-07-2019 10:31;4578772915;Danmark Fastnet;45447744XX;Danmark;Danmark Fastnet;firebrand-;ip-pstn;180;0,2;no;0;;0;yes;Norden (DK)
+983457762;24-07-2019 10:34;4569669638;Danmark Fastnet;45491275XX;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;0;0,05;no;0;;0;yes;Norden (DK)
+983457886;24-07-2019 10:35;4569669638;Danmark Fastnet;45491275XX;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;240;0,25;no;0;;0;yes;Norden (DK)
+983458066;24-07-2019 10:36;4578772915;Danmark Fastnet;45422422XX;Danmark Mobil;Danmark Mobil;firebrand-;ip-pstn;180;1,25;no;0;;0;yes;Norden Mobil (DK)
+983458859;24-07-2019 10:41;4578772915;Danmark Fastnet;45422422XX;Danmark Mobil;Danmark Mobil;firebrand-;ip-pstn;60;0,45;no;0;;0;yes;Norden Mobil (DK)
+983459549;24-07-2019 10:45;4578772915;Danmark Fastnet;45422422XX;Danmark Mobil;Danmark Mobil;firebrand-;ip-pstn;0;0,05;no;0;;0;yes;Norden Mobil (DK)
+983459610;24-07-2019 10:45;4569669638;Danmark Fastnet;45471209XX;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;180;0,2;no;0;;0;yes;Norden (DK)
+983463207;24-07-2019 11:05;4569669638;Danmark Fastnet;45317891XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;120;0,85;no;0;;0;yes;Norden Mobil (DK)
+983463531;24-07-2019 11:07;4569669638;Danmark Fastnet;45888870XX;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;60;0,1;no;0;;0;yes;Norden (DK)
+983463600;24-07-2019 11:08;4569669638;Danmark Fastnet;45888870XX;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;60;0,1;no;0;;0;yes;Norden (DK)
+983463710;24-07-2019 11:08;4569669638;Danmark Fastnet;45888870XX;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;60;0,1;no;0;;0;yes;Norden (DK)
+983466368;24-07-2019 11:24;4569669638;Danmark Fastnet;45396910XX;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;120;0,15;no;0;;0;yes;Norden (DK)
+983480005;24-07-2019 12:55;4533456546;Danmark Fastnet;45204492XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;120;0,85;no;0;;0;yes;Norden Mobil (DK)
+983484823;24-07-2019 13:27;4578774477;Danmark Fastnet;45519613XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;240;1,65;no;0;;0;yes;Norden Mobil (DK)
+983485517;24-07-2019 13:31;4569669638;Danmark Fastnet;45396910XX;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;300;0,3;no;0;;0;yes;Norden (DK)
+983489941;24-07-2019 14:00;4533456546;Danmark Fastnet;45792037XX;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;60;0,1;no;0;;0;yes;Norden (DK)
+983491872;24-07-2019 14:12;4578772915;Danmark Fastnet;669596120XX;Udland Mobil;Thailand-Mobile;firebrand-;ip-pstn;300;8,45;no;0;;0;yes;Asien Mobil
+983492695;24-07-2019 14:17;4578774477;Danmark Fastnet;45519613XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;0;0,05;no;0;;0;yes;Norden Mobil (DK)
+983492937;24-07-2019 14:19;4578774477;Danmark Fastnet;45519613XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;0;0,05;no;0;;0;yes;Norden Mobil (DK)
+983495732;24-07-2019 14:36;4569669632;Danmark Fastnet;45563800XX;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;120;0,15;no;0;;0;yes;Norden (DK)
+983497905;24-07-2019 14:51;4569669632;Danmark Fastnet;45563800XX;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;60;0,1;no;0;;0;yes;Norden (DK)
+983498002;24-07-2019 14:51;4569669638;Danmark Fastnet;45396910XX;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;60;0,1;no;0;;0;yes;Norden (DK)
+983766781;25-07-2019 10:07;4570200645;Danmark 70 nummer;316516603XX;Udland Mobil;Netherlands-Mobile;rackpeoplehq-;ip-pstn;840;7,2;no;0;;0;yes;Europa 1 Mobil
+983774145;25-07-2019 10:47;4533456544;Danmark Fastnet;45407524XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;60;0,45;no;0;;0;yes;Norden Mobil (DK)
+983778503;25-07-2019 11:12;4533456540;Danmark Fastnet;45203078XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;60;0,45;no;0;;0;yes;Norden Mobil (DK)
+983778724;25-07-2019 11:13;4533456549;Danmark Fastnet;45204492XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;60;0,45;no;0;;0;yes;Norden Mobil (DK)
+983778936;25-07-2019 11:14;4533456549;Danmark Fastnet;45204492XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;60;0,45;no;0;;0;yes;Norden Mobil (DK)
+983797381;25-07-2019 13:10;4569804979;Danmark Fastnet;45887004XX;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;0;0,05;no;0;;0;yes;Norden (DK)
+983798009;25-07-2019 13:14;4569804979;Danmark Fastnet;45887004XX;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;480;0,45;no;0;;0;yes;Norden (DK)
+983798933;25-07-2019 13:21;4569804978;Danmark Fastnet;45702233XX;Danmark 70 nummer;Danmark 70 nummer;rackpeoplehq-;ip-pstn;60;0,1;no;0;;0;yes;Norden (DK)
+983803169;25-07-2019 13:50;4569804979;Danmark Fastnet;45702272XX;Danmark 70 nummer;Danmark 70 nummer;rackpeoplehq-;ip-pstn;120;0,15;no;0;;0;yes;Norden (DK)
+983806701;25-07-2019 14:14;4569669636;Danmark Fastnet;45691022XX;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;780;0,7;no;0;;0;yes;Norden (DK)
+983808439;25-07-2019 14:25;4533456540;Danmark Fastnet;45203078XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;120;0,85;no;0;;0;yes;Norden Mobil (DK)
+983812714;25-07-2019 14:54;4570200645;Danmark 70 nummer;45536933XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;120;0,85;no;0;;0;yes;Norden Mobil (DK)
+983813538;25-07-2019 15:00;4569804978;Danmark Fastnet;45317891XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;240;1,65;no;0;;0;yes;Norden Mobil (DK)
+983815675;25-07-2019 15:16;4569669638;Danmark Fastnet;45317891XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;60;0,45;no;0;;0;yes;Norden Mobil (DK)
+983815955;25-07-2019 15:18;4533456540;Danmark Fastnet;45317891XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;0;0,05;no;0;;0;yes;Norden Mobil (DK)
+983818048;25-07-2019 15:35;4570200645;Danmark 70 nummer;45536933XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;120;0,85;no;0;;0;yes;Norden Mobil (DK)
+983819007;25-07-2019 15:42;4570200645;Danmark 70 nummer;45536933XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;180;1,25;no;0;;0;yes;Norden Mobil (DK)
+984074929;26-07-2019 08:35;4578774477;Danmark Fastnet;45226319XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;0;0,05;no;0;;0;yes;Norden Mobil (DK)
+984074927;26-07-2019 08:35;4578774477;Danmark Fastnet;45519613XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;780;5,25;no;0;;0;yes;Norden Mobil (DK)
+984076221;26-07-2019 08:47;4578774477;Danmark Fastnet;45519613XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;60;0,45;no;0;;0;yes;Norden Mobil (DK)
+984076337;26-07-2019 08:48;4578774477;Danmark Fastnet;45519613XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;420;2,85;no;0;;0;yes;Norden Mobil (DK)
+984080896;26-07-2019 09:24;4533456549;Danmark Fastnet;45204492XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;120;0,85;no;0;;0;yes;Norden Mobil (DK)
+984090777;26-07-2019 10:25;4578774477;Danmark Fastnet;45519613XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;0;0,05;no;0;;0;yes;Norden Mobil (DK)
+984113744;26-07-2019 12:42;4569669638;Danmark Fastnet;45491275XX;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;420;0,4;no;0;;0;yes;Norden (DK)
+984117795;26-07-2019 13:09;4570200645;Danmark 70 nummer;4921329306XX;Udland;Germany;rackpeoplehq-;ip-pstn;240;0,68;no;0;;0;yes;Europa 1
+984121273;26-07-2019 13:32;4569804979;Danmark Fastnet;45331393XX;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;60;0,1;no;0;;0;yes;Norden (DK)
+984121443;26-07-2019 13:33;4569804979;Danmark Fastnet;45283501XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;480;3,25;no;0;;0;yes;Norden Mobil (DK)
+984131727;26-07-2019 14:55;4570200645;Danmark 70 nummer;4921329306XX;Udland;Germany;rackpeoplehq-;ip-pstn;300;0,8;no;0;;0;yes;Europa 1
+984132635;26-07-2019 15:03;4578774477;Danmark Fastnet;45519613XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;180;1,25;no;0;;0;yes;Norden Mobil (DK)
+984132817;26-07-2019 15:05;4570200645;Danmark 70 nummer;467033980XX;Udland Mobil;Sweden-Mobile;rackpeoplehq-;ip-pstn;120;1,1;no;0;;0;yes;Norden Mobil
+984740796;29-07-2019 08:33;4578774477;Danmark Fastnet;45519613XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;0;0,05;no;0;;0;yes;Norden Mobil (DK)
+984756805;29-07-2019 09:59;4533456543;Danmark Fastnet;45214981XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;180;1,25;no;0;;0;yes;Norden Mobil (DK)
+984765749;29-07-2019 10:38;4569669632;Danmark Fastnet;45396910XX;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;120;0,15;no;0;;0;yes;Norden (DK)
+984773574;29-07-2019 11:10;4533456546;Danmark Fastnet;45303143XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;120;0,85;no;0;;0;yes;Norden Mobil (DK)
+984782474;29-07-2019 11:48;4569669636;Danmark Fastnet;45293736XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;180;1,25;no;0;;0;yes;Norden Mobil (DK)
+984785426;29-07-2019 12:02;4570200645;Danmark 70 nummer;447657619XX;Udland Mobil;United Kingdom-Mobile;rackpeoplehq-;ip-pstn;0;0,2;no;0;;0;yes;Europa 1 Mobil
+984785477;29-07-2019 12:03;4570200645;Danmark 70 nummer;447657619XX;Udland Mobil;United Kingdom-Mobile;rackpeoplehq-;ip-pstn;0;0,2;no;0;;0;yes;Europa 1 Mobil
+984786006;29-07-2019 12:05;4570200645;Danmark 70 nummer;417657619XX;Udland Mobil;Switzerland-Mobile;rackpeoplehq-;ip-pstn;60;0,7;no;0;;0;yes;Europa 1 Mobil
+984786263;29-07-2019 12:07;4570200645;Danmark 70 nummer;413151137XX;Udland;Switzerland;rackpeoplehq-;ip-pstn;60;0,32;no;0;;0;yes;Europa 1
+984788880;29-07-2019 12:21;4570200645;Danmark 70 nummer;316168101XX;Udland Mobil;Netherlands-Mobile;rackpeoplehq-;ip-pstn;900;7,7;no;0;;0;yes;Europa 1 Mobil
+984792913;29-07-2019 12:41;4569669636;Danmark Fastnet;45396910XX;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;60;0,1;no;0;;0;yes;Norden (DK)
+984793391;29-07-2019 12:44;4569669636;Danmark Fastnet;45315010XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;180;1,25;no;0;;0;yes;Norden Mobil (DK)
+984797068;29-07-2019 13:01;4578774477;Danmark Fastnet;45226319XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;60;0,45;no;0;;0;yes;Norden Mobil (DK)
+984798250;29-07-2019 13:07;4578774477;Danmark Fastnet;45226319XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;60;0,45;no;0;;0;yes;Norden Mobil (DK)
+984799345;29-07-2019 13:12;4569669636;Danmark Fastnet;45315010XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;60;0,45;no;0;;0;yes;Norden Mobil (DK)
+984827760;29-07-2019 15:38;4569804978;Danmark Fastnet;45787877XX;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;180;0,2;no;0;;0;yes;Norden (DK)
+985092309;30-07-2019 08:52;4569669632;Danmark Fastnet;45396910XX;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;240;0,25;no;0;;0;yes;Norden (DK)
+985098463;30-07-2019 09:28;4569804978;Danmark Fastnet;45793138XX;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;180;0,2;no;0;;0;yes;Norden (DK)
+985113341;30-07-2019 10:36;4533456543;Danmark Fastnet;45214981XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;180;1,25;no;0;;0;yes;Norden Mobil (DK)
+985116415;30-07-2019 10:49;4569669632;Danmark Fastnet;45701011XX;Danmark 70 nummer;Danmark 70 nummer;rackpeoplehq-;ip-pstn;180;0,2;no;0;;0;yes;Norden (DK)
+985116552;30-07-2019 10:50;4533456546;Danmark Fastnet;45303143XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;780;5,25;no;0;;0;yes;Norden Mobil (DK)
+985117121;30-07-2019 10:52;4569669632;Danmark Fastnet;45701011XX;Danmark 70 nummer;Danmark 70 nummer;rackpeoplehq-;ip-pstn;360;0,35;no;0;;0;yes;Norden (DK)
+985129041;30-07-2019 11:48;4570200645;Danmark 70 nummer;467602060XX;Udland Mobil;Sweden-Mobile;rackpeoplehq-;ip-pstn;240;2;no;0;;0;yes;Norden Mobil
+985132779;30-07-2019 12:07;4570200645;Danmark 70 nummer;467385499XX;Udland Mobil;Sweden-Mobile;rackpeoplehq-;ip-pstn;2820;21,35;no;0;;0;yes;Norden Mobil
+985141406;30-07-2019 12:56;4533456549;Danmark Fastnet;45204492XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;120;0,85;no;0;;0;yes;Norden Mobil (DK)
+985141905;30-07-2019 12:58;4569669636;Danmark Fastnet;45887004XX;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;1020;0,9;no;0;;0;yes;Norden (DK)
+985149600;30-07-2019 13:36;4533456549;Danmark Fastnet;45204492XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;180;1,25;no;0;;0;yes;Norden Mobil (DK)
+985166906;30-07-2019 15:06;4533456540;Danmark Fastnet;45317891XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;180;1,25;no;0;;0;yes;Norden Mobil (DK)
+985800366;31-07-2019 08:59;4570200645;Danmark 70 nummer;45707014XX;Danmark 70 nummer;Danmark 70 nummer;rackpeoplehq-;ip-pstn;240;0,25;no;0;;0;yes;Norden (DK)
+985801590;31-07-2019 09:06;4578774477;Danmark Fastnet;45226319XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;60;0,45;no;0;;0;yes;Norden Mobil (DK)
+985801671;31-07-2019 09:07;4578774477;Danmark Fastnet;45226319XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;600;4,05;no;0;;0;yes;Norden Mobil (DK)
+985806358;31-07-2019 09:34;4533456549;Danmark Fastnet;45204492XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;60;0,45;no;0;;0;yes;Norden Mobil (DK)
+985808345;31-07-2019 09:45;4570200645;Danmark 70 nummer;417954073XX;Udland Mobil;Switzerland-Mobile;rackpeoplehq-;ip-pstn;0;0,2;no;0;;0;yes;Europa 1 Mobil
+985808512;31-07-2019 09:46;4570200645;Danmark 70 nummer;417954073XX;Udland Mobil;Switzerland-Mobile;rackpeoplehq-;ip-pstn;120;1,2;no;0;;0;yes;Europa 1 Mobil
+985808746;31-07-2019 09:48;4570200645;Danmark 70 nummer;414429921XX;Udland;Switzerland;rackpeoplehq-;ip-pstn;60;0,32;no;0;;0;yes;Europa 1
+985808803;31-07-2019 09:48;4533456549;Danmark Fastnet;45204492XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;60;0,45;no;0;;0;yes;Norden Mobil (DK)
+985809136;31-07-2019 09:49;4570200645;Danmark 70 nummer;49404600288XX;Udland;Germany;rackpeoplehq-;ip-pstn;2100;4,4;no;0;;0;yes;Europa 1
+985809209;31-07-2019 09:50;4533456549;Danmark Fastnet;45204492XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;240;1,65;no;0;;0;yes;Norden Mobil (DK)
+985831732;31-07-2019 11:40;4570200645;Danmark 70 nummer;415620079XX;Udland;Switzerland;rackpeoplehq-;ip-pstn;120;0,44;no;0;;0;yes;Europa 1
+985832465;31-07-2019 11:44;4570200645;Danmark 70 nummer;45257925XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;180;1,25;no;0;;0;yes;Norden Mobil (DK)
+985842415;31-07-2019 12:43;4533456540;Danmark Fastnet;45317891XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;900;6,05;no;0;;0;yes;Norden Mobil (DK)
+985848142;31-07-2019 13:14;4533456546;Danmark Fastnet;45309455XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;0;0,05;no;0;;0;yes;Norden Mobil (DK)
+985848176;31-07-2019 13:15;4533456546;Danmark Fastnet;45309455XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;1080;7,25;no;0;;0;yes;Norden Mobil (DK)
+985861663;31-07-2019 14:25;4533456546;Danmark Fastnet;45317891XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;0;0,05;no;0;;0;yes;Norden Mobil (DK)
+985861724;31-07-2019 14:26;4533456546;Danmark Fastnet;45317891XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;0;0,05;no;0;;0;yes;Norden Mobil (DK)
+985861792;31-07-2019 14:26;4533456546;Danmark Fastnet;45317891XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;0;0,05;no;0;;0;yes;Norden Mobil (DK)
+985862455;31-07-2019 14:30;4533456546;Danmark Fastnet;45317891XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;0;0,05;no;0;;0;yes;Norden Mobil (DK)
+985862524;31-07-2019 14:30;4533456546;Danmark Fastnet;45317891XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;0;0,05;no;0;;0;yes;Norden Mobil (DK)
+985869564;31-07-2019 15:08;4533456546;Danmark Fastnet;45317891XX;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;60;0,45;no;0;;0;yes;Norden Mobil (DK)
+985874999;31-07-2019 15:40;4533456546;Danmark Fastnet;45888333XX;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;0;0,05;no;0;;0;yes;Norden (DK)

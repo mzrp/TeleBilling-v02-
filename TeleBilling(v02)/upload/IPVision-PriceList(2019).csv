@@ -1,0 +1,56 @@
+zone;price_minute;price_call
+Norden DK;0,05;0,05
+Norden Mobil DK;0,40;0,05
+Norden;0,07;0,20
+Norden Mobil;0,45;0,20
+Europa 1;0,12;0,20
+Europa 1 Mobil;0,50;0,20
+Europa 2;0,15;0,20
+Europa 2 Mobil;1,00;0,20
+Europa 3;0,50;0,20
+Europa 3 Mobil;1,48;0,20
+Europa 4;0,29;0,20
+Europa 4 Mobil;0,99;0,20
+Asien;1,65;0,20
+Asien Mobil;1,65;0,20
+Øvrige Verden 1;2,50;0,20
+Øvrige Verden 1 Mobil;2,50;0,20
+Øvrige Verden 2;1,95;0,20
+Øvrige Verden 2 Mobil;1,95;0,20
+Øvrige Verden 3;2,25;0,20
+Øvrige verden 3 Mobil;2,25;0,20
+Nordamerika;0,06;0,20
+Belgium - Paging;2,55;0,20
+Estonia - Premium;4,25;0,20
+Germany 70 nummer;2,16;0,20
+GMSS - Ellipso;25,00;0,20
+GMSS - Globalstar;25,00;0,20
+GMSS - Iridium;25,00;0,20
+Inmarsat - A;29,00;0,20
+Inmarsat - Aero;25,00;0,20
+Inmarsat - B;15,00;0,20
+Inmarsat - B HSD;50,00;0,20
+Inmarsat - BGAN;39,00;0,20
+Inmarsat - M;15,00;0,20
+Inmarsat - M HSD;39,00;0,20
+Inmarsat - Mini M;25,00;0,20
+International Networks - Aeromobile Norway;35,00;0,20
+International Networks - DTAG;29,00;0,20
+International Networks - Emsat;25,00;0,20
+International Networks - Global Networks;19,00;0,20
+International Networks - MCP;15,00;0,20
+International Networks - Oration;12,00;0,20
+International Networks - Thuraya;9,00;0,20
+Liechtenstein - Premium ISS;3,25;0,20
+Mødetelefon ipvision - 90 92 01 02;1,20;0,20
+Mødetelefonen - 90 90 90 90;2,75;0,20
+Mødetelefonen - 90 90 90 90 OLD;2,00;0,20
+Mødetelefonen - 90 92 00 00;1,20;0,20
+Mødetelefonen - 90 92 02 02;1,60;0,20
+Norway - Shared Cost;1,50;0,20
+Sweden - Paging;25,00;0,20
+Telenor Mødetelefon;2,50;0,20
+Telia Domstolenes Mødetelefon;1,60;0,20
+Telia Mødetelefon;1,60;0,20
+United Kingdom - Personal;2,21;0,20
+118 - Nummeroplysningen;0,00;17,50

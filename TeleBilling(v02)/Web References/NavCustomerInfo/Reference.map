@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DiscoveryClientResultsFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Results>
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.ContractReference" url="https://navsrv02.gowingu.net:7047/DynamicsNAV90/WS/Rackpeople Consulting ApS/Page/CustomerInfo2?tenant=rackpeople" filename="CustomerInfo2.wsdl" />
+  </Results>
+</DiscoveryClientResultsFile>
