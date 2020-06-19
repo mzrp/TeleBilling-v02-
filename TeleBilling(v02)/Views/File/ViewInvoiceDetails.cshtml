@@ -148,6 +148,64 @@
                     @Html.DisplayFor(modelItem => item.CSVFileId)
                 </td>
             </tr>
+
+            try
+            {
+                string fileName = Session["sesFilename"].ToString();
+                string fileNameZR = Session["sesFilenameZR"].ToString();
+
+                List<TeleBilling_v02_.Models.ZoneRecords> zR = (List<TeleBilling_v02_.Models.ZoneRecords>)Session["sesZoneRecords"];
+
+                var tempZone = zR.SingleOrDefault(x => x.Name == item.ZoneName);
+                if (tempZone != null)
+                {
+                    decimal value = (tempZone.Minute_price / 60) * Convert.ToDecimal(item.Volume_time_secs) + tempZone.Call_price;
+                    double expectedPrice = Convert.ToDouble(String.Format("{0:0.00}", value));
+
+                    double recordPrice = double.Parse(item.Price.Replace(',', '.'), System.Globalization.CultureInfo.InvariantCulture);
+                    if (recordPrice > expectedPrice)
+                    {
+                        string errorMsg = " recordPrice " + recordPrice + " not equal with expectedPrice " + expectedPrice;
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td colspan="9">
+                                <font color="red">@errorMsg</font>
+                            </td>
+                        </tr>
+                    }
+                }
+                else
+                {
+                    <tr>
+                        <td>&nbsp;</td>
+                        <td colspan="9">
+                            <font color="red">tempZone problem: </font>
+                            <br />
+                            @fileName
+                            <br />
+                            @fileNameZR
+                            <br />
+                            @item.ZoneName
+                            <br />
+                            @item.Volume_time_secs
+                        </td>
+                    </tr>
+                }
+            }
+            catch (Exception ex)
+            {
+                <tr>
+                    <td>&nbsp;</td>
+                    <td colspan="9">
+                        <font color="red">@ex.ToString()</font>
+                        <br />
+                        @item.ZoneName
+                        <br />
+                        @item.Volume_time_secs
+                    </td>
+                </tr>
+            }
+
         }
 
     </table>

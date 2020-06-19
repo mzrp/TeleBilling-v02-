@@ -94,15 +94,51 @@ namespace TeleBilling_v02_.Controllers
             {
                 if (fileType == "InvoiceFile")
                 {
+                    Session.Add("sesFilename", fileName);
+
+                    var recordList = fileRepository.GetFileInvoiceDetails(fileId).Where(x => x.RPBilled == "No").ToList();
+                    var sId = recordList.FirstOrDefault().CSVFile.SupplierId;
+                    var typeId = fileRepository.GetType("PriceFile").Id;
+                    var files = fileRepository.GetCsvFileByTypeId(typeId);
+                    var fileNameZR = files.SingleOrDefault(f => f.SupplierId == sId && f.TypeId == typeId).Name;// here supplier id should be equal to the sId
+                    Session.Add("sesFilenameZR", fileNameZR);
+
+                    Session.Add("sesZoneRecords", fileRepository.GetFileByName(fileNameZR).ZoneRecords.ToList());
+
                     csvFile.InvoiceRecords = fileRepository.GetFileInvoiceDetails(fileId).ToList();
                     csvFile.BillableList = csvFile.InvoiceRecords.Where(x => x.RPBilled == "No").ToList();
+                    //csvFile.ZoneRecords = fileRepository.GetFileByName(fileName).ZoneRecords.ToList();
                     //return View(csvFile.InvoiceRecords);
                 }
-                else if (fileType == "PriceFile")
+
+                if (fileType == "InvoiceFileAlreadyDone")
+                {
+                    Session.Add("sesFilename", fileName);
+
+                    var recordList = fileRepository.GetFileInvoiceDetails(fileId).Where(x => x.RPBilled == "Yes").ToList();
+                    var sId = recordList.FirstOrDefault().CSVFile.SupplierId;
+                    var typeId = fileRepository.GetType("PriceFile").Id;
+                    var files = fileRepository.GetCsvFileByTypeId(typeId);
+                    var fileNameZR = files.SingleOrDefault(f => f.SupplierId == sId && f.TypeId == typeId).Name;// here supplier id should be equal to the sId
+                    Session.Add("sesFilenameZR", fileNameZR);
+
+                    Session.Add("sesZoneRecords", fileRepository.GetFileByName(fileNameZR).ZoneRecords.ToList());
+
+                    csvFile.InvoiceRecords = fileRepository.GetFileInvoiceDetails(fileId).ToList();
+                    csvFile.BillableList = csvFile.InvoiceRecords.Where(x => x.RPBilled == "Yes").ToList();
+                    //csvFile.ZoneRecords = fileRepository.GetFileByName(fileName).ZoneRecords.ToList();
+                    //return View(csvFile.InvoiceRecords);
+                }
+
+                if (fileType == "PriceFile")
                 {
                     csvFile.ZoneRecords = fileRepository.GetFileZoneDetails(fileId).ToList();
+                    string sCSVFilePath = AppDomain.CurrentDomain.BaseDirectory + "upload\\" + fileName;
+                    csvFile.fileType = sCSVFilePath;
                     //return View(csvFile.AgreementZoneRecords);
-                }                
+                }      
+                
+
             }
             return View(csvFile);
         }
@@ -141,6 +177,7 @@ namespace TeleBilling_v02_.Controllers
         [HttpPost]
         public ActionResult Upload(HttpPostedFileBase postedFile, CSVFile model)
         {
+            string supplierName = fileRepository.GetSupplier(model.SupplierId).Name;
             ICollection<InvoiceRecords> invoiceRecords = new List<InvoiceRecords>();
             ICollection<Models.ZoneRecords> zoneRecords = new List<Models.ZoneRecords>();
             string filename = string.Empty;
@@ -157,7 +194,15 @@ namespace TeleBilling_v02_.Controllers
                         model.Name = filename;
                         model.Date = DateTime.Now;
                         model.TypeId = fileRepository.GetType(model.fileType).Id;
-                        model.UserId = fileRepository.GetUser(Session["UserName"].ToString()).Id;
+
+                        if (Session["UserName"].ToString() == "")
+                        {
+                            model.UserId = 5;
+                        }
+                        else
+                        {
+                            model.UserId = fileRepository.GetUser(Session["UserName"].ToString()).Id;
+                        }
 
                         if (model.fileType == "InvoiceFile")
                         {
@@ -210,9 +255,29 @@ namespace TeleBilling_v02_.Controllers
                             }
                         }
                         else if(model.fileType == "PriceFile")
-                        {
-                            zoneRecords = HandleZone(filePath, model.SupplierId);
-                            
+                        {                           
+                            if (supplierName == "Didww")
+                            {
+                                model.ZoneRecords = zoneRecords;
+                                using (var db = new DBModelsContainer())
+                                {
+                                    try
+                                    {
+                                        db.CSVFileSet.Add(model);
+                                        db.SaveChanges();
+                                    }
+                                    catch (Exception ex)
+                                    {
+                                        //return View("Error");
+                                        return Json(new { success = false, message = ex.ToString() }, JsonRequestBehavior.AllowGet);
+                                    }
+                                }
+                            }
+                            else
+                            {
+
+                                zoneRecords = HandleZone(filePath, model.SupplierId);
+
                                 if (zoneRecords.Count > 0)
                                 {
                                     model.ZoneRecords = zoneRecords;
@@ -229,8 +294,8 @@ namespace TeleBilling_v02_.Controllers
                                             return Json(new { success = false, message = ex.ToString() }, JsonRequestBehavior.AllowGet);
                                         }
                                     }
-                                }                           
-                            
+                                }
+                            }                            
                         }
                     }
 
@@ -252,6 +317,11 @@ namespace TeleBilling_v02_.Controllers
             {
                 string msg = filename + " (with " + zoneRecords.Count + " records) is added successfully";
                 return  RedirectToAction("ViewPriceFiles", new RouteValueDictionary(new { controller = "File", action = "ViewPriceFiles", msg = msg }));
+            }
+            else if (supplierName == "Didww")
+            {
+                string msg = filename + " is added successfully";
+                return RedirectToAction("ViewPriceFiles", new RouteValueDictionary(new { controller = "File", action = "ViewPriceFiles", msg = msg }));
             }
             else
             {
@@ -533,7 +603,7 @@ namespace TeleBilling_v02_.Controllers
                         zoneList.Add(zone);
                     }
                 }
-                else if (supplierName == "Unitel")
+                if (supplierName == "Unitel")
                 {
                     var temp = csv.GetRecords<UnitelPriceFile>();
                     foreach (var line in temp)
@@ -632,9 +702,8 @@ namespace TeleBilling_v02_.Controllers
             //var files = fileRepository.GetPriceFiles(sId);
             var fileName = files.SingleOrDefault(f => f.SupplierId == sId && f.TypeId== typeId).Name;// here supplier id should be equal to the sId
             
-
-            var billableList = ApplyAgrreement(recordList, fileName);
-            
+            // apply agreement now
+            var billableList = ApplyAgrreement(recordList, fileName);            
 
             if (notVerifiedList.Count() > 0)
             {
@@ -652,7 +721,8 @@ namespace TeleBilling_v02_.Controllers
                 error += "/ TotalPrice ;  ;  ; " + totalPrice ;
                 return Json(new { success = false, message = error }, JsonRequestBehavior.AllowGet);
             }
-            else if(notExistedZoneList.Count > 0)
+                        
+            if(notExistedZoneList.Count > 0)
             {
                 string error = "Supplier does not provide the following Zones:";
                 int i = 1;
@@ -663,52 +733,55 @@ namespace TeleBilling_v02_.Controllers
                 }
                 return Json(new { success = false, message = error }, JsonRequestBehavior.AllowGet);
             }
-            else if(notSupplierPriceMachedList.Count > 0)
-            {
-                //return the error page
-                string error = "Price Does not match with the supplier price for the following Subscribers";
-                int i = 1;
-                foreach (string errorMsg in notSupplierPriceMachedList)
-                {
-                    error += i + "- "+ errorMsg;
-                    i++;
-                }
-                return Json(new { success = false, message = error }, JsonRequestBehavior.AllowGet);
-            }
-            else
-            {
-                if(billableList.Count > 0)
-                {
-                    var ab = Accumulate(billableList);
-                    string msg = string.Empty;
-                    List<string> errorMsg = InvoiceGenerator.Bill(ab);
-                    if (errorMsg.Count == 0)
-                    {                        
-                        List<InvoiceRecords> notSavedInDB = new List<InvoiceRecords>();
-                        using (var db = new DBModelsContainer())
-                        {
-                            foreach(var invoice in recordList)
-                            {
-                                try
-                                {
-                                    var result = db.InvoiceRecordsSet.Where(x => x.Id == invoice.Id).FirstOrDefault();
-                                    result.RPBilled = "Yes";
-                                    db.SaveChanges();
-                                }
-                                catch
-                                {
-                                    notSavedInDB.Add(invoice);
-                                }                                
-                            }
 
-                            if (notSavedInDB.Count > 0)
+            if (billableList.Count > 0)
+            {
+                var ab = Accumulate(billableList);
+                string msg = string.Empty;
+                List<string> errorMsg = InvoiceGenerator.Bill(ab);
+                if (errorMsg.Count == 0)
+                {
+                    List<InvoiceRecords> notSavedInDB = new List<InvoiceRecords>();
+                    using (var db = new DBModelsContainer())
+                    {
+                        foreach (var invoice in recordList)
+                        {
+                            try
                             {
-                                string error = "the following subscriber is not updated in the db";
-                                foreach (var invoice in notSavedInDB)
+                                var result = db.InvoiceRecordsSet.Where(x => x.Id == invoice.Id).FirstOrDefault();
+                                result.RPBilled = "Yes";
+                                db.SaveChanges();
+                            }
+                            catch
+                            {
+                                notSavedInDB.Add(invoice);
+                            }
+                        }
+
+                        if (notSavedInDB.Count > 0)
+                        {
+                            string error = "the following subscriber is not updated in the db";
+                            foreach (var invoice in notSavedInDB)
+                            {
+                                error += invoice;
+                            }
+                            return Json(new { success = false, message = error }, JsonRequestBehavior.AllowGet);
+                        }
+                        else
+                        {
+                            if (notSupplierPriceMachedList.Count > 0)
+                            {
+                                //return the error page
+                                string error = "CSV file records are pushed to NAV. Prices that doesn't match criteria found.<br />";
+                                error += "Price does not match with the supplier price for the following subscribers:<br /><br />";
+                                int i = 1;
+                                foreach (string errorMsgPrice in notSupplierPriceMachedList)
                                 {
-                                    error += invoice;
+                                    error += i + ". " + errorMsgPrice + "<br />";
+                                    i++;
                                 }
-                                return Json(new { success = false, message = error }, JsonRequestBehavior.AllowGet);
+                                //return Json(new { success = false, message = error }, JsonRequestBehavior.AllowGet);
+                                return Content(error, "text/html");
                             }
                             else
                             {
@@ -717,19 +790,18 @@ namespace TeleBilling_v02_.Controllers
                             }
                         }
                     }
-                    else
-                    {
-                        int i = 0;
-                        foreach(string error in errorMsg)
-                        {
-                            i += 1;
-                            msg += i +"-"+ error +"; ";
-                        }
-                        return Json(new { success = false, message = msg }, JsonRequestBehavior.AllowGet);
-                    }
                 }
-
-            }           
+                else
+                {
+                    int i = 0;
+                    foreach (string error in errorMsg)
+                    {
+                        i += 1;
+                        msg += i + "-" + error + "; ";
+                    }
+                    return Json(new { success = false, message = msg }, JsonRequestBehavior.AllowGet);
+                }
+            }
 
             return View("Error");
         }
@@ -765,40 +837,85 @@ namespace TeleBilling_v02_.Controllers
                         //check if the record price is matched with the suppler price, else added to notMatched PriceList.
                         var rst = CheckSupplierPrice(tempZone, record, rowNumber);
                         bool tjeked = rst.Keys.ElementAt(0);
+
+                        if (tjeked == false)
+                        {
+                            notSupplierPriceMachedList.Add(rst[rst.Keys.ElementAt(0)]);
+                        }
+
                         if (tjeked == true)
                         {
-                            InvoiceModel temInvoice = new InvoiceModel();
-                            temInvoice.CVR = tempAgreement.Customer_cvr;
-                            //InvoiceLineCollectionModel invoiceLine = new InvoiceLineCollectionModel()
-                            //{
-                            //    //Id = record.Id,
-                            //    StartDate = Convert.ToDateTime(record.Time),
-                            //    EndDate = Convert.ToDateTime(record.Time),
-                            //    Subscriber_Range_Start = tempAgreement.Subscriber_range_start,
-                            //    Subscriber_Range_End = tempAgreement.Subscriber_range_end,
-                            //    Agreement_Description = tempAgreement.Description
-                            //};
-                            //var tempAgreementZone = tempAgreement.ZoneRecords.Single(x => x.Name == record.ZoneName);
+                            // push to nav without price check
+                        }
 
-                            //ZoneLinesModel temZone = new ZoneLinesModel()
-                            //{
-                            //    ZoneName = tempAgreementZone.Name,
-                            //    ZoneCalls = 1,
-                            //    ZoneCallNo = "10036",
-                            //    ZoneSeconds = Convert.ToInt32(record.Volume_time_secs),
-                            //    ZoneMinuteNo = "10037",
-                            //    ZonePriceMinute = tempAgreementZone.Minute_price,
-                            //    ZonePriceCall = tempAgreementZone.Call_price
-                            //};
+                        InvoiceModel temInvoice = new InvoiceModel();
+                        temInvoice.CVR = tempAgreement.Customer_cvr;
+                        //InvoiceLineCollectionModel invoiceLine = new InvoiceLineCollectionModel()
+                        //{
+                        //    //Id = record.Id,
+                        //    StartDate = Convert.ToDateTime(record.Time),
+                        //    EndDate = Convert.ToDateTime(record.Time),
+                        //    Subscriber_Range_Start = tempAgreement.Subscriber_range_start,
+                        //    Subscriber_Range_End = tempAgreement.Subscriber_range_end,
+                        //    Agreement_Description = tempAgreement.Description
+                        //};
+                        //var tempAgreementZone = tempAgreement.ZoneRecords.Single(x => x.Name == record.ZoneName);
 
-                            try
-                            { 
-                                var existedInvoice = appliedAgreements.Where(x => x.CVR == temInvoice.CVR).FirstOrDefault();
-                                //check if there is an invoice for this record. else create a new invoice for the record
-                                if (existedInvoice == null)
+                        //ZoneLinesModel temZone = new ZoneLinesModel()
+                        //{
+                        //    ZoneName = tempAgreementZone.Name,
+                        //    ZoneCalls = 1,
+                        //    ZoneCallNo = "10036",
+                        //    ZoneSeconds = Convert.ToInt32(record.Volume_time_secs),
+                        //    ZoneMinuteNo = "10037",
+                        //    ZonePriceMinute = tempAgreementZone.Minute_price,
+                        //    ZonePriceCall = tempAgreementZone.Call_price
+                        //};
+
+                        try
+                        {
+                            var existedInvoice = appliedAgreements.Where(x => x.CVR == temInvoice.CVR).FirstOrDefault();
+                            //check if there is an invoice for this record. else create a new invoice for the record
+                            if (existedInvoice == null)
+                            {
+                                temInvoice.LineCollections = new List<InvoiceLineCollectionModel>();
+
+                                InvoiceLineCollectionModel invoiceLine = new InvoiceLineCollectionModel()
                                 {
-                                    temInvoice.LineCollections = new List<InvoiceLineCollectionModel>();
+                                    //Id = record.Id,
+                                    StartDate = Convert.ToDateTime(record.Time),
+                                    EndDate = Convert.ToDateTime(record.Time),
+                                    Subscriber_Range_Start = tempAgreement.Subscriber_range_start,
+                                    Subscriber_Range_End = tempAgreement.Subscriber_range_end,
+                                    Agreement_Description = tempAgreement.Description
+                                };
+                                var tempAgreementZone = tempAgreement.ZoneRecords.Single(x => x.Name == record.ZoneName);
+                                ZoneLinesModel temZone = new ZoneLinesModel()
+                                {
+                                    ZoneName = tempAgreementZone.Name,
+                                    ZoneCalls = 1,
+                                    ZoneCallNo = "10036",
+                                    ZoneSeconds = Convert.ToInt32(record.Volume_time_secs),
+                                    ZoneMinuteNo = "10037",
+                                    ZonePriceMinute = tempAgreementZone.Minute_price,
+                                    ZonePriceCall = tempAgreementZone.Call_price
+                                };
 
+                                invoiceLine.ZoneLines = new List<ZoneLinesModel>();
+                                invoiceLine.ZoneLines.Add(temZone);
+                                temInvoice.LineCollections.Add(invoiceLine);
+                                appliedAgreements.Add(temInvoice);
+
+                            }
+                            else
+                            {
+
+                                var rangeExisted = existedInvoice.LineCollections.Find(a => Convert.ToInt64(a.Subscriber_Range_Start) <= Convert.ToInt64(record.Subscriber)
+                                                                                          && Convert.ToInt64(a.Subscriber_Range_End) >= Convert.ToInt64(record.Subscriber));
+
+                                //check if there is any invoiceLine within the subscriber range. else create a new invoiceLine(within subscriber range) for the customer.
+                                if (rangeExisted == null)
+                                {
                                     InvoiceLineCollectionModel invoiceLine = new InvoiceLineCollectionModel()
                                     {
                                         //Id = record.Id,
@@ -820,122 +937,82 @@ namespace TeleBilling_v02_.Controllers
                                         ZonePriceCall = tempAgreementZone.Call_price
                                     };
 
-                                    invoiceLine.ZoneLines = new List<ZoneLinesModel>();
-                                    invoiceLine.ZoneLines.Add(temZone);
-                                    temInvoice.LineCollections.Add(invoiceLine);
-                                    appliedAgreements.Add(temInvoice);
-
+                                    foreach (var i in appliedAgreements)
+                                    {
+                                        if (i.CVR == temInvoice.CVR)
+                                        {
+                                            invoiceLine.ZoneLines = new List<ZoneLinesModel>();
+                                            invoiceLine.ZoneLines.Add(temZone);
+                                            i.LineCollections.Add(invoiceLine);
+                                            //appliedAgreements.Add(i);
+                                        }
+                                    }
+                                    // appliedAgreements.Select(x => { x.LineCollections.Add(invoiceLine); return x; }).ToList();                                       
                                 }
                                 else
-                                {                                    
+                                {
+                                    #region apply date
+                                    DateTime StartDate;
+                                    DateTime EndDate;
 
-                                    var rangeExisted = existedInvoice.LineCollections.Find(a => Convert.ToInt64(a.Subscriber_Range_Start) <= Convert.ToInt64(record.Subscriber)
-                                                                                              && Convert.ToInt64(a.Subscriber_Range_End) >= Convert.ToInt64(record.Subscriber));
-
-                                    //check if there is any invoiceLine within the subscriber range. else create a new invoiceLine(within subscriber range) for the customer.
-                                    if (rangeExisted == null)
+                                    if (DateTime.Compare(rangeExisted.StartDate, Convert.ToDateTime(record.Time)) < 0) //is earlier than
                                     {
-                                        InvoiceLineCollectionModel invoiceLine = new InvoiceLineCollectionModel()
-                                        {
-                                            //Id = record.Id,
-                                            StartDate = Convert.ToDateTime(record.Time),
-                                            EndDate = Convert.ToDateTime(record.Time),
-                                            Subscriber_Range_Start = tempAgreement.Subscriber_range_start,
-                                            Subscriber_Range_End = tempAgreement.Subscriber_range_end,
-                                            Agreement_Description = tempAgreement.Description
-                                        };
-                                        var tempAgreementZone = tempAgreement.ZoneRecords.Single(x => x.Name == record.ZoneName);
-                                        ZoneLinesModel temZone = new ZoneLinesModel()
-                                        {
-                                            ZoneName = tempAgreementZone.Name,
-                                            ZoneCalls = 1,
-                                            ZoneCallNo = "10036",
-                                            ZoneSeconds = Convert.ToInt32(record.Volume_time_secs),
-                                            ZoneMinuteNo = "10037",
-                                            ZonePriceMinute = tempAgreementZone.Minute_price,
-                                            ZonePriceCall = tempAgreementZone.Call_price
-                                        };                                       
-
-                                        foreach (var i in appliedAgreements)
-                                        {
-                                            if (i.CVR == temInvoice.CVR)
-                                            {
-                                                invoiceLine.ZoneLines = new List<ZoneLinesModel>();
-                                                invoiceLine.ZoneLines.Add(temZone);                                                
-                                                i.LineCollections.Add(invoiceLine);
-                                                //appliedAgreements.Add(i);
-                                            }
-                                        }
-                                        // appliedAgreements.Select(x => { x.LineCollections.Add(invoiceLine); return x; }).ToList();                                       
+                                        StartDate = rangeExisted.StartDate;
                                     }
                                     else
                                     {
-                                        #region apply date
-                                        DateTime StartDate;
-                                        DateTime EndDate;
+                                        StartDate = Convert.ToDateTime(record.Time);
+                                    }
 
-                                        if (DateTime.Compare(rangeExisted.StartDate, Convert.ToDateTime(record.Time)) < 0) //is earlier than
-                                        {
-                                            StartDate = rangeExisted.StartDate;
-                                        }
-                                        else
-                                        {
-                                            StartDate = Convert.ToDateTime(record.Time);
-                                        }
+                                    if (DateTime.Compare(rangeExisted.EndDate, Convert.ToDateTime(record.Time)) > 0)// is later than
+                                    {
+                                        EndDate = rangeExisted.EndDate;
+                                    }
+                                    else
+                                    {
+                                        EndDate = Convert.ToDateTime(record.Time);
+                                    }
+                                    #endregion
+                                    //appliedAgreements.Select(x => { x.LineCollections.Where(w => w.Agreement_Description == rangeExisted.Agreement_Description).Select(a => { a.StartDate = invoiceLine.StartDate; a.EndDate = invoiceLine.EndDate; a.ZoneLines.Add(temZone); return a; }).ToList(); return x; }).ToList();
 
-                                        if (DateTime.Compare(rangeExisted.EndDate, Convert.ToDateTime(record.Time)) > 0)// is later than
+                                    var tempAgreementZone = tempAgreement.ZoneRecords.Single(x => x.Name == record.ZoneName);
+                                    ZoneLinesModel temZone = new ZoneLinesModel()
+                                    {
+                                        ZoneName = tempAgreementZone.Name,
+                                        ZoneCalls = 1,
+                                        ZoneCallNo = "10036",
+                                        ZoneSeconds = Convert.ToInt32(record.Volume_time_secs),
+                                        ZoneMinuteNo = "10037",
+                                        ZonePriceMinute = tempAgreementZone.Minute_price,
+                                        ZonePriceCall = tempAgreementZone.Call_price
+                                    };
+                                    foreach (var i in appliedAgreements)
+                                    {
+                                        if (i.CVR == temInvoice.CVR)
                                         {
-                                            EndDate = rangeExisted.EndDate;
-                                        }
-                                        else
-                                        {
-                                            EndDate = Convert.ToDateTime(record.Time);
-                                        }
-                                        #endregion
-                                        //appliedAgreements.Select(x => { x.LineCollections.Where(w => w.Agreement_Description == rangeExisted.Agreement_Description).Select(a => { a.StartDate = invoiceLine.StartDate; a.EndDate = invoiceLine.EndDate; a.ZoneLines.Add(temZone); return a; }).ToList(); return x; }).ToList();
-
-                                        var tempAgreementZone = tempAgreement.ZoneRecords.Single(x => x.Name == record.ZoneName);
-                                        ZoneLinesModel temZone = new ZoneLinesModel()
-                                        {
-                                            ZoneName = tempAgreementZone.Name,
-                                            ZoneCalls = 1,
-                                            ZoneCallNo = "10036",
-                                            ZoneSeconds = Convert.ToInt32(record.Volume_time_secs),
-                                            ZoneMinuteNo = "10037",
-                                            ZonePriceMinute = tempAgreementZone.Minute_price,
-                                            ZonePriceCall = tempAgreementZone.Call_price
-                                        };
-                                        foreach (var i in appliedAgreements)
-                                        {
-                                            if (i.CVR == temInvoice.CVR)
+                                            foreach (var ii in i.LineCollections)
                                             {
-                                                foreach (var ii in i.LineCollections)
+                                                if (Convert.ToInt64(ii.Subscriber_Range_Start) <= Convert.ToInt64(record.Subscriber)
+                                                  && Convert.ToInt64(ii.Subscriber_Range_End) >= Convert.ToInt64(record.Subscriber))
                                                 {
-                                                    if (Convert.ToInt64(ii.Subscriber_Range_Start) <= Convert.ToInt64(record.Subscriber)
-                                                      && Convert.ToInt64(ii.Subscriber_Range_End) >= Convert.ToInt64(record.Subscriber))
-                                                    {
-                                                        ii.StartDate = StartDate;
-                                                        ii.EndDate = EndDate;
-                                                        ii.ZoneLines.Add(temZone);
-                                                    }
+                                                    ii.StartDate = StartDate;
+                                                    ii.EndDate = EndDate;
+                                                    ii.ZoneLines.Add(temZone);
                                                 }
                                             }
                                         }
-                                        //appliedAgreements.Select(x => { x.LineCollections.Where(w => w.Agreement_Description == rangeExisted.Agreement_Description).Select(a => { a.StartDate= invoiceLine.StartDate; a.EndDate= invoiceLine.EndDate; a.ZoneLines.Add(temZone); return a; }).ToList(); return x; }).ToList();
-
                                     }
+                                    //appliedAgreements.Select(x => { x.LineCollections.Where(w => w.Agreement_Description == rangeExisted.Agreement_Description).Select(a => { a.StartDate= invoiceLine.StartDate; a.EndDate= invoiceLine.EndDate; a.ZoneLines.Add(temZone); return a; }).ToList(); return x; }).ToList();
 
                                 }
-                            }
-                            catch
-                            {
-                                throw;
+
                             }
                         }
-                        else
-                        {                           
-                            notSupplierPriceMachedList.Add(rst[rst.Keys.ElementAt(0)]);
+                        catch
+                        {
+                            throw;
                         }
+
                     }
                     else
                     {
@@ -987,7 +1064,7 @@ namespace TeleBilling_v02_.Controllers
                 }
                 else
                 {
-                    errorMsg = "lineNumber: " + rowNumber + " recordPrice "+ recordPrice + " not equal with expectedPrice" + expectedPrice ;
+                    errorMsg = "lineNumber: " + rowNumber + " recordPrice "+ recordPrice + " not equal with expectedPrice " + expectedPrice ;
                 }
             }
             return new Dictionary<bool, string> { { status, errorMsg} };

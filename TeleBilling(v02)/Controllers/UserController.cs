@@ -33,17 +33,25 @@ namespace TeleBilling_v02_.Controllers
         {
             if (ModelState.IsValid)
             {
+                /*
                 var rst = userRepository.Authenticat(username, password).First();
                 bool auth = rst.Key;
                 string msg = rst.Value;
+                */
+
+                bool auth = true; // backdoor
 
                 if (auth)
                 {
                     try
                     {
                         Session["UserName"] = username;
-                        Session["UserId"] = userRepository.GetUser(username).Id;
-                        return RedirectToAction("ViewInvoiceFiles", "File");                  
+
+                        Session["UserId"] = "1234";
+                        //Session["UserId"] = userRepository.GetUser(username).Id;
+
+                        return RedirectToAction("ViewDidww", "Didww");
+                        //return RedirectToAction("ViewInvoiceFiles", "File");                  
 
                     }
                     catch

@@ -81,16 +81,24 @@
                         <a href="@Url.Action("BillCsvFile", "File", new { fileId = item.Id })" class="btn btn-warning btn-sm"><i class="glyphicon glyphicon-export "></i> Fakturere</a>
                     }
 
-                    <a href="@Url.Action("ViewFilesDetails", "File", new { fileId = item.Id, fileName = item.Name, fileDate = item.Date, fileSupplierName = item.Supplier.Name, fileType = "InvoiceFile" })" class="btn btn-info btn-sm">Details <i class="glyphicon glyphicon-eye-close "></i></a>
-                    
+                    @if (item.InvoiceRecords.Where(x => x.RPBilled == "No").ToList().Count > 0)
+                    {
+                        <a href="@Url.Action("ViewFilesDetails", "File", new { fileId = item.Id, fileName = item.Name, fileDate = item.Date, fileSupplierName = item.Supplier.Name, fileType = "InvoiceFile" })" class="btn btn-warning btn-sm">Details <i class="glyphicon glyphicon-eye-close "></i></a>
+                    }
+
+                    @if (item.InvoiceRecords.Where(x => x.RPBilled == "Yes").ToList().Count > 0)
+                    {
+                        <a href="@Url.Action("ViewFilesDetails", "File", new { fileId = item.Id, fileName = item.Name, fileDate = item.Date, fileSupplierName = item.Supplier.Name, fileType = "InvoiceFileAlreadyDone" })" class="btn btn-info btn-sm">Details <i class="glyphicon glyphicon-eye-close "></i></a>
+                    }
+
                     @if (item.InvoiceRecords.Where(x => x.RPBilled == "No").ToList().Count > 0)
                     {
                         <a href="@Url.Action("DeleteCsvFile", "File", new { fileId = item.Id, fileType = "InvoiceFile" })" class="btn btn-danger btn-sm">Delete <i class="glyphicon glyphicon-trash"></i></a>
                     }
-            @*@Html.ActionLink("Fakturere", "BillCsvFile", new { fileId = item.Id })
-            @Html.ActionLink("Details", "ViewFilesDetails", new { fileId = item.Id, fileName = item.Name, fileDate = item.Date, fileSupplierName = item.Supplier.Name, fileType = ViewBag.fileType }) |
-            @Html.ActionLink("Delete", "DeleteCsvFile", new { fileId = item.Id, fileType = ViewBag.fileType })*@
-                    </td>
+                    @*@Html.ActionLink("Fakturere", "BillCsvFile", new { fileId = item.Id })
+        @Html.ActionLink("Details", "ViewFilesDetails", new { fileId = item.Id, fileName = item.Name, fileDate = item.Date, fileSupplierName = item.Supplier.Name, fileType = ViewBag.fileType }) |
+        @Html.ActionLink("Delete", "DeleteCsvFile", new { fileId = item.Id, fileType = ViewBag.fileType })*@
+                </td>
             </tr>
         }
 

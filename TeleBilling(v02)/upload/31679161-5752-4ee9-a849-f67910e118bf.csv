@@ -1,0 +1,7 @@
+Time Start,Source,CLI,Destination,Duration,Billing Duration,Disconnect Code,Disconnect Reason,Rate,Charged,CDR Type,Country Name,Network Name,Trunk Name
+"2020-06-09 12:52:02","4578755985","4578755985","4544225860","89","89","200","Bye","0.008","0.0148333333333333333250000000000000000000","Local","Denmark","DENMARK","Audiocodes Azure"
+"2020-06-09 12:50:20","4578755985","4578755985","4542262323","54","54","200","Bye","0.016","0.0180000000000000000000000000000000000000","Local","Denmark","DENMARK MOBILE TELIA","Audiocodes Azure"
+"2020-06-09 12:48:57","4578755985","4578755985","4527124010","33","33","200","Bye","0.016","0.0110000000000000000000000000000000000000","Local","Denmark","DENMARK MOBILE TELIA","Audiocodes Azure"
+"2020-06-09 12:47:40","4578755985","4578755985","4542262323","13","13","200","Bye","0.016","0.0043333333333333333375000000000000000000","Local","Denmark","DENMARK MOBILE TELIA","Audiocodes Azure"
+"2020-06-09 12:44:13","+4578755985","+4578755985","+4542262323","0",,"404","Cant find destination prefix",,"0","Origin based",,,"Audiocodes Azure"
+"2020-06-09 12:43:52","+4578755985","+4578755985","+4542262323","0",,"404","Cant find destination prefix",,"0","Origin based",,,"Audiocodes Azure"

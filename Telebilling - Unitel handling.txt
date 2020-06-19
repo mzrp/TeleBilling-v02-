@@ -1,0 +1,75 @@
+CALL_LIST (call list provided by unitel):
+-----------------------------------
+CustomerId;Trunk;CallId;From;To;StartTime;Type;Duration;Price;BillingZoneId;BillingZonePrefix;BillingZoneDescription;BillingZoneCallFee;BillingZoneCallRate
+106;44223915;d32622b023b85162;4569669638;4551219269;01-04-2020 10:01;Mobile;1018;6.84;10335;4551;Mobil;50.000;400.000
+106;44223915;5d8ebed5a0492cd4;4569669638;4530306862;01-04-2020 11:06;Mobile;35;0.28;10330;4530;Mobil;50.000;400.000
+-----------------------------------
+
+
+PRICE_LIST (price list provided by unitel):
+-----------------------------------
+zone;price_minute;price_call;country_code
+Danmark;0,08;0,15;45
+Danmark Mobil;0,55;0,15;45
+...
+-----------------------------------
+
+
+AGREEMENT (maintained by Telebilling - based by customers and their subscriber's range)
+-----------------------------------
+Id;Customer_cvr;Customer_name;Subscriber_range_start;Subscriber_range_end;Description;Status;Date;UserId;CSVFileId
+1;28939523;Ecovis Danmark;57614540;57614540;RackPeople Cloud Skype for Business telefoni forbrugsafregning;1;2019-04-08;12:01:19.000;1;1
+2;26719747;AIR SUPPORT A/S;75338889;75338889;RackPeople Cloud Skype for Business telefoni forbrugsafregning;1;2019-04-08 12:05:56.000;1;1
+...
+-----------------------------------
+
+
+INVOICE_LINES (by using call list, price list and agreement, invoice lines are created):
+-----------------------------------
+CALL_LIST Price must be equal or less than expected price from the PRICE_LIST
+CALL_LIST.Price <= ((PRICE_LIST.Minute_price / 60) * CALL_LIST.Duration + PRICE_LIST.Call_price)
+-----------------------------------
+INVOICE_LINE.StartDate = Convert.ToDateTime(CALL_LIST.StartTime),   
+INVOICE_LINE.EndDate = Convert.ToDateTime(CALL_LIST.StartTime),
+INVOICE_LINE.Subscriber_Range_Start = AGREEMENT.Subscriber_range_start,
+INVOICE_LINE.Subscriber_Range_End = AGREEMENT.Subscriber_range_end,
+INVOICE_LINE.Agreement_Description = AGREEMENT.Description
+INVOICE_LINE.ZoneName = AGREEMENT.Name,
+INVOICE_LINE.ZoneLines.ZoneCalls = 1,
+INVOICE_LINE.ZoneLines.ZoneCallNo = "10036",
+INVOICE_LINE.ZoneLines.ZoneSeconds = CALL_LIST.Duration,
+INVOICE_LINE.ZoneLines.ZoneMinuteNo = "10037",
+INVOICE_LINE.ZoneLines.ZoneName = PRICE_LIST.ZoneName,
+INVOICE_LINE.ZoneLines.ZonePriceMinute = PRICE_LIST.Minute_price,
+INVOICE_LINE.ZoneLines.ZonePriceCall = PRICE_LIST.Call_price
+-----------------------------------
+
+
+NAVISION_ORDER (by using invoice lines, navision order is created with mulitple lines for each agreement/customer):
+-----------------------------------
+NAVISION_ORDER.Sell_to_Customer_No = AGREEMENT.Customer_CVR
+
+1.
+NAVISION_ORDER.INVOICE_LINE.Description = "Periode " INVOICE_LINE.StartDate " til " INVOICE_LINE.EndDate 
+
+2.
+NAVISION_ORDER.INVOICE_LINE.Description = "Nummerserie " INVOICE_LINE.Subscriber_Range_Start " - " INVOICE_LINE.Subscriber_Range_End
+
+3.
+NAVISION_ORDER.INVOICE_LINE.Description = INVOICE_LINE.Agreement_Description
+
+4. (for each zone/country one invoice line is created for minutes)
+NAVISION_ORDER.INVOICE_LINE.No = zoneLines.Minute_No;
+NAVISION_ORDER.INVOICE_LINE.Description = zoneLines.ZoneName + " minutter"; 
+NAVISION_ORDER.INVOICE_LINE.Quantity = INVOICE_LINE.ZoneSeconds / 60
+NAVISION_ORDER.INVOICE_LINE.Line_Amount = (INVOICE_LINE.ZoneSeconds / 60) * INVOICE_LINE.ZonePriceMinute
+NAVISION_ORDER.INVOICE_LINE.Total_Amount_Excl_VAT = (INVOICE_LINE.ZoneSeconds / 60) * INVOICE_LINE.ZonePriceMinute
+NAVISION_ORDER.INVOICE_LINE.Unit_Price = Total_Amount_Excl_VAT / Quantity
+
+5. (for each zone/country one invoice line is created for calls)
+NAVISION_ORDER.INVOICE_LINE.No = zoneLines.Call_No;
+NAVISION_ORDER.INVOICE_LINE.Description = zoneLines.ZoneName + " opkald"; 
+NAVISION_ORDER.INVOICE_LINE.Quantity = INVOICE_LINE.styk
+NAVISION_ORDER.INVOICE_LINE.Line_Amount = INVOICE_LINE.styk * INVOICE_LINE.Call_price
+NAVISION_ORDER.INVOICE_LINE.Total_Amount_Excl_VAT = INVOICE_LINE.styk * zoneLines.Call_price
+NAVISION_ORDER.INVOICE_LINE.Unit_Price = Total_Amount_Excl_VAT / Quantity

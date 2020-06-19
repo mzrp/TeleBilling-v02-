@@ -83,6 +83,8 @@
         @Html.Partial("BillCsvFile", Model.BillableList);
     }*@
 
+<br />
+
 @if (Model.InvoiceRecords.Count() > 0)
 {
     @Html.Partial("ViewInvoiceDetails", Model.InvoiceRecords);
@@ -90,6 +92,55 @@
 else if (Model.ZoneRecords.Count() > 0)
 {
     @Html.Partial("ViewZonesDetails", Model.ZoneRecords);
+}
+else if (Model.fileType.ToLower().IndexOf(".csv") != -1)
+{
+    using (StreamReader sr = new StreamReader(Model.fileType, System.Text.Encoding.GetEncoding("iso-8859-1")))
+    {
+        string line;
+        int iCount = 0;
+
+<table class="table">
+
+    @{
+        while ((line = sr.ReadLine()) != null)
+        {
+            string[] parts = line.Split(',');
+
+            if ((iCount == 0) || (parts[0] == "Denmark"))
+            {
+
+                <tr>
+
+                    @{
+                        foreach (string part in parts)
+                        {
+                            if (iCount == 0)
+                            {
+                                <th>@part</th>
+                            }
+                            else
+                            {
+                                <td>@part</td>
+                            }
+                        }
+                    }
+
+                </tr>
+            }
+
+            iCount++;
+
+        }
+
+    }
+
+    <tr><td colspan="10">&nbsp;</td></tr>
+    <tr><td colspan="10"><i>File too long. Showing only Denmark data..</i></td></tr>
+
+</table>
+                
+    }
 }
 else
 {

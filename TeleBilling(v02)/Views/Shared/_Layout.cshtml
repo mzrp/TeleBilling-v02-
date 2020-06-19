@@ -28,6 +28,7 @@
                     <li class='@Html.IsActive("Agreement", "ViewAllAgreements")'>@Html.ActionLink("Aftaler", "ViewAllAgreements", "Agreement")</li>
                     <li class='@Html.IsActive("File", "ViewInvoiceFiles")'>@Html.ActionLink("Fakturer", "ViewInvoiceFiles", "File"@*, new { typeName = "InvoiceRecords" }, null*@)</li>
                     <li class='@Html.IsActive("File", "ViewPriceFiles")'>@Html.ActionLink("Priser", "ViewPriceFiles", "File")</li>
+                    <li class='@Html.IsActive("Didww", "ViewDidww")'>@Html.ActionLink("Didww", "ViewDidww", "Didww")</li>
                 </ul>
                 <div class="navbar-right">
                     @Html.ActionLink("Logud", "Logout", "User", new { area = "" }, new { @class = "navbar-brand" })

@@ -166,6 +166,7 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\DidwwController.cs" />
     <Compile Include="Controllers\AgreementController.cs" />
     <Compile Include="Controllers\FileController.cs" />
     <Compile Include="Controllers\UserController.cs" />
@@ -194,9 +195,13 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>DBModels.edmx</DependentUpon>
     </Compile>
+    <Compile Include="Models\DisplayModels\DidwwCDRExports.cs" />
+    <Compile Include="Models\DisplayModels\DidwwDids.cs" />
+    <Compile Include="Models\DisplayModels\DidwwDisplay.cs" />
     <Compile Include="Models\DisplayModels\AgreementDisplay.cs" />
     <Compile Include="Models\DisplayModels\AgreementZonRecords.cs" />
     <Compile Include="Models\DisplayModels\IPVisionPriceFile.cs" />
+    <Compile Include="Models\DisplayModels\DidwwPriceFile.cs" />
     <Compile Include="Models\InvoiceRecords.cs">
       <DependentUpon>DBModels.tt</DependentUpon>
     </Compile>
@@ -378,6 +383,7 @@
     <Content Include="Views\File\ViewPriceFiles.cshtml" />
     <Content Include="Views\Agreement\ViewDetails.cshtml" />
     <Content Include="Views\Agreement\ViewZoneDetails.cshtml" />
+    <Content Include="Views\Didww\ViewDidww.cshtml" />
     <None Include="Web References\NavCustomerInfo\CustomerInfo2.wsdl" />
     <Content Include="Web References\NavCustomerInfo\Reference.map">
       <Generator>MSDiscoCodeGenerator</Generator>

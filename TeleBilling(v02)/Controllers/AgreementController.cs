@@ -239,15 +239,23 @@ namespace TeleBilling_v02_.Controllers
             ViewBag.CustomerList = new SelectList(customerList, "No", "Name");
 
             string username = Session["UserName"].ToString();
-            var user = fileRepository.GetUser(username);
-            if (user != null)
+
+            if (username == "")
             {
-                agreement.UserId = user.Id;
+                agreement.UserId = 5;
             }
             else
             {
-                return Json(new { success = false, message = "User not found!!!" }, JsonRequestBehavior.AllowGet);
-            }    
+                var user = fileRepository.GetUser(username);
+                if (user != null)
+                {
+                    agreement.UserId = user.Id;
+                }
+                else
+                {
+                    return Json(new { success = false, message = "User not found!!!" }, JsonRequestBehavior.AllowGet);
+                }
+            }
 
             return View(agreement);
         }
@@ -264,17 +272,21 @@ namespace TeleBilling_v02_.Controllers
             bool existed = agreementRepository.GetAgreements().ToList().Any(x=> Convert.ToInt64(x.Subscriber_range_start) <= Convert.ToInt64(model.Subscriber_range_start)
                                                                              && Convert.ToInt64(x.Subscriber_range_end) >= Convert.ToInt64(model.Subscriber_range_end));
             
-            if (zoneReords.Count > 0) {
-                foreach( ZoneRecords line in zoneReords)
-                {
-                    ZoneRecords temp = new ZoneRecords
-                    {
-                        Name = line.Name,
-                        Minute_price = line.Minute_price + ((line.Minute_price * 25) / 100),
-                        Call_price = line.Call_price + ((line.Call_price * 25) / 100)
-                    };
+            if (zoneReords.Count >= 0) {
 
-                    model.ZoneRecords.Add(temp);
+                if (zoneReords.Count > 0)
+                {
+                    foreach (ZoneRecords line in zoneReords)
+                    {
+                        ZoneRecords temp = new ZoneRecords
+                        {
+                            Name = line.Name,
+                            Minute_price = line.Minute_price + ((line.Minute_price * 25) / 100),
+                            Call_price = line.Call_price + ((line.Call_price * 25) / 100)
+                        };
+
+                        model.ZoneRecords.Add(temp);
+                    }
                 }
 
                 using (var db = new DBModelsContainer())

@@ -1,0 +1,160 @@
+﻿@model IEnumerable<TeleBilling_v02_.Models.DisplayModels.DidwwDisplayOutbound>
+
+@{
+    ViewBag.Title = "ViewDidww";
+    string sMonth = DateTime.Now.Month.ToString().PadLeft(2, '0');
+    string sYear = DateTime.Now.Year.ToString().PadLeft(4, '0');
+
+}
+
+<h2>Didww Calls Invoicer</h2>
+
+<table class="table" id="tblDids">
+    <tr>
+        <th>
+            @using (Html.BeginForm("ViewDidww", "Didww", FormMethod.Post, new { enctype = "multipart/form-data" }))
+            {
+                @*
+                    @Html.Label("Month (MM): ")
+                    <br />
+                    @Html.TextBox("DidwwMonth", sMonth, new { htmlAttributes = new { @class = "form-control" } })
+                    <br />
+                    @Html.Label("Year (YY): ")
+                    <br />
+                    @Html.TextBox("DidwwYear", sYear, new { htmlAttributes = new { @class = "form-control" } })
+                    <br />
+                    <input type="submit" id="GetDids" name="GetDids" style="margin-top:3px; padding-top:3px;" class="btn btn-danger btn-block" value="Get Dids" />
+                *@
+
+                @Html.Label("DIDWW CSV Outbound calls: ")
+                <br />
+                <input type="file" name="postedFile" class="file alert-warning" />
+                <br />
+
+                <input type="submit" id="UploadDids" name="UploadDids" style="margin-top:3px; padding-top:3px;" class="btn btn-danger btn-block" value="Upload Dids" onclick="document.getElementById('PushToNav').style.display = 'inline';" />
+                <br />
+            }
+        </th>
+    </tr>
+    </table>
+
+    <table class="table" id="tblDids" width="100%">
+
+        @foreach (var item in Model)
+        {
+            if (item.Source == "SUMLINE")
+            {
+                <tr>
+                    <td>
+                        <font color="red">
+                            <b>
+                                @Html.DisplayFor(modelItem => item.TimeStart)
+                            </b>
+                        </font>
+                    </td>
+
+                    <td></td>
+
+                    <td>
+                        <font color="red">
+                            <b>
+                                @Html.DisplayFor(modelItem => item.CLI)
+                            </b>
+                        </font>
+                    </td>
+
+                    <td></td>
+
+                    <td>
+                        <font color="red">
+                            <b>
+                                @Html.DisplayFor(modelItem => item.Duration)
+                            </b>
+                        </font>
+                    </td>
+
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+
+            }
+            else
+            {
+                if (item.Counter == "0")
+                {
+
+                    <tr>
+                        <th>
+                            #
+                        </th>
+                        <th>
+                            @Html.DisplayFor(modelItem => item.TimeStart)
+                        </th>
+                        <th>
+                            @Html.DisplayFor(modelItem => item.Source)
+                        </th>
+                        <th>
+                            @Html.DisplayFor(modelItem => item.Destination)
+                        </th>
+                        <th>
+                            @Html.DisplayFor(modelItem => item.BillingDuration)
+                        </th>
+                        <th>
+                            @Html.DisplayFor(modelItem => item.DisconnectCode)
+                        </th>
+                        <th>
+                            @Html.DisplayFor(modelItem => item.CDRType)
+                        <th>
+                        <th>
+                            Prefix
+                        <th>
+                        <th>
+                            Charge
+                        <th>
+                    </tr>
+                }
+                else
+                {
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Counter)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.TimeStart)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Source)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Destination)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.BillingDuration)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.DisconnectCode)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.CDRType)
+                        <td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Prefix)
+                        <td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.RackpeopleCharge)
+                        <td>
+                    </tr>
+                }
+            }
+        }
+
+    </table>
+
+<br />
+<br />
+<input type="submit" id="PushToNav" name="PushToNav" style="margin-top:3px; padding-top:3px;" class="btn btn-danger btn-block" value="Push To Navision" />
+<br />
+
+
