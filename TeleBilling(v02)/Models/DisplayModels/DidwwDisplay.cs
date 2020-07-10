@@ -21,6 +21,12 @@ namespace TeleBilling_v02_.Models.DisplayModels
         public string MeteredChannelsAmount { get; set; }
     }
 
+    public class DidwwDisplayOutboundExtended
+    {
+        public List<DidwwDisplayOutbound> alldidwws { get; set; }
+        public string pushresults { get; set; }
+}
+
     // Time Start,Source,CLI,Destination,Duration,Billing Duration,Disconnect Code,Disconnect Reason,Rate,Charged,CDR Type,Country Name,Network Name,Trunk Name
     public class DidwwDisplayOutbound
     {
@@ -41,5 +47,10 @@ namespace TeleBilling_v02_.Models.DisplayModels
         public string TrunkName { get; set; }
         public string Prefix { get; set; }
         public string RackpeopleCharge { get; set; }
+        public string DestinationNetwork { get; set; }
+        public string FinalChargeK { get; set; }
+        public string FinalChargeO { get; set; }
+        public string MinutePrice { get; set; }
+        public string SecondPrice { get; set; }
     }
 }

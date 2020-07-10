@@ -1,19 +1,20 @@
-﻿@model IEnumerable<TeleBilling_v02_.Models.DisplayModels.DidwwDisplayOutbound>
+﻿@model TeleBilling_v02_.Models.DisplayModels.DidwwDisplayOutboundExtended
 
 @{
     ViewBag.Title = "ViewDidww";
     string sMonth = DateTime.Now.Month.ToString().PadLeft(2, '0');
     string sYear = DateTime.Now.Year.ToString().PadLeft(4, '0');
-
 }
 
 <h2>Didww Calls Invoicer</h2>
 
-<table class="table" id="tblDids">
-    <tr>
-        <th>
-            @using (Html.BeginForm("ViewDidww", "Didww", FormMethod.Post, new { enctype = "multipart/form-data" }))
-            {
+@using (Html.BeginForm("ViewDidww", "Didww", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+
+    <table class="table" id="tblDids">
+        <tr>
+            <th>
+
                 @*
                     @Html.Label("Month (MM): ")
                     <br />
@@ -31,16 +32,16 @@
                 <input type="file" name="postedFile" class="file alert-warning" />
                 <br />
 
-                <input type="submit" id="UploadDids" name="UploadDids" style="margin-top:3px; padding-top:3px;" class="btn btn-danger btn-block" value="Upload Dids" onclick="document.getElementById('PushToNav').style.display = 'inline';" />
+                <input type="submit" id="UploadDids" name="UploadDids" style="margin-top:3px; padding-top:3px;" class="btn btn-danger btn-block" value="Upload Dids" />
+
                 <br />
-            }
-        </th>
-    </tr>
+            </th>
+        </tr>
     </table>
 
     <table class="table" id="tblDids" width="100%">
 
-        @foreach (var item in Model)
+        @foreach (var item in Model.alldidwws)
         {
             if (item.Source == "SUMLINE")
             {
@@ -152,9 +153,53 @@
 
     </table>
 
-<br />
-<br />
-<input type="submit" id="PushToNav" name="PushToNav" style="margin-top:3px; padding-top:3px;" class="btn btn-danger btn-block" value="Push To Navision" />
-<br />
+    <br />
+
+    <input type="submit" id="PushToNav" name="PushToNav" style="margin-top:3px; padding-top:3px;" class="btn btn-danger btn-block" value="Push To Navision" />
+
+    <br />
+    <br />
+
+    string[] infoLAbelArray = Model.pushresults.Split('\n');
+    foreach (string infoLabel in infoLAbelArray)
+    {
+        @Html.DisplayFor(modelItem => infoLabel)
+        <br />
+    }
+
+}
+
+@{
+    if (Model == null)
+    {
+        <script>
+            document.getElementById('PushToNav').style.display = 'none';
+        </script>
+    }
+    else
+    {
+        if (Model.alldidwws.Count() == 1)
+        {
+            if (Model.alldidwws.First().Counter == null)
+            {
+                <script>
+                    document.getElementById('PushToNav').style.display = 'none';
+                </script>
+            }
+            else
+            {
+                <script>
+                    document.getElementById('PushToNav').style.display = 'inline';
+                </script>
+            }
+        }
+        else
+        {
+            <script>
+                document.getElementById('PushToNav').style.display = 'inline';
+            </script>
+        }
+    }
+}
 
 

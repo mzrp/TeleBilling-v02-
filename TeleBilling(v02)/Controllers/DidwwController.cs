@@ -15,6 +15,9 @@ using Newtonsoft.Json;
 using System.Text;
 using System.Web.Routing;
 
+using TeleBilling_v02_.Repository.Navision;
+using TeleBilling_v02_.Models.Navision;
+
 namespace TeleBilling_v02_.Controllers
 {
     public class DidwwController : Controller
@@ -25,6 +28,7 @@ namespace TeleBilling_v02_.Controllers
         public DidwwController()
         {
             this.fileRepository = new FileRepository(new DBModelsContainer());
+            this.agreementRepository = new AgreementRepository(new DBModelsContainer());
         }
 
         public DidwwController(IFileRepository fileRepository, IAgreementRepository agreementRepository)
@@ -35,9 +39,11 @@ namespace TeleBilling_v02_.Controllers
 
         public ActionResult ViewDidww(int id=0)
         {
-            List<DidwwDisplayOutbound> alldids = new List<DidwwDisplayOutbound>();
+            DidwwDisplayOutboundExtended alldids = new DidwwDisplayOutboundExtended();
             DidwwDisplayOutbound item = new DidwwDisplayOutbound();
-            alldids.Add(item);
+            alldids.alldidwws = new List<DidwwDisplayOutbound>();
+            alldids.alldidwws.Add(item);
+            alldids.pushresults = "Please upload outbound call list.";
             return View(alldids);
         }
 
@@ -65,209 +71,469 @@ namespace TeleBilling_v02_.Controllers
             }
             return new[] { path, filename };
         }
-       
+
         [HttpPost]
         public ActionResult ViewDidww(HttpPostedFileBase postedFile)
         {
-            List<DidwwDisplayOutbound> alldids = new List<DidwwDisplayOutbound>();
+            DidwwDisplayOutboundExtended alldids = new DidwwDisplayOutboundExtended();
+            alldids.alldidwws = new List<DidwwDisplayOutbound>();
 
-            if (postedFile != null)
+            string sInfoMsg = "";
+            IEnumerable<Agreement> agreementList = null;
+
+            string[] info = null;
+            if (postedFile == null)
             {
-                string filename = string.Empty;
-
-                try
+                if (Session["sesFilePathInfo"] != null)
                 {
-                    string[] info = GetFilePath(postedFile);
-                    string filePath = info[0];
-                    filename = info[1];
-                    if (filePath != string.Empty)
+                    info = (string[])Session["sesFilePathInfo"];
+                }
+            }
+            else
+            {
+                info = GetFilePath(postedFile);
+            }
+
+            string filename = string.Empty;
+
+            try
+            {
+                //string[] info = GetFilePath(postedFile);
+
+                string filePath = info[0];
+                filename = info[1];
+                if (filePath != string.Empty)
+                {
+                    Session.Add("sesFilePathInfo", info);
+
+                    // process csv file
+                    var typeId = fileRepository.GetType("PriceFile").Id;
+                    List<Supplier> list = fileRepository.GetSuppliers().ToList();
+                    int supplierId = -1;
+                    int csvFileId = -1;
+                    foreach (var sup in list)
                     {
-                        // process csv file
-                        var typeId = fileRepository.GetType("PriceFile").Id;
-                        List<Supplier> list = fileRepository.GetSuppliers().ToList();
-                        int supplierId = -1;
-                        foreach(var sup in list)
+                        if (sup.Name == "Didww")
                         {
-                            if (sup.Name == "Didww")
+                            supplierId = sup.Id;
+                            foreach (var csvfilefirst in sup.CSVFile)
                             {
-                                supplierId = sup.Id;
+                                csvFileId = fileRepository.GetFileByName(csvfilefirst.Name).Id;
                                 break;
-                            }
+                            }                            
+                            break;
                         }
-                        CSVFile priceFile = fileRepository.GetFileBySupplierID(supplierId, typeId);
+                    }
+                    CSVFile priceFile = fileRepository.GetFileBySupplierID(supplierId, typeId);
 
-                        // load price list
-                        List<string> priceList = new List<string>();
-                        List<string> destList = new List<string>();
-                        string priceFilePath = AppDomain.CurrentDomain.BaseDirectory + "upload\\" + priceFile.Name;
-                        using (StreamReader sr = new StreamReader(priceFilePath, System.Text.Encoding.GetEncoding("iso-8859-1")))
+                    if (postedFile == null)
+                    {
+                        agreementList = agreementRepository.GetAgreements(csvFileId).ToList();
+                    }
+
+                    // load price list
+                    List<string> priceList = new List<string>();
+                    List<string> destList = new List<string>();
+                    string priceFilePath = AppDomain.CurrentDomain.BaseDirectory + "upload\\" + priceFile.Name;
+                    using (StreamReader sr = new StreamReader(priceFilePath, System.Text.Encoding.GetEncoding("iso-8859-1")))
+                    {
+                        string line;
+                        while ((line = sr.ReadLine()) != null)
                         {
-                            string line;
-                            while ((line = sr.ReadLine()) != null)
-                            {
-                                priceList.Add(line);
-                                destList.Add(line.Split(',')[2]);
-                            }
+                            priceList.Add(line);
+                            destList.Add(line.Split(',')[2]);
                         }
+                    }
 
-                        // load didww call list
-                        string callsFilePath = AppDomain.CurrentDomain.BaseDirectory + "upload\\" + filename;
-                        using (StreamReader sr = new StreamReader(callsFilePath, System.Text.Encoding.GetEncoding("iso-8859-1")))
+                    // load didww call list
+                    string callsFilePath = AppDomain.CurrentDomain.BaseDirectory + "upload\\" + filename;
+                    using (StreamReader sr = new StreamReader(callsFilePath, System.Text.Encoding.GetEncoding("iso-8859-1")))
+                    {
+                        string line;
+                        int iCounter = 0;
+                        while ((line = sr.ReadLine()) != null)
                         {
-                            string line;
-                            int iCounter = 0;
-                            while ((line = sr.ReadLine()) != null)
+                            string[] parts = line.Split(',');
+                            DidwwDisplayOutbound item = new DidwwDisplayOutbound();
+                            item.Counter = iCounter.ToString();
+                            item.TimeStart = parts[0].Replace("\"", "");
+                            item.Source = parts[1].Replace("\"", "");
+                            item.CLI = parts[2].Replace("\"", "");
+                            item.Destination = parts[3].Replace("\"", "");
+                            item.Duration = parts[4].Replace("\"", "");
+                            item.BillingDuration = parts[5].Replace("\"", "");
+                            item.DisconnectCode = parts[6].Replace("\"", "");
+                            item.DisconnectReason = parts[7].Replace("\"", "");
+                            item.Rate = parts[8].Replace("\"", "");
+                            item.Charged = parts[9].Replace("\"", "");
+                            item.CDRType = parts[10].Replace("\"", "");
+                            item.CountryName = parts[11].Replace("\"", "");
+                            item.NetworkName = parts[12].Replace("\"", "");
+                            item.TrunkName = parts[13].Replace("\"", "");
+
+                            // calculate charges
+                            string sDestination = parts[3].Replace("\"", "");
+                            string sPrefix = "";
+                            string sChargeLine = "";
+                            string sChargeLineToShow = "";
+
+                            if (iCounter != 0)
                             {
-                                string[] parts = line.Split(',');
-                                DidwwDisplayOutbound item = new DidwwDisplayOutbound();
-                                item.Counter = iCounter.ToString();
-                                item.TimeStart = parts[0].Replace("\"", "");
-                                item.Source = parts[1].Replace("\"", "");
-                                item.CLI = parts[2].Replace("\"", "");
-                                item.Destination = parts[3].Replace("\"", "");
-                                item.Duration = parts[4].Replace("\"", "");
-                                item.BillingDuration = parts[5].Replace("\"", "");
-                                item.DisconnectCode = parts[6].Replace("\"", "");
-                                item.DisconnectReason = parts[7].Replace("\"", "");
-                                item.Rate = parts[8].Replace("\"", "");
-                                item.Charged = parts[9].Replace("\"", "");
-                                item.CDRType = parts[10].Replace("\"", "");
-                                item.CountryName = parts[11].Replace("\"", "");
-                                item.NetworkName = parts[12].Replace("\"", "");
-                                item.TrunkName = parts[13].Replace("\"", "");                                
+                                string sDestinationNetwork = "";
+                                string sFinalChargeK = "";
+                                string sFinalChargeO = "";
+                                string sSecondPrice = "";
+                                string sMinutePrice = "";
 
-                                // calculate charges
-                                string sDestination = parts[3].Replace("\"", "");
-                                string sPrefix = "";
-                                string sChargeLine = "";
-                                string sChargeLineToShow = "";
-
-                                if (iCounter != 0)
+                                if (sDestination.Length > 0)
                                 {
-                                    if (sDestination.Length > 0)
+                                    if (sDestination[0] == '+')
                                     {
-                                        if (sDestination[0] == '+')
-                                        {
-                                            sDestination = sDestination.Substring(1);
-                                        }
+                                        sDestination = sDestination.Substring(1);
+                                    }
 
-                                        // search destList
-                                        for (int i = sDestination.Length; i > 1; i--)
+                                    // search destList
+                                    for (int i = sDestination.Length; i > 1; i--)
+                                    {
+                                        string sMatchNumber = "," + sDestination.Substring(0, i) + ",";
+                                        var matchingvalues = priceList.Where(x => x.Contains(sMatchNumber));
+                                        if (matchingvalues.Count() > 0)
                                         {
-                                            string sMatchNumber = "," + sDestination.Substring(0, i) + ",";
-                                            var matchingvalues = priceList.Where(x => x.Contains(sMatchNumber));
-                                            if (matchingvalues.Count() > 0)
+                                            sPrefix = sDestination.Substring(0, i);
+                                            sChargeLine = matchingvalues.First();
+                                            string[] sChargeLineArray = sChargeLine.Split(',');
+
+                                            string sDuration = parts[5].Replace("\"", "");
+                                            int iDuration = 0;
+                                            try
                                             {
-                                                sPrefix = sDestination.Substring(0, i);
-                                                sChargeLine = matchingvalues.First();
-                                                string[] sChargeLineArray = sChargeLine.Split(',');
+                                                iDuration = Convert.ToInt32(sDuration);
+                                            }
+                                            catch (Exception ex)
+                                            {
+                                                ex.ToString();
+                                                iDuration = 0;
+                                            }
 
-                                                string sDuration = parts[5].Replace("\"", "");
-                                                int iDuration = 0;
-                                                try
+                                            if (iDuration > 0)
+                                            {
+                                                string sType = parts[10].Replace("\"", "");
+
+                                                sDestinationNetwork = sChargeLineArray[0] + "-" + sChargeLineArray[1];
+
+                                                string sBillingType = sChargeLineArray[3];
+                                                string sBillingInitialCost = "0";
+                                                int iBillingInitialCost = 0;
+                                                string sBillingInterval = "0";
+                                                if (sBillingType.IndexOf("/") != -1)
                                                 {
-                                                    iDuration = Convert.ToInt32(sDuration);
-                                                }
-                                                catch (Exception ex)
-                                                {
-                                                    ex.ToString();
-                                                    iDuration = 0;
-                                                }
-
-                                                if (iDuration > 0)
-                                                {
-                                                    string sType = parts[10].Replace("\"", "");
-
-                                                    string sBillingType = sChargeLineArray[3];
-                                                    string sBillingInitialCost = "0";
-                                                    int iBillingInitialCost = 0;
-                                                    string sBillingInterval = "0";
-                                                    if (sBillingType.IndexOf("/") != -1)
-                                                    {
-                                                        try
-                                                        {
-                                                            // 1/1 60/60
-                                                            sBillingInitialCost = sBillingType.Substring(0, sBillingType.IndexOf("/"));
-                                                            sBillingInterval = sBillingType.Substring(sBillingType.IndexOf("/") + 1);
-                                                            iBillingInitialCost = Convert.ToInt32(sBillingInitialCost);
-                                                        }
-                                                        catch (Exception ex)
-                                                        {
-                                                            ex.ToString();
-                                                            iBillingInitialCost = 0;
-                                                        }
-                                                    }
-
-                                                    string sBillingCharge = "0";
-                                                    if (sType == "International") sBillingCharge = sChargeLineArray[7];
-                                                    if (sType == "Origin") sBillingCharge = sChargeLineArray[8];
-                                                    if (sType == "Local") sBillingCharge = sChargeLineArray[9];
-
-                                                    double dBillingCharge = 0;
                                                     try
                                                     {
-                                                        dBillingCharge = Convert.ToDouble(sBillingCharge);
+                                                        // 1/1 60/60
+                                                        sBillingInitialCost = sBillingType.Substring(0, sBillingType.IndexOf("/"));
+                                                        sBillingInterval = sBillingType.Substring(sBillingType.IndexOf("/") + 1);
+                                                        iBillingInitialCost = Convert.ToInt32(sBillingInitialCost);
                                                     }
                                                     catch (Exception ex)
                                                     {
                                                         ex.ToString();
-                                                        dBillingCharge = 0;
+                                                        iBillingInitialCost = 0;
                                                     }
-
-                                                    double dCost = (double)iBillingInitialCost;
-
-                                                    // seconds
-                                                    if (sBillingInterval == "1")
-                                                    {
-                                                        dCost += (double)iDuration * dBillingCharge;
-                                                        sChargeLineToShow = iBillingInitialCost + " + " + iDuration.ToString() + " * " + dBillingCharge.ToString() + " = " + dCost.ToString() + " øre (" + (dCost / 100).ToString() + " krone" + ")";
-                                                    }
-
-                                                    // minutes
-                                                    if (sBillingInterval == "60")
-                                                    {
-                                                        double dMunutes = Math.Round((double)iDuration / 60, MidpointRounding.AwayFromZero);
-                                                        dCost += dMunutes * dBillingCharge;
-                                                        sChargeLineToShow = iBillingInitialCost + " + " + dMunutes.ToString() + " * " + dBillingCharge.ToString() + " = " + dCost.ToString() + " øre (" + (dCost / 100).ToString() + " krone" + ")";
-                                                    }
-
                                                 }
 
-                                                break;
+                                                string sBillingCharge = "0";
+                                                if (sType == "International") sBillingCharge = sChargeLineArray[7];
+                                                if (sType == "Origin") sBillingCharge = sChargeLineArray[8];
+                                                if (sType == "Local") sBillingCharge = sChargeLineArray[9];
+
+                                                double dBillingCharge = 0;
+                                                try
+                                                {
+                                                    dBillingCharge = Convert.ToDouble(sBillingCharge);
+                                                }
+                                                catch (Exception ex)
+                                                {
+                                                    ex.ToString();
+                                                    dBillingCharge = 0;
+                                                }
+
+                                                double dCost = (double)iBillingInitialCost;
+
+                                                // seconds
+                                                if (sBillingInterval == "1")
+                                                {
+                                                    dCost += (double)iDuration * dBillingCharge;
+                                                    sChargeLineToShow = iBillingInitialCost + " + " + iDuration.ToString() + " * " + dBillingCharge.ToString() + " = " + dCost.ToString() + " øre (" + (dCost / 100).ToString() + " krone" + ")";
+
+                                                    sSecondPrice = dBillingCharge.ToString();
+                                                    sMinutePrice = "0";
+                                                }
+
+                                                // minutes
+                                                if (sBillingInterval == "60")
+                                                {
+                                                    double dMunutes = Math.Round((double)iDuration / 60, MidpointRounding.AwayFromZero);
+                                                    dCost += dMunutes * dBillingCharge;
+                                                    sChargeLineToShow = iBillingInitialCost + " + " + dMunutes.ToString() + " * " + dBillingCharge.ToString() + " = " + dCost.ToString() + " øre (" + (dCost / 100).ToString() + " krone" + ")";
+
+                                                    sMinutePrice = dBillingCharge.ToString();
+                                                    sSecondPrice = "0";
+                                                }
+
+                                                sFinalChargeK = (dCost / 100).ToString();
+                                                sFinalChargeO = dCost.ToString();
+
                                             }
+
+                                            break;
                                         }
                                     }
-
-                                    item.Prefix = sPrefix;
-                                    item.RackpeopleCharge = sChargeLineToShow;
                                 }
 
-                                alldids.Add(item);
-
-                                iCounter++;
+                                item.DestinationNetwork = sDestinationNetwork;
+                                item.FinalChargeK = sFinalChargeK;
+                                item.FinalChargeO = sFinalChargeO;
+                                item.Prefix = sPrefix;
+                                item.RackpeopleCharge = sChargeLineToShow;
+                                item.MinutePrice = sMinutePrice;
+                                item.SecondPrice = sSecondPrice;
                             }
+
+                            alldids.alldidwws.Add(item);
+
+                            iCounter++;
                         }
                     }
                 }
-                catch (Exception ex)
-                {
-                    return Json(new { success = false, message = ex.ToString() }, JsonRequestBehavior.AllowGet);
-                }
+            }
+            catch (Exception ex)
+            {
+                return Json(new { success = false, message = ex.ToString() }, JsonRequestBehavior.AllowGet);
+            }
 
-                string msg = filename + " added successfully";
+            string msg = filename + " added successfully";
+
+            if (postedFile != null)
+            {
+                alldids.pushresults = "DIDWW outgoing call log processed.";
             }
 
             if (postedFile == null)
             {
-                DidwwDisplayOutbound item = new DidwwDisplayOutbound();
-                item.TimeStart = "4321";
-                alldids.Add(item);
+                if (alldids.alldidwws.Count > 0) 
+                {
+                    List<InvoiceModel> appliedAgreements = new List<InvoiceModel>();
+                    foreach (var singledid in alldids.alldidwws)
+                    {
+
+                        if (agreementList.Any(x => Convert.ToInt64(x.Subscriber_range_start) <= Convert.ToInt64(singledid.Source)
+                                                                    && Convert.ToInt64(x.Subscriber_range_end) >= Convert.ToInt64(singledid.Source)))
+                        {
+                            var tempAgreement = agreementList.Single(x => Convert.ToInt64(x.Subscriber_range_start) <= Convert.ToInt64(singledid.Source)
+                                           && Convert.ToInt64(x.Subscriber_range_end) >= Convert.ToInt64(singledid.Source));
+
+                            InvoiceModel temInvoice = new InvoiceModel();
+                            temInvoice.CVR = tempAgreement.Customer_cvr;
+
+                            var existedInvoice = appliedAgreements.Where(x => x.CVR == temInvoice.CVR).FirstOrDefault();
+
+                            if (existedInvoice == null)
+                            {
+                                temInvoice.LineCollections = new List<InvoiceLineCollectionModel>();
+
+                                InvoiceLineCollectionModel invoiceLine = new InvoiceLineCollectionModel()
+                                {
+                                    //Id = record.Id,
+                                    StartDate = Convert.ToDateTime(singledid.TimeStart),
+                                    EndDate = Convert.ToDateTime(singledid.TimeStart),
+                                    Subscriber_Range_Start = tempAgreement.Subscriber_range_start,
+                                    Subscriber_Range_End = tempAgreement.Subscriber_range_end,
+                                    Agreement_Description = tempAgreement.Description
+                                };
+
+                                ZoneLinesModel temZone = new ZoneLinesModel()
+                                {
+                                    ZoneName = singledid.DestinationNetwork,
+                                    ZoneCalls = 1,
+                                    ZoneCallNo = "10036",
+                                    ZoneSeconds = Convert.ToInt32(singledid.BillingDuration),
+                                    ZoneMinuteNo = "10037",
+                                    ZonePriceMinute = Convert.ToDecimal(singledid.MinutePrice),
+                                    ZonePriceCall = Convert.ToDecimal(singledid.SecondPrice)
+                                };
+
+                                invoiceLine.ZoneLines = new List<ZoneLinesModel>();
+                                invoiceLine.ZoneLines.Add(temZone);
+                                temInvoice.LineCollections.Add(invoiceLine);
+                                appliedAgreements.Add(temInvoice);
+                            }
+                            else
+                            {
+                                var rangeExisted = existedInvoice.LineCollections.Find(a => Convert.ToInt64(a.Subscriber_Range_Start) <= Convert.ToInt64(singledid.Source)
+                                                                                         && Convert.ToInt64(a.Subscriber_Range_End) >= Convert.ToInt64(singledid.Source));
+
+                                if (rangeExisted == null)
+                                {
+                                    InvoiceLineCollectionModel invoiceLine = new InvoiceLineCollectionModel()
+                                    {
+                                        //Id = record.Id,
+                                        StartDate = Convert.ToDateTime(singledid.TimeStart),
+                                        EndDate = Convert.ToDateTime(singledid.TimeStart),
+                                        Subscriber_Range_Start = tempAgreement.Subscriber_range_start,
+                                        Subscriber_Range_End = tempAgreement.Subscriber_range_end,
+                                        Agreement_Description = tempAgreement.Description
+                                    };
+
+                                    ZoneLinesModel temZone = new ZoneLinesModel()
+                                    {
+                                        ZoneName = singledid.DestinationNetwork,
+                                        ZoneCalls = 1,
+                                        ZoneCallNo = "10036",
+                                        ZoneSeconds = Convert.ToInt32(singledid.BillingDuration),
+                                        ZoneMinuteNo = "10037",
+                                        ZonePriceMinute = Convert.ToDecimal(singledid.MinutePrice),
+                                        ZonePriceCall = Convert.ToDecimal(singledid.SecondPrice)
+                                    };
+
+                                    foreach (var i in appliedAgreements)
+                                    {
+                                        if (i.CVR == temInvoice.CVR)
+                                        {
+                                            invoiceLine.ZoneLines = new List<ZoneLinesModel>();
+                                            invoiceLine.ZoneLines.Add(temZone);
+                                            i.LineCollections.Add(invoiceLine);
+                                        }
+                                    }
+                                }
+                                else
+                                {
+                                    DateTime StartDate;
+                                    DateTime EndDate;
+
+                                    if (DateTime.Compare(rangeExisted.StartDate, Convert.ToDateTime(singledid.TimeStart)) < 0) //is earlier than
+                                    {
+                                        StartDate = rangeExisted.StartDate;
+                                    }
+                                    else
+                                    {
+                                        StartDate = Convert.ToDateTime(singledid.TimeStart);
+                                    }
+
+                                    if (DateTime.Compare(rangeExisted.EndDate, Convert.ToDateTime(singledid.TimeStart)) > 0)// is later than
+                                    {
+                                        EndDate = rangeExisted.EndDate;
+                                    }
+                                    else
+                                    {
+                                        EndDate = Convert.ToDateTime(singledid.TimeStart);
+                                    }
+                                    
+                                    ZoneLinesModel temZone = new ZoneLinesModel()
+                                    {
+                                        ZoneName = singledid.DestinationNetwork,
+                                        ZoneCalls = 1,
+                                        ZoneCallNo = "10036",
+                                        ZoneSeconds = Convert.ToInt32(Convert.ToInt32(singledid.BillingDuration)),
+                                        ZoneMinuteNo = "10037",
+                                        ZonePriceMinute = Convert.ToDecimal(singledid.MinutePrice),
+                                        ZonePriceCall = Convert.ToDecimal(singledid.SecondPrice)
+                                    };
+                                    foreach (var i in appliedAgreements)
+                                    {
+                                        if (i.CVR == temInvoice.CVR)
+                                        {
+                                            foreach (var ii in i.LineCollections)
+                                            {
+                                                if (Convert.ToInt64(ii.Subscriber_Range_Start) <= Convert.ToInt64(singledid.Source)
+                                                  && Convert.ToInt64(ii.Subscriber_Range_End) >= Convert.ToInt64(singledid.Source))
+                                                {
+                                                    ii.StartDate = StartDate;
+                                                    ii.EndDate = EndDate;
+                                                    ii.ZoneLines.Add(temZone);
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                    // push to nav now
+                    if (appliedAgreements.Count > 0)
+                    {
+                        var ab = Accumulate(appliedAgreements);
+                        List<string> errorMsg = InvoiceGenerator.Bill(ab);
+
+                        if (errorMsg.Count == 0)
+                        {
+                            sInfoMsg = "";
+                            foreach (var singleab in ab)
+                            {
+                                sInfoMsg += "Customer NavId: " + singleab.CVR + " pushed to NAV.\n";
+                            }                            
+                        }
+                        else
+                        {
+                            int i = 0;
+                            foreach (string error in errorMsg)
+                            {
+                                i += 1;
+                                sInfoMsg += i + ". " + error + ";\n";
+                            }
+                        }
+                    }
+                }
+
+                alldids.pushresults = sInfoMsg;
             }
 
             return View(alldids);
             //return RedirectToAction("ViewDidww", new RouteValueDictionary(new { controller = "Didww", action = "ViewDidww", msg = msg }));
         }
 
+        public List<InvoiceModel> Accumulate(List<InvoiceModel> billableList)
+        {
+            foreach (InvoiceModel invoice in billableList)
+            {
+                foreach (InvoiceLineCollectionModel line in invoice.LineCollections)
+                {
+                    line.Accumulated = new List<AccumulatedModel>();
+                    foreach (ZoneLinesModel record in line.ZoneLines)
+                    {
+                        if (line.Accumulated.Any(x => x.ZoneName == record.ZoneName && Convert.ToDecimal(x.Subscriber) >= Convert.ToDecimal(line.Subscriber_Range_Start)
+                                                                                        && Convert.ToDecimal(x.Subscriber) <= Convert.ToDecimal(line.Subscriber_Range_End)))
+                        {
+                            line.Accumulated.Where(x => x.ZoneName == record.ZoneName)
+                                .Select(x =>
+                                {
+                                    x.styk += 1;
+                                    x.Seconds += Convert.ToInt32(record.ZoneSeconds);
+                                    x.Total = (x.Seconds / 60) * record.ZonePriceMinute + (x.styk * record.ZonePriceCall);
+                                    return x;
+                                }).ToList();
+                        }
+                        else
+                        {
+                            line.Accumulated.Add(
+                                new AccumulatedModel()
+                                {
+                                    Subscriber = line.Subscriber_Range_Start,
+                                    ZoneName = record.ZoneName,
+                                    Call_No = record.ZoneCallNo,
+                                    Minute_No = record.ZoneMinuteNo,
+                                    Call_price = record.ZonePriceCall,
+                                    Seconds = record.ZoneSeconds,
+                                    Minute_price = record.ZonePriceMinute,
+                                    styk = 1,
+                                    Total = (record.ZoneSeconds / 60) * record.ZonePriceMinute + (record.ZonePriceCall)
+                                });
+                        }
+                    }
+                }
+            }
+            return billableList;
+        }
 
         /*
         [HttpPost]
